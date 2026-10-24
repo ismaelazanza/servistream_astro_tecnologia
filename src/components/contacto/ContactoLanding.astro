@@ -39,9 +39,9 @@ const benefits = [
     >
       <div data-reveal class="flex flex-col justify-between lg:min-h-[43rem]">
         <div>
-          <p class="contact-kicker"><span></span> Hablemos de tu proyecto</p><h2 class="text-6xl mt-10 text-white">
+          <p class="contact-kicker"><span></span> Hablemos de tu proyecto</p><h1 class="seo-primary-heading text-6xl mt-10 text-white">
             Estamos listos para ayudarte
-          </h2><p class="text-white mt-10">
+          </h1><p class="text-white mt-10">
             Cuéntanos qué necesitas. Nuestro equipo revisará tu mensaje y te
             responderá con una orientación clara para avanzar.
           </p>
@@ -86,7 +86,7 @@ const benefits = [
           <input
             type="hidden"
             name="_subject"
-            value="Nuevo contacto desde ServiStream.net"
+            value="Nuevo contacto desde Servistream.net"
           />
           <input type="hidden" name="_template" value="table" />
           <input
@@ -166,7 +166,7 @@ const benefits = [
               consulta.</span
             ></label
           >
-          <button type="submit"
+          <button class="ui-button min-h-10 w-auto text-[14px] font-semibold" type="submit"
             >Enviar mensaje <MaterialIcon name="send" size={18} /></button
           >
           <p class="form-foot">
@@ -258,11 +258,10 @@ const benefits = [
     background: #77e1bd;
     box-shadow: 0 0 14px #77e1bd;
   }
-  .contact-page h1 {
-    max-width: 42rem;
-    margin-top: 1.5rem;
-    font: 500 clamp(3.5rem, 6.5vw, 7.3rem)/0.9 var(--fuente-secundaria);
-    letter-spacing: -0.07em;
+  .contact-page .contact-hero h1 {
+    margin-top: 2.5rem;
+    font: 400 60px/1 var(--fuente-secundaria);
+    letter-spacing: -0.1rem;
   }
   .contact-page h1 em {
     color: #91aaff;

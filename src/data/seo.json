@@ -1,0 +1,156 @@
+{
+  "/": {
+    "title": "Hosting, VPS y Streaming en Ecuador | Servistream",
+    "keyword": "Hosting y streaming Ecuador",
+    "description": "Servistream ofrece hosting web, VPS, dominios, radio y TV streaming y desarrollo web para empresas, instituciones y medios de comunicación en Ecuador.",
+    "label": "Hosting, VPS y Streaming en Ecuador",
+    "image": "/img/social/servistream.jpg"
+  },
+  "/web-hosting": {
+    "title": "Hosting Web Premium en Ecuador | Servistream",
+    "keyword": "hosting web Ecuador",
+    "description": "Hosting web para empresas y proyectos en Ecuador con almacenamiento NVMe, seguridad y soporte. Compara los planes de alojamiento de Servistream.",
+    "label": "Hosting web premium",
+    "image": "/img/social/servistream.jpg",
+    "service": "Hosting web premium"
+  },
+  "/vps-hosting": {
+    "title": "VPS Administrados con CyberPanel en Ecuador | Servistream",
+    "keyword": "VPS Ecuador",
+    "description": "Servidores VPS administrados con CyberPanel, LiteSpeed y almacenamiento NVMe. Elige recursos para tu proyecto y recibe soporte de Servistream.",
+    "label": "Servidores VPS administrados",
+    "image": "/img/social/vps-hosting.jpg",
+    "service": "Servidores VPS administrados"
+  },
+  "/wordpress": {
+    "title": "Hosting WordPress Administrado en Ecuador | Servistream",
+    "keyword": "hosting WordPress Ecuador",
+    "description": "Alojamiento WordPress con gestión, almacenamiento NVMe y soporte de Servistream. Conoce los planes y herramientas para tu sitio o negocio en Ecuador.",
+    "label": "Hosting WordPress administrado",
+    "image": "/img/social/servistream.jpg",
+    "service": "Hosting WordPress administrado"
+  },
+  "/dominios": {
+    "title": "Registro de Dominios en Ecuador | Servistream",
+    "keyword": "registro de dominios Ecuador",
+    "description": "Busca y registra dominios .ec y otras extensiones con Servistream. Consulta la disponibilidad o transfiere el dominio de tu empresa o proyecto en Ecuador.",
+    "label": "Registro de dominios",
+    "image": "/img/social/servistream.jpg",
+    "service": "Registro de dominios"
+  },
+  "/radio-streaming": {
+    "title": "Radio Streaming con SonicPanel en Ecuador | Servistream",
+    "keyword": "radio streaming Ecuador",
+    "description": "Transmite tu radio por internet con SonicPanel, AutoDJ y conexión SSL. Compara planes de Servistream para emisoras y proyectos de radio online en Ecuador.",
+    "label": "Radio streaming con SonicPanel",
+    "image": "/img/social/radio-streaming.jpg",
+    "service": "Radio streaming con SonicPanel"
+  },
+  "/radio-cetovacast": {
+    "title": "Radio Streaming con CentovaCast en Ecuador | Servistream",
+    "keyword": "CentovaCast Ecuador",
+    "description": "Administra tu emisora con CentovaCast, AutoDJ y estadísticas. Conoce los planes de radio streaming de Servistream para Shoutcast e Icecast.",
+    "label": "Radio streaming con CentovaCast",
+    "image": "/img/social/radio-streaming.jpg",
+    "service": "Radio streaming con CentovaCast"
+  },
+  "/azuracast": {
+    "title": "Servidores AzuraCast para Radio Online | Servistream",
+    "keyword": "AzuraCast Ecuador",
+    "description": "Servidores para radio online con AzuraCast, AutoDJ y gestión de emisoras. Compara recursos y planes de instalación con el soporte de Servistream.",
+    "label": "Servidores AzuraCast",
+    "image": "/img/social/radio-streaming.jpg",
+    "service": "Servidores AzuraCast"
+  },
+  "/tv-streaming": {
+    "title": "TV Streaming con StreamCP Pro en Ecuador | Servistream",
+    "keyword": "TV streaming Ecuador",
+    "description": "Emite tu canal con StreamCP Pro: programación, RTMP, VOD y simulcast. Conoce los planes de TV y video streaming de Servistream para Ecuador.",
+    "label": "TV streaming con StreamCP Pro",
+    "image": "/img/social/tv-streaming.jpg",
+    "service": "TV streaming con StreamCP Pro"
+  },
+  "/reseller-radio": {
+    "title": "Reseller Radio Streaming con SonicPanel | Servistream",
+    "keyword": "reseller radio streaming",
+    "description": "Crea y gestiona radios para tus clientes con SonicPanel, AutoDJ y marca propia. Compara los planes reseller de radio streaming de Servistream.",
+    "label": "Reseller radio streaming",
+    "image": "/img/social/radio-streaming.jpg",
+    "service": "Reseller radio streaming"
+  },
+  "/reseller-hosting": {
+    "title": "Reseller Hosting para Agencias en Ecuador | Servistream",
+    "keyword": "reseller hosting Ecuador",
+    "description": "Ofrece alojamiento web bajo tu marca con planes reseller de Servistream. Consulta recursos, SSL y soporte para gestionar los sitios de tus clientes.",
+    "label": "Reseller hosting",
+    "image": "/img/social/servistream.jpg",
+    "service": "Reseller hosting"
+  },
+  "/srt-server": {
+    "title": "Servidores VPS para Streaming SRT | Servistream",
+    "keyword": "servidor streaming SRT",
+    "description": "Servidores VPS para ingesta y transmisión de video con SRT. Compara recursos dedicados y herramientas de control para tu producción con Servistream.",
+    "label": "Servidores VPS SRT",
+    "image": "/img/social/servistream.jpg",
+    "service": "Servidores VPS SRT"
+  },
+  "/vdopanel": {
+    "title": "Servidores VPS con VDO Panel | Servistream",
+    "keyword": "VDO Panel VPS",
+    "description": "Administra canales de video, programación y distribución con VDO Panel. Conoce los recursos y planes VPS para streaming de Servistream.",
+    "label": "Servidores VPS con VDO Panel",
+    "image": "/img/social/servistream.jpg",
+    "service": "Servidores VPS con VDO Panel"
+  },
+  "/paginas-web": {
+    "title": "Diseño y Desarrollo Web en Ecuador | Servistream",
+    "keyword": "diseño web Ecuador",
+    "description": "Diseño y desarrollo de páginas web para empresas y organizaciones en Ecuador. Servistream crea sitios adaptables y soluciones para tu proyecto digital.",
+    "label": "Diseño y desarrollo web",
+    "image": "/img/social/paginas-web.jpg",
+    "service": "Diseño y desarrollo web"
+  },
+  "/migracion": {
+    "title": "Migración de Sitios Web a Servistream | Servistream",
+    "keyword": "migración hosting",
+    "description": "Traslada tu sitio web a Servistream con acompañamiento técnico. Consulta el proceso de migración, requisitos y compatibilidad para tu hosting.",
+    "label": "Migración de sitios web",
+    "image": "/img/social/servistream.jpg",
+    "service": "Migración de sitios web"
+  },
+  "/nosotros": {
+    "title": "Nosotros: Hosting y Streaming desde Ecuador | Servistream",
+    "keyword": "Servistream Ecuador",
+    "description": "Conoce Servistream y sus soluciones de hosting, servidores y streaming desde Ecuador. Descubre nuestro enfoque y contacta con el equipo.",
+    "label": "Nosotros: Hosting y Streaming desde Ecuador",
+    "image": "/img/social/servistream.jpg"
+  },
+  "/contacto": {
+    "title": "Contacto y Soporte en Ecuador | Servistream",
+    "keyword": "contacto Servistream",
+    "description": "Contacta con Servistream para hosting, VPS, dominios, radio y TV streaming o desarrollo web. Cuéntanos tu proyecto o solicita ayuda con tu servicio.",
+    "label": "Contacto y Soporte en Ecuador",
+    "image": "/img/social/servistream.jpg"
+  },
+  "/blog": {
+    "title": "Guías de Hosting, Servidores y Streaming | Servistream",
+    "keyword": "guías hosting streaming",
+    "description": "Guías de Servistream sobre hosting, radio online, video streaming y seguridad web. Aprende a elegir herramientas y a preparar tu próximo proyecto.",
+    "label": "Guías de Hosting, Servidores y Streaming",
+    "image": "/img/social/servistream.jpg"
+  },
+  "/status": {
+    "title": "Estado de Servicios y Monitor de Disponibilidad | Servistream",
+    "keyword": "estado servicios Servistream",
+    "description": "Consulta el monitor público de Servistream para revisar disponibilidad, tiempos de respuesta e historial de incidencias de nuestra infraestructura.",
+    "label": "Estado de Servicios y Monitor de Disponibilidad",
+    "image": "/img/social/servistream.jpg"
+  },
+  "/disponibilidad": {
+    "title": "Comprobador de Disponibilidad de Sitios Web | Servistream",
+    "keyword": "comprobar disponibilidad web",
+    "description": "Comprueba si un sitio web está accesible y consulta su respuesta HTTP con la herramienta de disponibilidad de Servistream.",
+    "label": "Comprobador de Disponibilidad de Sitios Web",
+    "image": "/img/social/servistream.jpg"
+  }
+}

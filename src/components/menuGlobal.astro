@@ -1,4 +1,5 @@
 ---
+import { imageSize } from '../data/images';
 import BotonContacto from './inicio/BotonContacto.astro';
 import { menuMaster, type MenuVariant } from '../data/menu';
 
@@ -13,10 +14,10 @@ const { variant = 'blanco', overlay = variant === 'transparente' } = Astro.props
 <header class:list={['site-header', `menu-${variant}`, { 'is-overlay': overlay }]} data-menu-header data-reveal-ignore>
   <div class="nav-shell">
     <a class="brand" href={menuMaster.brand.href} aria-label={menuMaster.brand.label}>
-      <img class="brand-logo w-36" src={menuMaster.brand.logo} alt="Servistream Technology" />
+      <img {...imageSize(menuMaster.brand.logo)} decoding="async" class="brand-logo w-36" src={menuMaster.brand.logo} alt="Servistream" />
     </a>
 
-    <button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" data-mobile-toggle>
+    <button class="ui-button min-h-10 w-auto text-[14px] font-semibold mobile-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" data-mobile-toggle>
       <span class="sr-only">Abrir menú</span>
       <span></span><span></span><span></span>
     </button>
@@ -25,7 +26,7 @@ const { variant = 'blanco', overlay = variant === 'transparente' } = Astro.props
       <div class="nav-links">
         {menuMaster.links.map((link) => link.submenu ? (
           <div class="nav-item has-submenu" data-menu-item>
-            <button class="nav-link" type="button" aria-expanded="false" data-submenu-trigger={link.submenu}>
+            <button class="ui-button min-h-10 w-auto text-[16px] font-medium nav-link" type="button" aria-expanded="false" data-submenu-trigger={link.submenu}>
               {link.label} <span class="chevron" aria-hidden="true"></span>
             </button>
           </div>
@@ -180,7 +181,7 @@ const { variant = 'blanco', overlay = variant === 'transparente' } = Astro.props
   .main-navigation { display: flex; flex: 1; align-items: center; margin-left: clamp(3rem,7vw,8rem); gap: clamp(2rem,4vw,5rem); }
   .nav-links { display: flex; align-items: center; gap: clamp(1.4rem,2.5vw,3rem); }
   .nav-item { display: flex; }
-  .nav-link { display: inline-flex; align-items: center; gap: .4rem; padding: .9rem 0; color: var(--menu-text); background: transparent; border: 0; font: 500 1.05rem/1 var(--fuente-principal); text-decoration: none; cursor: pointer; transition: color 180ms ease; }
+  .nav-link { display: inline-flex; align-items: center; gap: .4rem; padding: .9rem 0; color: var(--menu-text); background: transparent; border: 0; font: 500 16px/1 var(--fuente-principal); font-size: 16px !important; font-weight: 500 !important; text-decoration: none; cursor: pointer; transition: color 180ms ease; }
   .nav-link:hover, .nav-link:focus-visible, .nav-link[aria-expanded='true'] { color: var(--color-primario); }
   .nav-link:focus-visible { outline: 2px solid var(--color-primario); outline-offset: 5px; }
   .chevron { width: .42rem; height: .42rem; display: none; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform 180ms ease; }
@@ -223,7 +224,7 @@ const { variant = 'blanco', overlay = variant === 'transparente' } = Astro.props
     .menu-transparente .main-navigation { backdrop-filter: blur(18px); }
     .main-navigation.is-open { max-height: calc(100vh - 5rem); visibility: visible; overflow-y: auto; opacity: 1; }
     .nav-links { width: min(100% - 2rem,50rem); margin: auto; padding: 1rem 0; display: grid; gap: 0; }
-    .nav-link { width: 100%; justify-content: space-between; padding: 1rem .2rem; border-bottom: 1px solid var(--menu-rule); font-size: 1.12rem; }
+    .nav-link { width: 100%; justify-content: space-between; padding: 1rem .2rem; border-bottom: 1px solid var(--menu-rule); font-size: 16px; }
     .chevron { display: block; margin-right: .4rem; }
     .nav-cta { margin: 1rem; width: calc(100% - 2rem); }
     .mega-menu { position: static; max-height: 0; box-shadow: none; transform: none; transition: max-height 420ms cubic-bezier(.2,.8,.2,1), opacity 220ms ease, visibility 220ms; }

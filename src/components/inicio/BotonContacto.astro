@@ -10,13 +10,13 @@ interface Props {
 
 const {
   href = 'https://clientes.servistream.net/index.php?rp=/login',
-  label = 'INICIAR SESIÓN',
+  label = 'Iniciar Sesión',
   class: className = '',
   variant = 'blanco',
 } = Astro.props;
 ---
 
-<a class:list={['contact-button', `button-${variant}`, className]} href={href} data-contact-button>
+<a class:list={['ui-button min-h-10 w-auto text-[14px] font-semibold contact-button', `button-${variant}`, className]} href={href} data-contact-button>
   <span>{label}</span>
 </a>
 
@@ -35,7 +35,7 @@ const {
     font-family: var(--fuente-principal);
     font-size: 0.72rem;
     font-weight: 600;
-    letter-spacing: 0.05em;
+    letter-spacing: 0em;
     text-decoration: none;
     transition: transform 220ms ease, box-shadow 220ms ease, color 220ms ease, background-color 220ms ease, border-color 220ms ease;
   }

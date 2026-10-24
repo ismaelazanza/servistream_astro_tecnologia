@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import SeoHead from '../components/SeoHead.astro';
 
 interface Props {
   title?: string;
@@ -9,7 +10,7 @@ interface Props {
 }
 
 const {
-  title = 'Servistream Technology',
+  title = 'Servistream',
   description = 'Soluciones de streaming y tecnología.',
   lang = 'es',
   bodyClass = '',
@@ -21,20 +22,24 @@ const {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content={description} />
+    <SeoHead title={title} description={description} />
     <meta name="generator" content={Astro.generator} />
-    <link rel="icon" type="image/png" href="/faviconcolor.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/faviconcolor.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script is:inline>
       document.documentElement.classList.add('reveal-enabled');
     </script>
-    <title>{title}</title>
+
     <slot name="head" />
   </head>
   <body class={bodyClass}>
     <slot />
     <script>
       const revealSelector = [
-        '[data-reveal]', 'main > section > header', 'main [data-vps-reveal]',
+        '[data-reveal]', '[data-section-kicker]', 'main > section > header', 'main [data-vps-reveal]',
         'main h1', 'main h2', 'main h3', 'main h4', 'main h5', 'main h6',
         'main article', 'main figure', 'main blockquote',
         'body > section h1', 'body > section h2', 'body > section h3',
@@ -69,6 +74,8 @@ const {
           groupCounts.set(group, order + 1);
           element.dataset.revealReady = 'true';
           element.classList.add('reveal-item');
+          const bounds = element.getBoundingClientRect();
+          if (bounds.top < window.innerHeight && bounds.bottom > 0) element.classList.add('is-visible');
           element.style.setProperty('--reveal-delay', `${Math.min(order, 7) * 55}ms`);
         });
 

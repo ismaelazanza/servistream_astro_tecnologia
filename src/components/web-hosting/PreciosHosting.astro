@@ -91,7 +91,7 @@ const {
 <section class="px-5 py-20 sm:px-8 sm:py-28 lg:px-12 lg:pt-32 lg:pb-16" aria-labelledby="hosting-prices-title" data-hosting-prices>
   <div class="mx-auto w-full max-w-384">
     <header class="mx-auto max-w-216 text-center">
-      <h5>{eyebrow}</h5>
+      <p data-section-kicker>{eyebrow}</p>
       <h2 id="hosting-prices-title" class="text-[var(--h-negro)]">
         {title}<span class="text-[#00b285]">.</span>
       </h2>
@@ -100,10 +100,9 @@ const {
 
     <div class="mt-14 overflow-hidden rounded-[2rem] border border-dashed border-[#151515]/20 sm:mt-18 lg:mt-20">
       <div class="flex justify-center px-5 pt-5 sm:pt-7">
-        <div class="relative grid h-10 w-full max-w-72 grid-cols-2 rounded-full bg-[#f1f1f3] p-1 font-[var(--fuente-principal)] text-sm font-semibold" role="group" aria-label="Frecuencia de facturación">
-          <span class="pointer-events-none absolute inset-y-1 left-1 w-[calc(50%-4px)] rounded-full bg-[#151515] transition-transform duration-500 ease-[cubic-bezier(.22,1,.36,1)]" data-billing-indicator></span>
-          <button class="relative z-10 rounded-full text-white transition-colors duration-300" type="button" aria-pressed="true" data-billing="monthly">Plan mensual</button>
-          <button class="relative z-10 rounded-full text-[#151515] transition-colors duration-300" type="button" aria-pressed="false" data-billing="annual">Plan anual</button>
+        <div class="relative inline-flex flex-wrap rounded-full bg-[#f1f1f3] p-1 font-[var(--fuente-principal)] text-sm font-semibold" role="group" aria-label="Frecuencia de facturación">
+          <button class="ui-button min-h-10 w-auto text-[14px] font-semibold relative z-10 rounded-full text-white transition-colors duration-300" type="button" aria-pressed="true" data-billing="monthly">Plan mensual</button>
+          <button class="ui-button min-h-10 w-auto text-[14px] font-semibold relative z-10 rounded-full text-[#151515] transition-colors duration-300" type="button" aria-pressed="false" data-billing="annual">Plan anual</button>
         </div>
       </div>
 
@@ -168,7 +167,7 @@ const {
 
               <a
                 class:list={[
-                  `group mt-10 flex min-h-13 items-center justify-center gap-3 rounded-[1.5rem] border px-5 font-[var(--fuente-principal)] text-[16px] font-semibold transition-colors duration-300`,
+                  `ui-button min-h-10 w-auto text-[14px] font-semibold group mt-10 flex  items-center justify-center gap-3 rounded-[1.5rem] border-1 px-5 font-[var(--fuente-principal)]   transition-colors duration-300`,
                   plan.featured
                     ? 'border-[#00a77e] bg-[#00a77e] text-white hover:border-[#151515] hover:bg-[#151515]'
                     : 'border-[#151515] bg-[#151515] text-white hover:border-[#00a77e] hover:bg-[#00a77e]',
@@ -215,16 +214,15 @@ const {
       section.dataset.ready = 'true';
 
       const buttons = [...section.querySelectorAll('[data-billing]')];
-      const indicator = section.querySelector('[data-billing-indicator]');
 
       const changeBilling = (billing) => {
         const annual = billing === 'annual';
-        indicator?.classList.toggle('translate-x-full', annual);
 
         buttons.forEach((button) => {
           const active = button.getAttribute('data-billing') === billing;
           button.setAttribute('aria-pressed', String(active));
           button.classList.toggle('text-white', active);
+          button.classList.toggle('bg-[#151515]', active);
           button.classList.toggle('text-[#151515]', !active);
         });
 

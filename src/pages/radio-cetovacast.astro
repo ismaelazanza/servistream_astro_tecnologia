@@ -7,11 +7,12 @@ import PanelCentovacast from '../components/radio-centovacast/PanelCentovacast.a
 import PreguntasRadioCentovacast from '../components/radio-centovacast/PreguntasRadioCentovacast.astro';
 import Footer from '../components/footerNegro.astro';
 import DarkStreamingAtmosphere from '../components/DarkStreamingAtmosphere.astro';
+import { streamingThemes, streamingThemeStyle } from '../data/streamingThemes';
 ---
 
-<Layout title="Radio Streaming CentovaCast | ServiStream" description="Planes de radio streaming con CentovaCast, AutoDJ, SSL, estadísticas y soporte para Shoutcast e Icecast." bodyClass="bg-[#03040d]">
-  <div class="dark-streaming-experience relative isolate overflow-hidden bg-[#03040d]">
-    <DarkStreamingAtmosphere tone="violet" />
+<Layout title="Radio Streaming con CentovaCast en Ecuador | Servistream" description="Administra tu emisora con CentovaCast, AutoDJ y estadísticas. Conoce los planes de radio streaming de Servistream para Shoutcast e Icecast." bodyClass="bg-[#171717]">
+  <div data-streaming-color style={streamingThemeStyle(streamingThemes.radioCentovacast)} class="dark-streaming-experience streaming-charcoal relative isolate overflow-hidden bg-[#171717]">
+    <DarkStreamingAtmosphere tone="charcoal" accent={streamingThemes.radioCentovacast} />
     <div class="relative z-10">
     <MenuNegro variant="transparente" />
     <PlanesRadioCentovacast />

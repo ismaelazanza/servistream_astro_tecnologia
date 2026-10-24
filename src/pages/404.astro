@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Menu from '../components/menuGlobal.astro';
+import Footer from '../components/footerNegro.astro';
+---
+<Layout title="Página no encontrada | Servistream" description="Encuentra los servicios de Servistream o contacta con soporte para ayudarte a localizar la información que necesitas.">
+  <Menu variant="blanco" />
+  <main class="mx-auto max-w-3xl px-6 py-36 text-center">
+    <p class="mb-5 text-sm font-semibold text-[#1760cc]">Error 404</p>
+    <h1 class="text-5xl leading-tight text-[#171717]">Esta página no está disponible</h1>
+    <p class="mt-6 text-lg">Puedes volver al inicio para explorar nuestros servicios o contactar con el equipo de Servistream.</p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a class="ui-button min-h-10 w-auto text-[14px] font-semibold inline-flex items-center rounded-full bg-[#171717] px-6 py-2 text-white" href="/">Ir al inicio</a>
+      <a class="ui-button min-h-10 w-auto text-[14px] font-semibold inline-flex items-center rounded-full border-1 border-[#171717] px-6 py-2 text-[#171717]" href="/contacto">Contactar con soporte</a>
+    </div>
+  </main>
+  <Footer />
+</Layout>

@@ -4,9 +4,10 @@ import MenuNegro from '../components/menuGlobal.astro';
 import VdoPanelLanding from '../components/vdopanel/VdoPanelLanding.astro';
 import DarkStreamingAtmosphere from '../components/DarkStreamingAtmosphere.astro';
 import Footer from '../components/footerNegro.astro';
+import { streamingThemes, streamingThemeStyle } from '../data/streamingThemes';
 ---
 
-<Layout title="VDO Panel VPS | ServiStream" description="Servidores VPS con VDO Panel para administrar canales, programación y distribución de video streaming." bodyClass="bg-[#030713]">
-  <div class="dark-streaming-experience relative isolate overflow-hidden bg-[#030713]"><DarkStreamingAtmosphere /><div class="relative z-10"><MenuNegro variant="transparente" /><VdoPanelLanding /></div></div>
+<Layout title="Servidores VPS con VDO Panel | Servistream" description="Administra canales de video, programación y distribución con VDO Panel. Conoce los recursos y planes VPS para streaming de Servistream." bodyClass="bg-[#171717]">
+  <div data-streaming-color style={streamingThemeStyle(streamingThemes.vdoPanel)} class="dark-streaming-experience streaming-charcoal relative isolate overflow-hidden bg-[#171717]"><DarkStreamingAtmosphere tone="charcoal" accent={streamingThemes.vdoPanel} /><div class="relative z-10"><MenuNegro variant="transparente" /><VdoPanelLanding /></div></div>
   <Footer />
 </Layout>

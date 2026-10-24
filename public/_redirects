@@ -1,0 +1,10 @@
+# Hosting providers supporting the Netlify-style redirects format.
+/hosting-linux https://servistream.net/web-hosting 301
+/hosting-linux/ https://servistream.net/web-hosting 301
+/sonicpanel https://servistream.net/radio-streaming 301
+/sonicpanel/ https://servistream.net/radio-streaming 301
+/centovacast https://servistream.net/radio-cetovacast 301
+/centovacast/ https://servistream.net/radio-cetovacast 301
+/server-azuracast https://servistream.net/azuracast 301
+/server-azuracast/ https://servistream.net/azuracast 301
+https://www.servistream.net/* https://servistream.net/:splat 301!

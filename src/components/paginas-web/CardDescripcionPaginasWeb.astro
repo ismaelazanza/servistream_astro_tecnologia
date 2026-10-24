@@ -1,4 +1,5 @@
 ---
+import { imageSize } from '../../data/images';
 interface Props {
 	title: string;
 	content: string;
@@ -12,7 +13,7 @@ const { src, title, content } = Astro.props;
 <section class="border__radius__card h-full">
     
     <div class="px-6 py-16 sm:px-9 sm:py-24 lg:py-32">
-        <img class="rounded-full bg-black p-3" src={src} width="50" alt="Icono">
+        <img {...imageSize(src)} decoding="async" class="rounded-full bg-black p-3" src={src} width="50" height="50" alt="" aria-hidden="true">
         <p class="my-5 text-xl uppercase sm:text-2xl">{title}</p>
         <p class="text-sm">{content}</p>
     </div>

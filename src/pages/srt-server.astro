@@ -4,17 +4,19 @@ import MenuNegro from "../components/menuGlobal.astro";
 import SrtServerLanding from "../components/srt-server/SrtServerLanding.astro";
 import DarkStreamingAtmosphere from "../components/DarkStreamingAtmosphere.astro";
 import Footer from "../components/footerNegro.astro";
+import { streamingThemes, streamingThemeStyle } from '../data/streamingThemes';
 ---
 
 <Layout
-  title="Servidor SRT VPS | Servistream"
-  description="Servidores VPS para streaming SRT con recursos dedicados, ingesta profesional y planes para tu producción de video."
-  bodyClass="bg-[#030713]"
+  title="Servidores VPS para Streaming SRT | Servistream"
+  description="Servidores VPS para ingesta y transmisión de video con SRT. Compara recursos dedicados y herramientas de control para tu producción con Servistream."
+  bodyClass="bg-[#171717]"
 >
   <div
-    class="dark-streaming-experience relative isolate overflow-hidden bg-[#030713]"
+    data-streaming-color
+    style={streamingThemeStyle(streamingThemes.srtServer)} class="dark-streaming-experience streaming-charcoal relative isolate overflow-hidden bg-[#171717]"
   >
-    <DarkStreamingAtmosphere /><div class="relative z-10">
+    <DarkStreamingAtmosphere tone="charcoal" accent={streamingThemes.srtServer} /><div class="relative z-10">
       <MenuNegro variant="transparente" /><SrtServerLanding />
     </div>
   </div>

@@ -1,0 +1,10 @@
+{
+  "name": "Servistream",
+  "short_name": "Servistream",
+  "lang": "es-EC",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#171717",
+  "theme_color": "#171717",
+  "icons": [{ "src": "/faviconcolor.png", "sizes": "192x192", "type": "image/png" }]
+}

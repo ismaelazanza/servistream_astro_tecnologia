@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0&display=block');
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
@@ -93,7 +91,9 @@
     font-family: var(--fuente-secundaria);
   }
 
-  h5 {
+  h5,
+  [data-section-kicker] {
+    font-family: var(--fuente-secundaria);
     margin-bottom: 3.5rem;
     color: var(--h-negro);
     font-size: 0.75rem;
@@ -135,7 +135,9 @@
 }
 
 @media (min-width: 640px) {
-  h5 {
+  h5,
+  [data-section-kicker] {
+    font-family: var(--fuente-secundaria);
     margin-bottom: 5rem;
     font-size: 12px;
   }
@@ -172,7 +174,7 @@
   pointer-events: none;
   content: '';
   opacity: 0;
-  background: radial-gradient(16rem circle at var(--surface-x, 50%) var(--surface-y, 50%), rgb(143 174 255 / .12), transparent 62%);
+  background: radial-gradient(16rem circle at var(--surface-x, 50%) var(--surface-y, 50%), rgb(var(--streaming-accent, 143 174 255) / .12), transparent 62%);
   mix-blend-mode: screen;
   transition: opacity 260ms ease;
   border-radius: inherit;
@@ -218,7 +220,7 @@
   pointer-events: none;
   content: '';
   opacity: .82;
-  background: linear-gradient(90deg, transparent, rgb(213 226 255 / .65), transparent);
+  background: linear-gradient(90deg, transparent, rgb(var(--streaming-accent, 213 226 255) / .65), transparent);
 }
 
 .dark-streaming-experience :is(.vps-card, .vps-plan, .vps-control-card, .tv-plan, .tv-comment, [data-radio-plans] article) {
@@ -227,13 +229,369 @@
 }
 
 .dark-streaming-experience :is(a, button, summary):focus-visible {
-  outline: 2px solid #a6c2ff;
+  outline: 2px solid rgb(var(--streaming-accent, 166 194 255));
   outline-offset: 4px;
+}
+
+/* Solo los títulos breves de sección heredan el acento del servicio.
+   Los titulares, textos de lectura y el fondo conservan su contraste original. */
+[data-streaming-color] [data-section-kicker] {
+  color: var(--streaming-title) !important;
+}
+
+/* Las tarjetas de precios comparten el color del servicio, no tonos heredados
+   de una página anterior. El texto sigue claro para asegurar legibilidad. */
+[data-streaming-color] [data-streaming-plan-grid] > article {
+  background: linear-gradient(155deg, rgb(var(--service-accent) / .28), rgb(23 23 23 / .88)) !important;
+  border-color: rgb(var(--service-accent) / .32) !important;
+}
+
+[data-streaming-color] [data-streaming-plan-grid] > article:hover {
+  border-color: rgb(var(--service-accent) / .62) !important;
+}
+
+/* El valor económico debe leerse con máxima prioridad en cualquier plan. */
+[data-streaming-color] [data-streaming-plan-grid] > article > p:nth-of-type(2),
+[data-streaming-color] [data-streaming-plan-grid] > article > p:nth-of-type(2) *,
+[data-streaming-color] [data-streaming-plan-grid] .price,
+[data-streaming-color] [data-streaming-plan-grid] .price-period,
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan .text-6xl,
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan .text-6xl + span {
+  color: #fff !important;
+}
+
+/* Los iconos informativos forman parte del sistema de acento de cada servicio.
+   Los iconos de acciones conservan el color del botón o enlace que los contiene. */
+[data-streaming-color] :is(main, section) .material-symbols-outlined {
+  color: var(--streaming-title) !important;
+}
+
+[data-streaming-color] :is(a, button) .material-symbols-outlined {
+  color: inherit !important;
+}
+[data-streaming-color] .tv-plans-copy,
+[data-streaming-color] .tv-live-viewers {
+  color: rgb(255 255 255 / .76) !important;
+}
+[data-streaming-color] .tv-schedule-index {
+  background-color: rgb(var(--service-accent) / .22) !important;
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] .tv-vod-core {
+  box-shadow: 0 0 44px rgb(var(--service-accent) / .28) !important;
+}
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan > span {
+  box-shadow: 0 8px 24px rgb(var(--service-accent) / .40) !important;
+}
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan a:not([href="#"]) {
+  box-shadow: 0 10px 28px rgb(var(--service-accent) / .30) !important;
+}
+
+/* Reseller Radio: la atmósfera, las líneas y los planes se derivan del mismo
+   acento, sin conservar el turquesa de la maqueta original. */
+[data-streaming-color] .reseller-plans-aura {
+  background: radial-gradient(ellipse at 50% 20%, rgb(var(--service-accent) / .45), transparent 45%), radial-gradient(ellipse at 25% 18%, rgb(var(--service-accent) / .30), transparent 34%) !important;
+}
+[data-streaming-color] .reseller-signal-lines stop {
+  stop-color: rgb(var(--service-accent)) !important;
+}
+[data-streaming-color] .reseller-plan-card {
+  border-color: rgb(255 255 255 / .20) !important;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .10), 0 18px 40px rgb(0 0 0 / .16) !important;
+}
+[data-streaming-color] .reseller-plan-card:hover {
+  border-color: rgb(var(--service-accent) / .48) !important;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .12), 0 22px 48px rgb(var(--service-accent) / .15) !important;
+}
+[data-streaming-color] .reseller-plan-card > span,
+[data-streaming-color] .reseller-plan-card a:not([href="#"]) {
+  background-color: rgb(var(--service-accent)) !important;
+  border-color: rgb(var(--service-accent)) !important;
+  box-shadow: 0 10px 28px rgb(var(--service-accent) / .28) !important;
+}
+[data-streaming-color] .reseller-plan-card > span {
+  color: #fff !important;
+}
+[data-streaming-color] .reseller-plan-card a:not([href="#"]),
+[data-streaming-color] .reseller-plan-card a:not([href="#"]) .material-symbols-outlined {
+  color: #fff !important;
+}
+[data-streaming-color] .reseller-plan-card > p:nth-of-type(3),
+[data-streaming-color] .reseller-plan-card li .material-symbols-outlined {
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] .reseller-plan-card :is(p, ul) {
+  color: rgb(255 255 255 / .76) !important;
+}
+[data-streaming-color] .reseller-plan-card > p:nth-of-type(2),
+[data-streaming-color] .reseller-plan-card > p:nth-of-type(2) * {
+  color: #fff !important;
+}
+[data-streaming-color] .reseller-panel-shell {
+  background: linear-gradient(135deg, rgb(var(--service-accent) / .30), rgb(23 23 23 / .86)) !important;
+}
+[data-streaming-color] .reseller-panel-aura {
+  background-color: rgb(var(--service-accent) / .25) !important;
+}
+[data-streaming-color] :is(.reseller-panel-link, .reseller-panel-shell .material-symbols-outlined) {
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] .reseller-panel-icon {
+  background-color: rgb(var(--service-accent)) !important;
+  color: #fff !important;
+}
+[data-streaming-color] .reseller-panel-status {
+  background-color: rgb(var(--service-accent) / .16) !important;
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] .reseller-panel-dot {
+  background-color: rgb(var(--service-accent)) !important;
+}
+[data-streaming-color] .reseller-panel-shell p:not([data-section-kicker]) {
+  color: rgb(255 255 255 / .74) !important;
+}
+[data-streaming-color] .reseller-panel-shell .text-2xl {
+  color: #fff !important;
+}
+
+/* SRT Server comparte el mismo contrato: acentos configurables y lectura neutra. */
+[data-streaming-color] .vps-streaming-page p:not([data-section-kicker]),
+[data-streaming-color] .vps-streaming-page :is(ul, .vps-faq-icon) {
+  color: rgb(255 255 255 / .76) !important;
+}
+[data-streaming-color] .vps-streaming-page :is(.text-3xl, .text-6xl) {
+  color: #fff !important;
+}
+[data-streaming-color] .vps-streaming-page :is(.vps-chart, .vps-plan .material-symbols-outlined, .vps-stat .material-symbols-outlined, .vps-faq-icon) {
+  stroke: var(--streaming-title) !important;
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] .vps-streaming-page .vps-orb,
+[data-streaming-color] .vps-streaming-page .vps-control-card span.absolute {
+  background-color: rgb(var(--service-accent) / .20) !important;
+  color: var(--streaming-title) !important;
+  box-shadow: 0 0 40px rgb(var(--service-accent) / .35) !important;
+}
+[data-streaming-color] .vps-streaming-page [data-streaming-plan-grid] .vps-plan > span,
+[data-streaming-color] .vps-streaming-page [data-streaming-plan-grid] .vps-plan a {
+  background-color: rgb(var(--service-accent)) !important;
+  border-color: rgb(var(--service-accent)) !important;
+  box-shadow: 0 10px 28px rgb(var(--service-accent) / .30) !important;
+}
+
+/* Radio CentovaCast: todas las señales verdes se sustituyen por el tema activo. */
+[data-streaming-color] .centova-plans-aura {
+  background: radial-gradient(ellipse at 50% 20%, rgb(var(--service-accent) / .48), transparent 45%), radial-gradient(ellipse at 25% 18%, rgb(var(--service-accent) / .36), transparent 34%) !important;
+}
+[data-streaming-color] .centova-signal-lines stop {
+  stop-color: rgb(var(--service-accent)) !important;
+}
+[data-streaming-color] .centova-plans > section > header > p:last-child,
+[data-streaming-color] .centova-plans [data-streaming-plan-grid] :is(p, ul) {
+  color: rgb(255 255 255 / .76) !important;
+}
+[data-streaming-color] .centova-plans [data-streaming-plan-grid] article > p:nth-of-type(2),
+[data-streaming-color] .centova-plans [data-streaming-plan-grid] article > p:nth-of-type(2) * {
+  color: #fff !important;
+}
+[data-streaming-color] .centova-plans [data-streaming-plan-grid] :is(article > span, article > a) {
+  background-color: rgb(var(--service-accent)) !important;
+  border-color: rgb(var(--service-accent)) !important;
+}
+[data-streaming-color] .centova-plans [data-streaming-plan-grid] .material-symbols-outlined {
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] .centova-panel-aura {
+  background: radial-gradient(circle at 70% 50%, rgb(var(--service-accent) / .18), transparent 35%) !important;
+}
+[data-streaming-color] .centova-panel-shell {
+  border-color: rgb(var(--service-accent) / .25) !important;
+  background: linear-gradient(135deg, rgb(var(--service-accent) / .24), rgb(23 23 23 / .68)) !important;
+}
+[data-streaming-color] section[aria-labelledby="centova-panel-title"] :is(.material-symbols-outlined, .text-emerald-300) {
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] section[aria-labelledby="centova-panel-title"] :is(p:not([data-section-kicker]), ul) {
+  color: rgb(255 255 255 / .76) !important;
+}
+[data-streaming-color] section[aria-labelledby="centova-panel-title"] :is(.text-2xl, .text-3xl, p.font-semibold) {
+  color: #fff !important;
+}
+[data-streaming-color] section[aria-labelledby="centova-panel-title"] [class*="bg-[#34ed78]"] {
+  background-color: rgb(var(--service-accent)) !important;
+}
+[data-streaming-color] section[aria-labelledby="centova-panel-title"] [class*="bg-emerald"],
+[data-streaming-color] section[aria-labelledby="centova-panel-title"] [class*="text-emerald"] {
+  background-color: rgb(var(--service-accent) / .16) !important;
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] section[aria-labelledby="centova-panel-title"] svg path[stroke] {
+  stroke: rgb(var(--service-accent)) !important;
+}
+[data-streaming-color] section[aria-labelledby="centova-panel-title"] svg linearGradient stop {
+  stop-color: rgb(var(--service-accent)) !important;
+}
+[data-streaming-color] :is(
+  section[aria-labelledby="centova-benefits-title"],
+  section[aria-labelledby="centova-faq-title"]
+) :is(.material-symbols-outlined, .centova-faq-icon) {
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] :is(
+  section[aria-labelledby="centova-benefits-title"],
+  section[aria-labelledby="centova-faq-title"]
+) p {
+  color: rgb(255 255 255 / .76) !important;
+}
+
+/* Módulos visuales de TV Streaming: todos los acentos se derivan del tema. */
+[data-streaming-color] section[aria-label="Capacidades de StreamCP Pro"] > div:first-child {
+  background: linear-gradient(90deg, transparent, rgb(var(--service-accent)), transparent) !important;
+}
+[data-streaming-color] section[aria-label="Capacidades de StreamCP Pro"] p:first-child,
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan > div > p:first-child {
+  background: none !important;
+  color: var(--streaming-title) !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+[data-streaming-color] :is(#funciones, [aria-labelledby="distribution-title"]) article,
+[data-streaming-color] .tv-comment {
+  background: linear-gradient(145deg, rgb(var(--service-accent) / .24), rgb(23 23 23 / .84)) !important;
+  border-color: rgb(var(--service-accent) / .28) !important;
+}
+[data-streaming-color] section[aria-labelledby="distribution-title"] article {
+  border: 1px solid rgb(255 255 255 / .20) !important;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .10), 0 18px 40px rgb(0 0 0 / .16) !important;
+  transition: border-color .25s ease, box-shadow .25s ease, transform .25s ease;
+}
+[data-streaming-color] section[aria-labelledby="distribution-title"] article:hover {
+  border-color: rgb(var(--service-accent) / .42) !important;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .10), 0 18px 44px rgb(var(--service-accent) / .12) !important;
+  transform: translateY(-2px);
+}
+[data-streaming-color] #funciones article {
+  border: 1px solid rgb(255 255 255 / .13) !important;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .07), 0 18px 40px rgb(0 0 0 / .16) !important;
+  transition: border-color .25s ease, box-shadow .25s ease, transform .25s ease;
+}
+[data-streaming-color] #funciones article:hover {
+  border-color: rgb(var(--service-accent) / .42) !important;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .10), 0 18px 44px rgb(var(--service-accent) / .12) !important;
+  transform: translateY(-2px);
+}
+[data-streaming-color] :is(#funciones, [aria-labelledby="distribution-title"]) article :is(p, blockquote),
+[data-streaming-color] .tv-comment :is(blockquote, footer p:last-child) {
+  color: rgb(255 255 255 / .74) !important;
+}
+[data-streaming-color] :is(.tv-message-delay, .tv-distribution-core, .tv-ecosystem-core) {
+  background: rgb(var(--service-accent)) !important;
+  box-shadow: 0 0 42px rgb(var(--service-accent) / .42) !important;
+}
+[data-streaming-color] :is(.tv-message, .tv-destination, .tv-signal-node, .tv-live-status, .tv-vod-core) {
+  border-color: rgb(var(--service-accent) / .48) !important;
+  background-color: rgb(var(--service-accent) / .18) !important;
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] :is(.tv-chart-fill, .tv-chart-line, .tv-signal-path, .tv-distribution-path) {
+  fill: rgb(var(--service-accent) / .22) !important;
+  stroke: var(--streaming-title) !important;
+}
+[data-streaming-color] .tv-chart-line { fill: none !important; }
+[data-streaming-color] .tv-signal-core {
+  border-color: rgb(var(--service-accent) / .55) !important;
+  background: rgb(var(--service-accent) / .20) !important;
+  box-shadow: 0 0 40px rgb(var(--service-accent) / .35) !important;
+}
+[data-streaming-color] .tv-comment :is(.material-symbols-outlined, blockquote + footer span) {
+  color: var(--streaming-title) !important;
+  border-color: rgb(var(--service-accent) / .42) !important;
+}
+[data-streaming-color] .tv-plan > span,
+[data-streaming-color] .tv-plan a:not([href="#"]) {
+  background-color: rgb(var(--service-accent)) !important;
+  border-color: rgb(var(--service-accent)) !important;
+}
+
+/* Ilustraciones de TV: ningún morado queda fijado en el componente. */
+[data-streaming-color] :is(.tv-control-aura, .tv-integration-aura) {
+  background-color: rgb(var(--service-accent) / .12) !important;
+}
+[data-streaming-color] .tv-distribution-aura {
+  border-color: rgb(var(--service-accent) / .18) !important;
+}
+[data-streaming-color] .tv-plans-aura {
+  background: radial-gradient(ellipse, rgb(var(--service-accent) / .18), transparent 67%) !important;
+}
+[data-streaming-color] .tv-contact-shell {
+  border-color: rgb(var(--service-accent) / .45) !important;
+  box-shadow: 0 20px 70px rgb(var(--service-accent) / .28), inset 0 1px 0 rgb(255 255 255 / .25) !important;
+}
+[data-streaming-color] .tv-contact-aura {
+  background: radial-gradient(circle at 18% 10%, rgb(255 255 255 / .19), transparent 27%), radial-gradient(circle at 82% 100%, rgb(var(--service-accent) / .35), transparent 45%) !important;
+}
+[data-streaming-color] .tv-control-icon,
+[data-streaming-color] .tv-control-dot {
+  background-color: rgb(var(--service-accent)) !important;
+  color: #fff !important;
+}
+[data-streaming-color] #funciones :is(.tv-program-item span:first-child, .tv-ecosystem-chip .material-symbols-outlined, .tv-vod-label .material-symbols-outlined) {
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] #funciones .tv-program-item span:first-child {
+  background-color: rgb(var(--service-accent) / .22) !important;
+}
+[data-streaming-color] #funciones :is(.tv-program-item > span:last-child, .tv-vod-label, .tv-schedule-row > span:last-child) {
+  color: rgb(255 255 255 / .68) !important;
+}
+[data-streaming-color] :is(
+  section[aria-labelledby="control-title"],
+  section[aria-labelledby="distribution-title"],
+  section[aria-labelledby="integration-title"],
+  section[aria-labelledby="contact-title"]
+) > .relative > header > p:last-child,
+[data-streaming-color] section[aria-labelledby="integration-title"] [data-tv-reveal] > p,
+[data-streaming-color] section[aria-labelledby="contact-title"] [data-tv-reveal] > p {
+  color: rgb(255 255 255 / .75) !important;
+}
+[data-streaming-color] section[aria-labelledby="integration-title"] a {
+  color: var(--streaming-title) !important;
+}
+
+/* El acento no se usa para párrafos ni datos: esos textos deben conservar
+   contraste neutro aunque se cambie el color del servicio. */
+[data-streaming-color] :is(
+  section[aria-labelledby="control-title"],
+  section[aria-labelledby="distribution-title"],
+  section[aria-labelledby="integration-title"],
+  section[aria-labelledby="contact-title"]
+) p:not([data-section-kicker]),
+[data-streaming-color] :is(
+  section[aria-labelledby="control-title"],
+  section[aria-labelledby="distribution-title"]
+) article :is(span, li) {
+  color: rgb(255 255 255 / .76) !important;
+}
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan > div:first-of-type > p + p,
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan > p,
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan ul,
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan > div:last-child,
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan .text-6xl + span {
+  color: rgb(255 255 255 / .76) !important;
+}
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan > div:nth-of-type(3) > p,
+[data-streaming-color] [data-streaming-plan-grid] .tv-plan > div:nth-of-type(2) > span:first-child {
+  color: #fff !important;
+}
+[data-streaming-color] :is(main, section) .material-symbols-outlined {
+  color: var(--streaming-title) !important;
+}
+[data-streaming-color] :is(a, button) .material-symbols-outlined {
+  color: inherit !important;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .interface-surface:hover::after { opacity: 1; }
-  .interface-surface:hover { border-color: rgb(132 157 255 / .55); }
+  .interface-surface:hover { border-color: rgb(var(--streaming-accent, 132 157 255) / .55); }
 }
 
 [data-reading-progress] {
@@ -258,4 +616,85 @@
   }
 
   [data-reading-progress] { display: none; }
+}
+
+/* Contrato común para botones y enlaces de acción, incluso con CSS local. */
+.ui-button {
+  min-height: 2.5rem !important; /* min-h-10 */
+  height: auto !important;
+  width: fit-content !important;
+  min-width: 0 !important;
+  max-width: 100%;
+  flex: 0 1 auto;
+  align-self: start;
+  justify-self: start;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+/* Espacio lateral para acciones que antes ocupaban toda la tarjeta. */
+.ui-button:not([aria-label]):not(.nav-link) {
+  padding-inline: 1.5rem;
+}
+
+.ui-button.border-1 {
+  border-width: 1px !important;
+}
+
+/* Los controles de icono mantienen un área útil aunque no tengan texto visible. */
+.ui-button[aria-label],
+.ui-button.mobile-toggle {
+  min-width: 2.5rem !important;
+}
+
+.ui-button.mobile-toggle > span:not(.sr-only) {
+  width: 1.2rem;
+}
+
+/* Una sola base continua; las secciones dejan ver la atmósfera compartida. */
+.streaming-charcoal :is(main, section)[class*="bg-[#171717]"] {
+  background-color: transparent;
+}
+
+/* Transición entre documentos: conserva la página anterior hasta pintar la nueva. */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+
+  ::view-transition-group(root) {
+    animation-duration: 280ms;
+    animation-timing-function: ease-in-out;
+  }
+
+  ::view-transition-old(root) {
+    animation: none;
+    mix-blend-mode: normal;
+  }
+
+  ::view-transition-new(root) {
+    animation: page-arrive 280ms ease-in-out both;
+    mix-blend-mode: normal;
+  }
+}
+
+@keyframes page-arrive {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+}
+
+@layer base {
+  h1.seo-primary-heading {
+    color: var(--h-negro);
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.1rem;
+  }
 }

@@ -63,7 +63,7 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'cuando-migrar-sitio-servidor', category: 'Soporte', date: 'ServiStream', readingTime: '5 min', icon: 'swap_horiz', tone: 'blue',
+    slug: 'cuando-migrar-sitio-servidor', category: 'Soporte', date: 'Servistream', readingTime: '5 min', icon: 'swap_horiz', tone: 'blue',
     title: 'Cuándo es el momento de migrar tu sitio a un nuevo servidor', excerpt: 'Señales concretas para decidir una migración ordenada, segura y sin interrupciones innecesarias.',
     intro: 'Migrar no siempre significa que algo esté mal. Muchas veces es el paso natural cuando un proyecto aumenta su tráfico, incorpora nuevas herramientas o necesita un entorno más adecuado.',
     sections: [

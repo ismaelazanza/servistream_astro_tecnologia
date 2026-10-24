@@ -40,10 +40,10 @@ const services = [
 const sliderItems = [...services, ...services.slice(0, 3)];
 ---
 
-<section class="services-section overflow-hidden bg-[#f5f5f5] py-20 sm:py-24 lg:py-32" aria-labelledby="services-slider-title" data-services-slider>
+<section id="servicios" class="services-section overflow-hidden bg-[#f5f5f5] py-20 sm:py-24 lg:py-32" aria-labelledby="services-slider-title" data-services-slider>
   <div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-4">
     <div class="services-intro flex flex-col items-start px-5 sm:px-8 lg:col-[2/6] lg:px-0 lg:pt-8">
-      <h5 class="services-kicker">Soluciones Servistream</h5>
+      <p data-section-kicker class="services-kicker">Soluciones Servistream</p>
       <h2 id="services-slider-title" class="text-[var(--h-negro)]">
         Tecnología para hacer crecer tus ideas
       </h2>
@@ -51,7 +51,7 @@ const sliderItems = [...services, ...services.slice(0, 3)];
         Más rendimiento.<br /><strong>Más tiempo contigo.</strong>
       </p>
       <div class="mt-10">
-        <BotonUno href="#" title="Conocer los Servicios" />
+        <BotonUno href="#servicios" title="Conocer los Servicios" />
       </div>
     </div>
 
@@ -85,7 +85,7 @@ const sliderItems = [...services, ...services.slice(0, 3)];
           ))}
         </div>
         <span class="services-progress" aria-hidden="true"></span>
-        <button class="services-next" type="button" aria-label="Siguiente servicio" data-services-next>
+        <button class="ui-button min-h-10 w-auto text-[14px] font-semibold services-next" type="button" aria-label="Siguiente servicio" data-services-next>
           <MaterialIcon name="arrow_forward" size={22} />
         </button>
       </div>

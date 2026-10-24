@@ -12,9 +12,10 @@ const baseWhmcsUrl = 'https://clientes.servistream.net/cart.php?a=add&domain=reg
 >
   <div class="container mx-auto">
     <section class="mx-auto max-w-[54rem] text-center">
-      <h2 class="font-[var(--fuente-principal)] leading-[.95] text-[var(--h-blanco)]">
+      <h1 class="seo-primary-heading font-[var(--fuente-principal)] leading-[.95] text-[var(--h-blanco)]">
         Busca tu nombre de dominio
-      </h2>
+      </h1>
+      <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/75">Registra el nombre de tu empresa o proyecto en Ecuador. Consulta dominios .ec y otras extensiones; la disponibilidad depende del nombre que elijas.</p>
 
       <form class="mx-auto mt-14 flex max-w-[46rem] items-center gap-2 rounded-full bg-white p-2 shadow-[0_25px_80px_rgb(0_0_0_/_18%)]" data-domain-form>
         <MaterialIcon name="search" size={28} class="ml-4 shrink-0 text-[#4b4b53]" />
@@ -22,12 +23,13 @@ const baseWhmcsUrl = 'https://clientes.servistream.net/cart.php?a=add&domain=reg
           class="min-h-13 min-w-0 flex-1 border-0 bg-transparent font-[var(--fuente-principal)] text-[14px] font-normal text-[#24242a] outline-none placeholder:text-[#676770]"
           type="text"
           name="domain"
+          aria-label="Nombre de dominio que deseas registrar"
           inputmode="url"
           autocomplete="off"
           placeholder="Escribe el dominio que deseas"
           data-domain-input
         />
-        <button class="grid size-12 shrink-0 place-items-center rounded-full bg-[#7657ff] text-white transition-colors duration-200 hover:bg-[#5b39ff] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#7657ff]" type="submit" aria-label="Buscar dominio">
+        <button class="ui-button min-h-10 w-auto text-[14px] font-semibold grid size-12 shrink-0 place-items-center rounded-full bg-[#7657ff] text-white transition-colors duration-200 hover:bg-[#5b39ff] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#7657ff]" type="submit" aria-label="Buscar dominio">
           <MaterialIcon name="arrow_forward" size={28} />
         </button>
       </form>
@@ -49,7 +51,7 @@ const baseWhmcsUrl = 'https://clientes.servistream.net/cart.php?a=add&domain=reg
       </article>
 
       <article class="relative min-h-[18rem] overflow-hidden rounded-[1.4rem] bg-[#2c244f]">
-        <img class="absolute inset-0 h-full w-full object-cover" src="/img/dominios/domains-customer.avif" alt="Cliente buscando dominios desde su teléfono" loading="lazy" />
+        <img height="1536" width="1024" decoding="async" class="absolute inset-0 h-full w-full object-cover" src="/img/dominios/domains-customer.avif" alt="Cliente buscando dominios desde su teléfono" loading="lazy" />
         <div class="absolute inset-0 bg-gradient-to-t from-[#120d28]/85 via-[#120d28]/15 to-transparent"></div>
         <div class="absolute bottom-8 left-8 right-8">
           <strong class="block font-[var(--fuente-principal)] text-[clamp(2.3rem,3.2vw,3.8rem)] leading-none font-medium text-white">+9M</strong>
@@ -89,7 +91,7 @@ const baseWhmcsUrl = 'https://clientes.servistream.net/cart.php?a=add&domain=reg
         <p class="mt-2 font-[var(--fuente-principal)] text-lg text-[#666a72]">Selecciona una extensión y finaliza el registro en nuestro sistema de facturación.</p>
         <p class="mt-3 hidden font-[var(--fuente-principal)] text-base font-bold text-[#7657ff]" data-domain-loading>Consultando disponibilidad...</p>
       </div>
-      <button class="rounded-full border border-[#7657ff] px-6 py-3 font-[var(--fuente-principal)] font-bold text-[#7657ff]" type="button" data-domain-edit>
+      <button class="ui-button min-h-10 w-auto text-[14px] font-semibold rounded-full border-1 border-[#7657ff] px-6 py-3 font-[var(--fuente-principal)]  text-[#7657ff]" type="button" data-domain-edit>
         Cambiar búsqueda
       </button>
     </div>

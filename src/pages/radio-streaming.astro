@@ -7,11 +7,12 @@ import PlayerRadioStreaming from '../components/radio-streaming/PlayerRadioStrea
 import PreguntasRadioStreaming from '../components/radio-streaming/PreguntasRadioStreaming.astro';
 import Footer from '../components/footerNegro.astro';
 import DarkStreamingAtmosphere from '../components/DarkStreamingAtmosphere.astro';
+import { streamingThemes, streamingThemeStyle } from '../data/streamingThemes';
 ---
 
-<Layout title="Radio Streaming | Servistream Technology" description="Lleva tu emisora a internet con radio streaming estable, rápida y lista para crecer." bodyClass="bg-[#03040d]">
-  <div class="dark-streaming-experience relative isolate overflow-hidden bg-[#03040d]">
-    <DarkStreamingAtmosphere tone="violet" />
+<Layout title="Radio Streaming con SonicPanel en Ecuador | Servistream" description="Transmite tu radio por internet con SonicPanel, AutoDJ y conexión SSL. Compara planes de Servistream para emisoras y proyectos de radio online en Ecuador." bodyClass="bg-[#171717]">
+  <div data-streaming-color style={streamingThemeStyle(streamingThemes.radioStreaming)} class="dark-streaming-experience streaming-charcoal relative isolate overflow-hidden bg-[#171717]">
+    <DarkStreamingAtmosphere tone="charcoal" accent={streamingThemes.radioStreaming} />
     <div class="relative z-10">
     <MenuNegro variant="transparente" />
     <PlanesRadioStreaming />

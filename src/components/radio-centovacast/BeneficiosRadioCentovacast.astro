@@ -13,15 +13,15 @@ const benefits = [
 ];
 ---
 
-<section class="bg-[#03040d] py-20 text-white sm:py-32" aria-labelledby="centova-benefits-title">
+<section class="bg-[#171717] py-20 text-white sm:py-32" aria-labelledby="centova-benefits-title">
   <div class="mx-auto container">
     <header class="max-w-4xl">
-      <h5 class="text-left text-[#71a3ff]">TECNOLOGÍA PARA TU EMISORA</h5>
+      <p data-section-kicker class="text-left text-[#71ffa5]">TECNOLOGÍA PARA TU EMISORA</p>
       <h2 id="centova-benefits-title" class="mt-6 text-[var(--h-blanco)]">Control, calidad y continuidad para tu radio</h2>
-      <p class="mt-7 max-w-3xl font-[var(--fuente-principal)] text-lg leading-relaxed text-[#bcbccb] sm:text-xl">CentovaCast reúne las herramientas esenciales para crear una señal estable y hacer crecer tu audiencia.</p>
+      <p class="mt-7 max-w-3xl font-[var(--fuente-principal)] text-lg leading-relaxed text-[#bccbc2] sm:text-xl">CentovaCast reúne las herramientas esenciales para crear una señal estable y hacer crecer tu audiencia.</p>
     </header>
     <div class="mt-18 grid gap-x-12 gap-y-14 sm:grid-cols-2 xl:grid-cols-4">
-      {benefits.map((benefit) => <article class="max-w-sm font-[var(--fuente-principal)]"><MaterialIcon name={benefit.icon} size={30} class="text-[#71a3ff]" /><h3 class="mt-5 text-[20px] font-medium">{benefit.title}</h3><p class="mt-4 text-base text-[#b6b5c4]">{benefit.text}</p></article>)}
+      {benefits.map((benefit) => <article class="max-w-sm font-[var(--fuente-principal)]"><MaterialIcon name={benefit.icon} size={30} class="text-[#71ffa5]" /><h3 class="mt-5 text-[20px] font-medium">{benefit.title}</h3><p class="mt-4 text-base text-[#b5c4bb]">{benefit.text}</p></article>)}
     </div>
   </div>
 </section>

@@ -1,0 +1,4087 @@
+[
+  {
+    "broken_fragments": [],
+    "url": "/",
+    "title": "Hosting, VPS y Streaming en Ecuador | Servistream",
+    "description": "Servistream ofrece hosting web, VPS, dominios, radio y TV streaming y desarrollo web para empresas, instituciones y medios de comunicación en Ecuador.",
+    "h1": [
+      "Hosting Premium"
+    ],
+    "h2": [
+      "Tecnología para hacer crecer tus ideas",
+      "Soluciones que impulsan tu negocio.",
+      "Resultados reales.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/#webpage",
+            "url": "https://servistream.net/",
+            "name": "Hosting, VPS y Streaming en Ecuador | Servistream",
+            "description": "Servistream ofrece hosting web, VPS, dominios, radio y TV streaming y desarrollo web para empresas, instituciones y medios de comunicación en Ecuador.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "width": "1680",
+        "height": "988",
+        "class": "astro-nrnnnbu3",
+        "decoding": "async",
+        "src": "/img/hero/hero1.avif",
+        "srcset": "/img/hero/hero1-640.avif 640w, /img/hero/hero1-1280.avif 1280w, /img/hero/hero1.avif 1680w",
+        "sizes": "100vw",
+        "alt": "Formas de cristal líquido iluminadas en azul",
+        "loading": "eager",
+        "fetchpriority": "high",
+        "data-astro-cid-nrnnnbu3": null
+      },
+      {
+        "width": "1672",
+        "height": "941",
+        "class": "astro-nrnnnbu3",
+        "decoding": "async",
+        "src": "/img/hero/hero2.avif",
+        "srcset": "/img/hero/hero2-640.avif 640w, /img/hero/hero2-1280.avif 1280w, /img/hero/hero2.avif 1672w",
+        "sizes": "100vw",
+        "alt": "Flujos luminosos de datos en azul eléctrico",
+        "loading": "lazy",
+        "fetchpriority": "auto",
+        "data-astro-cid-nrnnnbu3": null
+      },
+      {
+        "width": "1672",
+        "height": "941",
+        "class": "astro-nrnnnbu3",
+        "decoding": "async",
+        "src": "/img/hero/hero3.avif",
+        "srcset": "/img/hero/hero3-640.avif 640w, /img/hero/hero3-1280.avif 1280w, /img/hero/hero3.avif 1672w",
+        "sizes": "100vw",
+        "alt": "Red de partículas y cristales azules",
+        "loading": "lazy",
+        "fetchpriority": "auto",
+        "data-astro-cid-nrnnnbu3": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/acolita.svg",
+        "alt": "Acolita",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/corporacion.svg",
+        "alt": "Corporación",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": "El Deportivo",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/gonet.svg",
+        "alt": "GoNet",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/acolita.svg",
+        "alt": "Acolita",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/corporacion.svg",
+        "alt": "Corporación",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": "El Deportivo",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/gonet.svg",
+        "alt": "GoNet",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/acolita.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/corporacion.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/gonet.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/acolita.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/corporacion.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/gonet.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/laverdad.svg",
+        "alt": "La Verdad",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": "Más Periodismo",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/meganet.svg",
+        "alt": "Meganet",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/simar.svg",
+        "alt": "Simar",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/laverdad.svg",
+        "alt": "La Verdad",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": "Más Periodismo",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/meganet.svg",
+        "alt": "Meganet",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/simar.svg",
+        "alt": "Simar",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/laverdad.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/meganet.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/simar.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/laverdad.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/meganet.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "class": "astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk astro-ke7zktsk",
+        "decoding": "async",
+        "src": "/img/clientes/simar.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "height": "863",
+        "width": "1823",
+        "decoding": "async",
+        "class": "absolute inset-0 -z-30 size-full object-cover object-center",
+        "src": "/img/inicio/tv-streaming-resultados.avif",
+        "alt": "Equipo profesional operando una transmisión de televisión en directo",
+        "loading": "lazy"
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/404",
+    "title": "Página no encontrada | Servistream",
+    "description": "Encuentra los servicios de Servistream o contacta con soporte para ayudarte a localizar la información que necesitas.",
+    "h1": [
+      "Esta página no está disponible"
+    ],
+    "h2": [
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/404",
+    "robots": "noindex, follow",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/404#webpage",
+            "url": "https://servistream.net/404",
+            "name": "Página no encontrada | Servistream",
+            "description": "Encuentra los servicios de Servistream o contacta con soporte para ayudarte a localizar la información que necesitas.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/404#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Página no encontrada | Servistream",
+                "item": "https://servistream.net/404"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/azuracast",
+    "title": "Servidores AzuraCast para Radio Online | Servistream",
+    "description": "Servidores para radio online con AzuraCast, AutoDJ y gestión de emisoras. Compara recursos y planes de instalación con el soporte de Servistream.",
+    "h1": [
+      "AzuraCast Server Cloud para Stream Radio"
+    ],
+    "h2": [
+      "Gestión de Azuracast",
+      "Administración de estaciones múltiples",
+      "Páginas públicas integradas",
+      "Quieres explorar el sistema Azuracast",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/azuracast",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/azuracast#webpage",
+            "url": "https://servistream.net/azuracast",
+            "name": "Servidores AzuraCast para Radio Online | Servistream",
+            "description": "Servidores para radio online con AzuraCast, AutoDJ y gestión de emisoras. Compara recursos y planes de instalación con el soporte de Servistream.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/azuracast#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Servidores AzuraCast",
+                "item": "https://servistream.net/azuracast"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/azuracast#service",
+            "name": "Servidores AzuraCast",
+            "serviceType": "Servidores AzuraCast",
+            "description": "Servidores para radio online con AzuraCast, AutoDJ y gestión de emisoras. Compara recursos y planes de instalación con el soporte de Servistream.",
+            "url": "https://servistream.net/azuracast",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "1200",
+        "width": "1800",
+        "decoding": "async",
+        "class": "w-full rounded-xl",
+        "src": "/img/server-azuracast/bg-showcase-1.jPAR3Efh.avif",
+        "alt": "Gestión de Azuracast"
+      },
+      {
+        "height": "1200",
+        "width": "1800",
+        "decoding": "async",
+        "class": "w-full rounded-xl",
+        "src": "/img/server-azuracast/bg-showcase-2.VXKeS9vy.avif",
+        "alt": "Gestión de Azuracast"
+      },
+      {
+        "height": "1200",
+        "width": "1800",
+        "decoding": "async",
+        "class": "w-full rounded-xl",
+        "src": "/img/server-azuracast/bg-showcase-3.rRQA_8SN.avif",
+        "alt": "Gestión de Azuracast"
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/radio-streaming.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/blog",
+    "title": "Guías de Hosting, Servidores y Streaming | Servistream",
+    "description": "Guías de Servistream sobre hosting, radio online, video streaming y seguridad web. Aprende a elegir herramientas y a preparar tu próximo proyecto.",
+    "h1": [
+      "Ideas claras para construir en internet."
+    ],
+    "h2": [
+      "Cómo elegir un hosting que acompañe el crecimiento de tu sitio",
+      "Para leer con calma.",
+      "Recibe novedades útiles, no ruido.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/blog",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://servistream.net/blog#webpage",
+            "url": "https://servistream.net/blog",
+            "name": "Guías de Hosting, Servidores y Streaming | Servistream",
+            "description": "Guías de Servistream sobre hosting, radio online, video streaming y seguridad web. Aprende a elegir herramientas y a preparar tu próximo proyecto.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/blog#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Guías de Hosting, Servidores y Streaming",
+                "item": "https://servistream.net/blog"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/blog/canal-tv-streaming-profesional",
+    "title": "Transmite tu canal de TV con una señal lista para crecer | Blog Servistream",
+    "description": "Conoce las piezas de una emisión profesional: calidad, distribución y control de contenido.",
+    "h1": [
+      "Transmite tu canal de TV con una señal lista para crecer"
+    ],
+    "h2": [
+      "Cuida la calidad desde el origen",
+      "Organiza contenido en vivo y programado",
+      "Distribuye donde está tu audiencia",
+      "También te puede interesar"
+    ],
+    "canonical": "https://servistream.net/blog/canal-tv-streaming-profesional",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/blog/canal-tv-streaming-profesional#webpage",
+            "url": "https://servistream.net/blog/canal-tv-streaming-profesional",
+            "name": "Transmite tu canal de TV con una señal lista para crecer | Blog Servistream",
+            "description": "Conoce las piezas de una emisión profesional: calidad, distribución y control de contenido.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/blog/canal-tv-streaming-profesional#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://servistream.net/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Transmite tu canal de TV con una señal lista para crecer",
+                "item": "https://servistream.net/blog/canal-tv-streaming-profesional"
+              }
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "@id": "https://servistream.net/blog/canal-tv-streaming-profesional#article",
+            "headline": "Transmite tu canal de TV con una señal lista para crecer",
+            "description": "Conoce las piezas de una emisión profesional: calidad, distribución y control de contenido.",
+            "mainEntityOfPage": {
+              "@id": "https://servistream.net/blog/canal-tv-streaming-profesional#webpage"
+            },
+            "author": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "image": "https://servistream.net/img/social/servistream.jpg",
+            "inLanguage": "es-EC"
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/blog/como-crear-radio-online",
+    "title": "Todo lo que necesitas para poner tu radio en internet | Blog Servistream",
+    "description": "Una guía clara para emitir en vivo, automatizar tu programación y llegar a tu audiencia.",
+    "h1": [
+      "Todo lo que necesitas para poner tu radio en internet"
+    ],
+    "h2": [
+      "Define cómo vas a emitir",
+      "Prepara una identidad que se reconozca",
+      "Mide y mejora con constancia",
+      "También te puede interesar"
+    ],
+    "canonical": "https://servistream.net/blog/como-crear-radio-online",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/blog/como-crear-radio-online#webpage",
+            "url": "https://servistream.net/blog/como-crear-radio-online",
+            "name": "Todo lo que necesitas para poner tu radio en internet | Blog Servistream",
+            "description": "Una guía clara para emitir en vivo, automatizar tu programación y llegar a tu audiencia.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/blog/como-crear-radio-online#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://servistream.net/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Todo lo que necesitas para poner tu radio en internet",
+                "item": "https://servistream.net/blog/como-crear-radio-online"
+              }
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "@id": "https://servistream.net/blog/como-crear-radio-online#article",
+            "headline": "Todo lo que necesitas para poner tu radio en internet",
+            "description": "Una guía clara para emitir en vivo, automatizar tu programación y llegar a tu audiencia.",
+            "mainEntityOfPage": {
+              "@id": "https://servistream.net/blog/como-crear-radio-online#webpage"
+            },
+            "author": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "image": "https://servistream.net/img/social/servistream.jpg",
+            "inLanguage": "es-EC"
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/blog/cuando-migrar-sitio-servidor",
+    "title": "Cuándo es el momento de migrar tu sitio a un nuevo servidor | Blog Servistream",
+    "description": "Señales concretas para decidir una migración ordenada, segura y sin interrupciones innecesarias.",
+    "h1": [
+      "Cuándo es el momento de migrar tu sitio a un nuevo servidor"
+    ],
+    "h2": [
+      "Reconoce las señales de crecimiento",
+      "Prepara una migración ordenada",
+      "También te puede interesar"
+    ],
+    "canonical": "https://servistream.net/blog/cuando-migrar-sitio-servidor",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/blog/cuando-migrar-sitio-servidor#webpage",
+            "url": "https://servistream.net/blog/cuando-migrar-sitio-servidor",
+            "name": "Cuándo es el momento de migrar tu sitio a un nuevo servidor | Blog Servistream",
+            "description": "Señales concretas para decidir una migración ordenada, segura y sin interrupciones innecesarias.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/blog/cuando-migrar-sitio-servidor#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://servistream.net/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Cuándo es el momento de migrar tu sitio a un nuevo servidor",
+                "item": "https://servistream.net/blog/cuando-migrar-sitio-servidor"
+              }
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "@id": "https://servistream.net/blog/cuando-migrar-sitio-servidor#article",
+            "headline": "Cuándo es el momento de migrar tu sitio a un nuevo servidor",
+            "description": "Señales concretas para decidir una migración ordenada, segura y sin interrupciones innecesarias.",
+            "mainEntityOfPage": {
+              "@id": "https://servistream.net/blog/cuando-migrar-sitio-servidor#webpage"
+            },
+            "author": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "image": "https://servistream.net/img/social/servistream.jpg",
+            "inLanguage": "es-EC"
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/blog/elegir-hosting-para-crecer",
+    "title": "Cómo elegir un hosting que acompañe el crecimiento de tu sitio | Blog Servistream",
+    "description": "Capacidad, velocidad, soporte y seguridad: los puntos que conviene revisar antes de contratar.",
+    "h1": [
+      "Cómo elegir un hosting que acompañe el crecimiento de tu sitio"
+    ],
+    "h2": [
+      "Empieza por las necesidades reales de tu proyecto",
+      "La velocidad también depende de la infraestructura",
+      "El soporte es parte del servicio",
+      "También te puede interesar"
+    ],
+    "canonical": "https://servistream.net/blog/elegir-hosting-para-crecer",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/blog/elegir-hosting-para-crecer#webpage",
+            "url": "https://servistream.net/blog/elegir-hosting-para-crecer",
+            "name": "Cómo elegir un hosting que acompañe el crecimiento de tu sitio | Blog Servistream",
+            "description": "Capacidad, velocidad, soporte y seguridad: los puntos que conviene revisar antes de contratar.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/blog/elegir-hosting-para-crecer#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://servistream.net/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Cómo elegir un hosting que acompañe el crecimiento de tu sitio",
+                "item": "https://servistream.net/blog/elegir-hosting-para-crecer"
+              }
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "@id": "https://servistream.net/blog/elegir-hosting-para-crecer#article",
+            "headline": "Cómo elegir un hosting que acompañe el crecimiento de tu sitio",
+            "description": "Capacidad, velocidad, soporte y seguridad: los puntos que conviene revisar antes de contratar.",
+            "mainEntityOfPage": {
+              "@id": "https://servistream.net/blog/elegir-hosting-para-crecer#webpage"
+            },
+            "author": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "image": "https://servistream.net/img/social/servistream.jpg",
+            "inLanguage": "es-EC"
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/blog/nvme-velocidad-sitio-web",
+    "title": "Por qué los discos NVMe hacen la diferencia en la velocidad | Blog Servistream",
+    "description": "Entiende cómo el almacenamiento influye en la respuesta de tu sitio y la experiencia de tus visitantes.",
+    "h1": [
+      "Por qué los discos NVMe hacen la diferencia en la velocidad"
+    ],
+    "h2": [
+      "Menos espera al acceder a los datos",
+      "La velocidad es un conjunto de decisiones",
+      "También te puede interesar"
+    ],
+    "canonical": "https://servistream.net/blog/nvme-velocidad-sitio-web",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/blog/nvme-velocidad-sitio-web#webpage",
+            "url": "https://servistream.net/blog/nvme-velocidad-sitio-web",
+            "name": "Por qué los discos NVMe hacen la diferencia en la velocidad | Blog Servistream",
+            "description": "Entiende cómo el almacenamiento influye en la respuesta de tu sitio y la experiencia de tus visitantes.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/blog/nvme-velocidad-sitio-web#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://servistream.net/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Por qué los discos NVMe hacen la diferencia en la velocidad",
+                "item": "https://servistream.net/blog/nvme-velocidad-sitio-web"
+              }
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "@id": "https://servistream.net/blog/nvme-velocidad-sitio-web#article",
+            "headline": "Por qué los discos NVMe hacen la diferencia en la velocidad",
+            "description": "Entiende cómo el almacenamiento influye en la respuesta de tu sitio y la experiencia de tus visitantes.",
+            "mainEntityOfPage": {
+              "@id": "https://servistream.net/blog/nvme-velocidad-sitio-web#webpage"
+            },
+            "author": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "image": "https://servistream.net/img/social/servistream.jpg",
+            "inLanguage": "es-EC"
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/blog/seguridad-base-sitio-confiable",
+    "title": "SSL, copias de seguridad y actualizaciones: la base de un sitio confiable | Blog Servistream",
+    "description": "Pequeñas decisiones técnicas que ayudan a proteger la información y la continuidad de tu proyecto.",
+    "h1": [
+      "SSL, copias de seguridad y actualizaciones: la base de un sitio confiable"
+    ],
+    "h2": [
+      "Mantén las actualizaciones al día",
+      "Usa conexiones seguras",
+      "Respaldos que realmente puedas recuperar",
+      "También te puede interesar"
+    ],
+    "canonical": "https://servistream.net/blog/seguridad-base-sitio-confiable",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/blog/seguridad-base-sitio-confiable#webpage",
+            "url": "https://servistream.net/blog/seguridad-base-sitio-confiable",
+            "name": "SSL, copias de seguridad y actualizaciones: la base de un sitio confiable | Blog Servistream",
+            "description": "Pequeñas decisiones técnicas que ayudan a proteger la información y la continuidad de tu proyecto.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/blog/seguridad-base-sitio-confiable#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://servistream.net/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "SSL, copias de seguridad y actualizaciones: la base de un sitio confiable",
+                "item": "https://servistream.net/blog/seguridad-base-sitio-confiable"
+              }
+            ]
+          },
+          {
+            "@type": "BlogPosting",
+            "@id": "https://servistream.net/blog/seguridad-base-sitio-confiable#article",
+            "headline": "SSL, copias de seguridad y actualizaciones: la base de un sitio confiable",
+            "description": "Pequeñas decisiones técnicas que ayudan a proteger la información y la continuidad de tu proyecto.",
+            "mainEntityOfPage": {
+              "@id": "https://servistream.net/blog/seguridad-base-sitio-confiable#webpage"
+            },
+            "author": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "image": "https://servistream.net/img/social/servistream.jpg",
+            "inLanguage": "es-EC"
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/contacto",
+    "title": "Contacto y Soporte en Ecuador | Servistream",
+    "description": "Contacta con Servistream para hosting, VPS, dominios, radio y TV streaming o desarrollo web. Cuéntanos tu proyecto o solicita ayuda con tu servicio.",
+    "h1": [
+      "Estamos listos para ayudarte"
+    ],
+    "h2": [
+      "Asesoría para tu proyecto",
+      "Implementación clara",
+      "Equipo de soporte",
+      "Cuéntanos cómo podemos ayudarte",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/contacto",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "ContactPage",
+            "@id": "https://servistream.net/contacto#webpage",
+            "url": "https://servistream.net/contacto",
+            "name": "Contacto y Soporte en Ecuador | Servistream",
+            "description": "Contacta con Servistream para hosting, VPS, dominios, radio y TV streaming o desarrollo web. Cuéntanos tu proyecto o solicita ayuda con tu servicio.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/contacto#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Contacto y Soporte en Ecuador",
+                "item": "https://servistream.net/contacto"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/disponibilidad",
+    "title": "Comprobador de Disponibilidad de Sitios Web | Servistream",
+    "description": "Comprueba si un sitio web está accesible y consulta su respuesta HTTP con la herramienta de disponibilidad de Servistream.",
+    "h1": [
+      "Consultar disponibilidad del sitio web"
+    ],
+    "h2": [
+      ""
+    ],
+    "canonical": "https://servistream.net/disponibilidad",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/disponibilidad#webpage",
+            "url": "https://servistream.net/disponibilidad",
+            "name": "Comprobador de Disponibilidad de Sitios Web | Servistream",
+            "description": "Comprueba si un sitio web está accesible y consulta su respuesta HTTP con la herramienta de disponibilidad de Servistream.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/disponibilidad#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Comprobador de Disponibilidad de Sitios Web",
+                "item": "https://servistream.net/disponibilidad"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/dominios",
+    "title": "Registro de Dominios en Ecuador | Servistream",
+    "description": "Busca y registra dominios .ec y otras extensiones con Servistream. Consulta la disponibilidad o transfiere el dominio de tu empresa o proyecto en Ecuador.",
+    "h1": [
+      "Busca tu nombre de dominio"
+    ],
+    "h2": [
+      "Consigue ofertas especiales en dominios seleccionados",
+      "Transferencia de dominio",
+      "Resultados disponibles"
+    ],
+    "canonical": "https://servistream.net/dominios",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/dominios#webpage",
+            "url": "https://servistream.net/dominios",
+            "name": "Registro de Dominios en Ecuador | Servistream",
+            "description": "Busca y registra dominios .ec y otras extensiones con Servistream. Consulta la disponibilidad o transfiere el dominio de tu empresa o proyecto en Ecuador.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/dominios#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Registro de dominios",
+                "item": "https://servistream.net/dominios"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/dominios#service",
+            "name": "Registro de dominios",
+            "serviceType": "Registro de dominios",
+            "description": "Busca y registra dominios .ec y otras extensiones con Servistream. Consulta la disponibilidad o transfiere el dominio de tu empresa o proyecto en Ecuador.",
+            "url": "https://servistream.net/dominios",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "1536",
+        "width": "1024",
+        "decoding": "async",
+        "class": "absolute inset-0 h-full w-full object-cover",
+        "src": "/img/dominios/domains-customer.avif",
+        "alt": "Cliente buscando dominios desde su teléfono",
+        "loading": "lazy"
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/migracion",
+    "title": "Migración de Sitios Web a Servistream | Servistream",
+    "description": "Traslada tu sitio web a Servistream con acompañamiento técnico. Consulta el proceso de migración, requisitos y compatibilidad para tu hosting.",
+    "h1": [
+      "La última migración de sitio web que necesitarás"
+    ],
+    "h2": [
+      "Sigue dos pasos y nosotros nos encargaremos del resto",
+      "¿Por qué migrar a Servistream?",
+      "Con servistream, más servicios incluidos",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/migracion",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/migracion#webpage",
+            "url": "https://servistream.net/migracion",
+            "name": "Migración de Sitios Web a Servistream | Servistream",
+            "description": "Traslada tu sitio web a Servistream con acompañamiento técnico. Consulta el proceso de migración, requisitos y compatibilidad para tu hosting.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/migracion#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Migración de sitios web",
+                "item": "https://servistream.net/migracion"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/migracion#service",
+            "name": "Migración de sitios web",
+            "serviceType": "Migración de sitios web",
+            "description": "Traslada tu sitio web a Servistream con acompañamiento técnico. Consulta el proceso de migración, requisitos y compatibilidad para tu hosting.",
+            "url": "https://servistream.net/migracion",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "1024",
+        "width": "1536",
+        "decoding": "async",
+        "class": "absolute inset-0 size-full object-cover object-[67%_50%]",
+        "src": "/img/migracion/migracion-sitios-hero.avif",
+        "alt": "Especialista que acompaña la migración de un sitio web",
+        "loading": "eager",
+        "fetchpriority": "high"
+      },
+      {
+        "height": "1536",
+        "width": "1024",
+        "decoding": "async",
+        "class": "block aspect-[.92] w-full object-cover sm:aspect-[.95]",
+        "src": "/img/migracion/beneficios-migracion.webp",
+        "alt": "Vista de una tienda web creada y gestionada con herramientas inteligentes",
+        "loading": "lazy"
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/nosotros",
+    "title": "Nosotros: Hosting y Streaming desde Ecuador | Servistream",
+    "description": "Conoce Servistream y sus soluciones de hosting, servidores y streaming desde Ecuador. Descubre nuestro enfoque y contacta con el equipo.",
+    "h1": [
+      "Tecnología que hace que tus ideas sigan en línea."
+    ],
+    "h2": [
+      "Nuestro trabajo es que la tecnología deje de ser una preocupación.",
+      "Una base sólida para cada señal.",
+      "Donde tu proyecto necesita estar.",
+      "Más claridad, menos fricción.",
+      "Tu siguiente señal merece una gran base.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/nosotros",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "AboutPage",
+            "@id": "https://servistream.net/nosotros#webpage",
+            "url": "https://servistream.net/nosotros",
+            "name": "Nosotros: Hosting y Streaming desde Ecuador | Servistream",
+            "description": "Conoce Servistream y sus soluciones de hosting, servidores y streaming desde Ecuador. Descubre nuestro enfoque y contacta con el equipo.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/nosotros#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Nosotros: Hosting y Streaming desde Ecuador",
+                "item": "https://servistream.net/nosotros"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/paginas-web",
+    "title": "linux_ubuntu [#148]",
+    "description": "Diseño y desarrollo de páginas web para empresas y organizaciones en Ecuador. Servistream crea sitios adaptables y soluciones para tu proyecto digital.",
+    "h1": [
+      "Diseño y desarrollo de páginas web para empresas y organizaciones en Ecuador."
+    ],
+    "h2": [
+      "Soluciones digitales para tu Empresa",
+      "Trabajamos con estas tecnologías",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/paginas-web",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/paginas-web#webpage",
+            "url": "https://servistream.net/paginas-web",
+            "name": "Diseño y Desarrollo Web en Ecuador | Servistream",
+            "description": "Diseño y desarrollo de páginas web para empresas y organizaciones en Ecuador. Servistream crea sitios adaptables y soluciones para tu proyecto digital.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/paginas-web#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Diseño y desarrollo web",
+                "item": "https://servistream.net/paginas-web"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/paginas-web#service",
+            "name": "Diseño y desarrollo web",
+            "serviceType": "Diseño y desarrollo web",
+            "description": "Diseño y desarrollo de páginas web para empresas y organizaciones en Ecuador. Servistream crea sitios adaptables y soluciones para tu proyecto digital.",
+            "url": "https://servistream.net/paginas-web",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "755",
+        "width": "1920",
+        "decoding": "async",
+        "class": "block min-h-64 w-full object-cover sm:min-h-80 lg:min-h-112",
+        "src": "/img/pagina-web/backweb.avif",
+        "alt": "Equipo desarrollando una solución web",
+        "loading": "lazy",
+        "data-astro-cid-lzzbkww6": null
+      },
+      {
+        "height": "800",
+        "width": "1200",
+        "decoding": "async",
+        "class": "aspect-[4/3] w-full rounded-3xl object-cover sm:rounded-4xl",
+        "src": "/img/pagina-web/imagen_web.avif",
+        "alt": "Equipo de Servistream trabajando en diseño web",
+        "loading": "lazy"
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/paginas-web.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/radio-cetovacast",
+    "title": "Radio Streaming con CentovaCast en Ecuador | Servistream",
+    "description": "Administra tu emisora con CentovaCast, AutoDJ y estadísticas. Conoce los planes de radio streaming de Servistream para Shoutcast e Icecast.",
+    "h1": [
+      "Tu radio en internet,siempre al aire"
+    ],
+    "h2": [
+      "Control, calidad y continuidad para tu radio",
+      "Tu estación bajo control",
+      "Preguntas frecuentes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/radio-cetovacast",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/radio-cetovacast#webpage",
+            "url": "https://servistream.net/radio-cetovacast",
+            "name": "Radio Streaming con CentovaCast en Ecuador | Servistream",
+            "description": "Administra tu emisora con CentovaCast, AutoDJ y estadísticas. Conoce los planes de radio streaming de Servistream para Shoutcast e Icecast.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/radio-cetovacast#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Radio streaming con CentovaCast",
+                "item": "https://servistream.net/radio-cetovacast"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/radio-cetovacast#service",
+            "name": "Radio streaming con CentovaCast",
+            "serviceType": "Radio streaming con CentovaCast",
+            "description": "Administra tu emisora con CentovaCast, AutoDJ y estadísticas. Conoce los planes de radio streaming de Servistream para Shoutcast e Icecast.",
+            "url": "https://servistream.net/radio-cetovacast",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es CentovaCast?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Es un panel de control especializado para administrar una radio online: permite configurar la transmisión, manejar AutoDJ, crear listas de reproducción y consultar estadísticas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo transmitir en vivo y usar AutoDJ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Puedes emitir en vivo cuando lo necesites y dejar una programación automática en AutoDJ para mantener tu señal al aire."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Funciona con Shoutcast e Icecast?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Los planes CentovaCast son compatibles con ambos motores, para que elijas el que mejor se adapte a tu software de transmisión."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué plan debo elegir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Elige según tus oyentes simultáneos y la calidad de audio requerida. Puedes empezar con el plan adecuado para tu audiencia actual y escalar después."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿La transferencia es ilimitada?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Todos los planes CentovaCast incluyen transferencia ilimitada para que puedas transmitir sin preocuparte por consumo mensual."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuándo se activa mi servicio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La activación se realiza una vez confirmado el pago. Recibirás los datos de acceso y conexión para comenzar a configurar tu estación."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Mis oyentes pueden escuchar desde el celular?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Incluimos reproductor HTML5, URLs seguras y compatibilidad con dispositivos móviles para facilitar el acceso a tu señal."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo utilizar SSL en mi transmisión?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Todos los planes son compatibles con SSL para compartir enlaces de reproducción seguros en páginas web y aplicaciones."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué estadísticas puedo consultar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CentovaCast muestra oyentes actuales, máximos de audiencia, ubicación geográfica y otros datos útiles para entender el crecimiento de tu radio."
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/radio-streaming.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/radio-streaming",
+    "title": "Radio Streaming con SonicPanel en Ecuador | Servistream",
+    "description": "Transmite tu radio por internet con SonicPanel, AutoDJ y conexión SSL. Compara planes de Servistream para emisoras y proyectos de radio online en Ecuador.",
+    "h1": [
+      "Elige cómo quieres hacer sonar tu radio"
+    ],
+    "h2": [
+      "Todo lo que tu radio necesita para sonar mejor",
+      "La música no se detiene",
+      "Preguntas frecuentes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/radio-streaming",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/radio-streaming#webpage",
+            "url": "https://servistream.net/radio-streaming",
+            "name": "Radio Streaming con SonicPanel en Ecuador | Servistream",
+            "description": "Transmite tu radio por internet con SonicPanel, AutoDJ y conexión SSL. Compara planes de Servistream para emisoras y proyectos de radio online en Ecuador.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/radio-streaming#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Radio streaming con SonicPanel",
+                "item": "https://servistream.net/radio-streaming"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/radio-streaming#service",
+            "name": "Radio streaming con SonicPanel",
+            "serviceType": "Radio streaming con SonicPanel",
+            "description": "Transmite tu radio por internet con SonicPanel, AutoDJ y conexión SSL. Compara planes de Servistream para emisoras y proyectos de radio online en Ecuador.",
+            "url": "https://servistream.net/radio-streaming",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es Radio Streaming?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Es un servicio que distribuye tu señal de audio por internet para que tus oyentes puedan sintonizarla desde cualquier dispositivo conectado."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo inicio mi radio online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Elige un plan, completa la compra y recibirás los datos de acceso a tu panel. Desde allí podrás configurar tu señal, AutoDJ y reproductores."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Necesito conocimientos técnicos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. El panel de control simplifica la configuración y nuestro equipo de soporte puede orientarte durante la puesta en marcha."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué plan debo elegir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Depende de la cantidad de oyentes simultáneos y la calidad de audio que necesites. Puedes comenzar con un plan menor y aumentar capacidad cuando tu audiencia crezca."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿La transferencia es ilimitada?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Todos los planes de Radio Streaming incluyen transferencia ilimitada para que puedas transmitir sin preocuparte por el consumo mensual."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué incluye el espacio AutoDJ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AutoDJ permite cargar y programar música en el servidor para que tu radio continúe al aire incluso cuando no estés transmitiendo en vivo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo transmitir desde mi celular o computadora?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Puedes emitir desde aplicaciones compatibles para computadora y dispositivos móviles, usando los datos de conexión de tu cuenta."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Mis oyentes podrán escuchar desde cualquier dispositivo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Incluimos reproductor HTML5 y compatibilidad con reproductores populares para escuchar desde navegadores, computadoras y móviles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿La señal puede usar SSL?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Nuestros planes son compatibles con URLs de transmisión segura mediante HTTPS/SSL, ideal para páginas web y aplicaciones actuales."
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/radio-streaming.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/reseller-hosting",
+    "title": "Reseller Hosting para Agencias en Ecuador | Servistream",
+    "description": "Ofrece alojamiento web bajo tu marca con planes reseller de Servistream. Consulta recursos, SSL y soporte para gestionar los sitios de tus clientes.",
+    "h1": [
+      "Crea tu propio negocio de hosting web"
+    ],
+    "h2": [
+      "Elige tu plan de reseller hosting",
+      "Hosting sin estrés. Soporte proactivo.",
+      "Todos los planes incluyen mucho más",
+      "Mira cómo crecen nuestros clientes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/reseller-hosting",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/reseller-hosting#webpage",
+            "url": "https://servistream.net/reseller-hosting",
+            "name": "Reseller Hosting para Agencias en Ecuador | Servistream",
+            "description": "Ofrece alojamiento web bajo tu marca con planes reseller de Servistream. Consulta recursos, SSL y soporte para gestionar los sitios de tus clientes.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/reseller-hosting#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Reseller hosting",
+                "item": "https://servistream.net/reseller-hosting"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/reseller-hosting#service",
+            "name": "Reseller hosting",
+            "serviceType": "Reseller hosting",
+            "description": "Ofrece alojamiento web bajo tu marca con planes reseller de Servistream. Consulta recursos, SSL y soporte para gestionar los sitios de tus clientes.",
+            "url": "https://servistream.net/reseller-hosting",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "1536",
+        "width": "1024",
+        "decoding": "async",
+        "src": "/img/reseller-hosting/asesor-reseller.webp",
+        "alt": "Asesor de reseller hosting con una computadora portátil",
+        "class": "absolute bottom-0 right-[-4%] h-[82%] max-w-[53%] object-contain object-bottom sm:right-[1%]",
+        "loading": "eager",
+        "fetchpriority": "high"
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/reseller-radio",
+    "title": "Reseller Radio Streaming con SonicPanel | Servistream",
+    "description": "Crea y gestiona radios para tus clientes con SonicPanel, AutoDJ y marca propia. Compara los planes reseller de radio streaming de Servistream.",
+    "h1": [
+      "Convierte tu experiencia en un negocio de radio online"
+    ],
+    "h2": [
+      "Todo lo que necesitas para revender radio streaming",
+      "Gestiona cada radio desde un solo lugar",
+      "Preguntas frecuentes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/reseller-radio",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/reseller-radio#webpage",
+            "url": "https://servistream.net/reseller-radio",
+            "name": "Reseller Radio Streaming con SonicPanel | Servistream",
+            "description": "Crea y gestiona radios para tus clientes con SonicPanel, AutoDJ y marca propia. Compara los planes reseller de radio streaming de Servistream.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/reseller-radio#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Reseller radio streaming",
+                "item": "https://servistream.net/reseller-radio"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/reseller-radio#service",
+            "name": "Reseller radio streaming",
+            "serviceType": "Reseller radio streaming",
+            "description": "Crea y gestiona radios para tus clientes con SonicPanel, AutoDJ y marca propia. Compara los planes reseller de radio streaming de Servistream.",
+            "url": "https://servistream.net/reseller-radio",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es un plan Reseller Radio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Es una plataforma que te permite crear y administrar múltiples cuentas de radio streaming para comercializarlas a tus propios clientes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo usar mi propia marca?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. El servicio está pensado para que construyas tu propia oferta comercial y gestiones directamente la relación con tus clientes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuántas radios puedo crear?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Los planes oficiales incluyen radios ilimitadas; la capacidad final dependerá del uso de transferencia y recursos de cada cuenta."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué panel utilizarán mis clientes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Las cuentas usan SonicPanel, una plataforma para configurar transmisión, AutoDJ, listas de reproducción y estadísticas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Incluye AutoDJ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Todos los planes Reseller Radio incluyen AutoDJ ilimitado para que cada estación pueda programar contenido desde el servidor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Es compatible con SSL?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Las cuentas son compatibles con conexiones SSL para una transmisión segura en reproductores y sitios web."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuándo puedo comenzar a vender?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Luego de la activación podrás ingresar al panel de revendedor y empezar a crear las cuentas de tus clientes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué calidad de audio ofrecen los planes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Los planes Star y Smart llegan hasta 192 KBPS; los planes Max y Pro llegan hasta 320 KBPS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Tendré soporte técnico?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Nuestro equipo te acompaña con la infraestructura para que puedas concentrarte en atender y hacer crecer tu negocio."
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/radio-streaming.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/srt-server",
+    "title": "Servidores VPS para Streaming SRT | Servistream",
+    "description": "Servidores VPS para ingesta y transmisión de video con SRT. Compara recursos dedicados y herramientas de control para tu producción con Servistream.",
+    "h1": [
+      "Conecta tu producción,sin perder la señal."
+    ],
+    "h2": [
+      "Tecnología para una emisión confiable",
+      "Potencia que acompaña tu señal",
+      "Tu enlace profesional bajo control",
+      "Preguntas frecuentes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/srt-server",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/srt-server#webpage",
+            "url": "https://servistream.net/srt-server",
+            "name": "Servidores VPS para Streaming SRT | Servistream",
+            "description": "Servidores VPS para ingesta y transmisión de video con SRT. Compara recursos dedicados y herramientas de control para tu producción con Servistream.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/srt-server#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Servidores VPS SRT",
+                "item": "https://servistream.net/srt-server"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/srt-server#service",
+            "name": "Servidores VPS SRT",
+            "serviceType": "Servidores VPS SRT",
+            "description": "Servidores VPS para ingesta y transmisión de video con SRT. Compara recursos dedicados y herramientas de control para tu producción con Servistream.",
+            "url": "https://servistream.net/srt-server",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es SRT?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SRT es un protocolo de transporte de video diseñado para enlaces profesionales que puede recuperar paquetes perdidos dentro de un buffer configurado."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo usar OBS o vMix?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Configura la salida SRT en modo caller y copia la URL y el stream ID que entrega tu panel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿SRT garantiza cero cortes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. La estabilidad depende de la conexión, el bitrate, la pérdida de red y el buffer. Recomendamos realizar pruebas antes del evento."
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/status",
+    "title": "Estado de Servicios y Monitor de Disponibilidad | Servistream",
+    "description": "Consulta el monitor público de Servistream para revisar disponibilidad, tiempos de respuesta e historial de incidencias de nuestra infraestructura.",
+    "h1": [
+      "Estado de nuestros servicios"
+    ],
+    "h2": [
+      "Consulta el monitor de servicios",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/status",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/status#webpage",
+            "url": "https://servistream.net/status",
+            "name": "Estado de Servicios y Monitor de Disponibilidad | Servistream",
+            "description": "Consulta el monitor público de Servistream para revisar disponibilidad, tiempos de respuesta e historial de incidencias de nuestra infraestructura.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/status#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Estado de Servicios y Monitor de Disponibilidad",
+                "item": "https://servistream.net/status"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/tv-streaming",
+    "title": "TV Streaming con StreamCP Pro en Ecuador | Servistream",
+    "description": "Emite tu canal con StreamCP Pro: programación, RTMP, VOD y simulcast. Conoce los planes de TV y video streaming de Servistream para Ecuador.",
+    "h1": [
+      "Tu señal de TV,en todas partes."
+    ],
+    "h2": [
+      "Una señal profesional a tu medida",
+      "Amplifica tu señal",
+      "Funciona con tus aplicaciones de streaming",
+      "Controla cada momento de tu emisión",
+      "Una comunidad que sigue transmitiendo",
+      "Tu canal merece llegar más lejos.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/tv-streaming",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/tv-streaming#webpage",
+            "url": "https://servistream.net/tv-streaming",
+            "name": "TV Streaming con StreamCP Pro en Ecuador | Servistream",
+            "description": "Emite tu canal con StreamCP Pro: programación, RTMP, VOD y simulcast. Conoce los planes de TV y video streaming de Servistream para Ecuador.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/tv-streaming#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TV streaming con StreamCP Pro",
+                "item": "https://servistream.net/tv-streaming"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/tv-streaming#service",
+            "name": "TV streaming con StreamCP Pro",
+            "serviceType": "TV streaming con StreamCP Pro",
+            "description": "Emite tu canal con StreamCP Pro: programación, RTMP, VOD y simulcast. Conoce los planes de TV y video streaming de Servistream para Ecuador.",
+            "url": "https://servistream.net/tv-streaming",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "1720",
+        "width": "3024",
+        "decoding": "async",
+        "src": "/img/tv-streaming/panel-streamcp-pro.webp",
+        "alt": "Panel StreamCP Pro con canales, espectadores, ancho de banda y estado de emisión",
+        "class": "w-full rounded-[1.3rem]",
+        "loading": "eager",
+        "fetchpriority": "high"
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/tv-streaming.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/vdopanel",
+    "title": "Servidores VPS con VDO Panel | Servistream",
+    "description": "Administra canales de video, programación y distribución con VDO Panel. Conoce los recursos y planes VPS para streaming de Servistream.",
+    "h1": [
+      "Opera tu canal,desde un solo panel."
+    ],
+    "h2": [
+      "Tecnología para una emisión confiable",
+      "Potencia que acompaña tu señal",
+      "VDO Panel, control sin complicaciones",
+      "Preguntas frecuentes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/vdopanel",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/vdopanel#webpage",
+            "url": "https://servistream.net/vdopanel",
+            "name": "Servidores VPS con VDO Panel | Servistream",
+            "description": "Administra canales de video, programación y distribución con VDO Panel. Conoce los recursos y planes VPS para streaming de Servistream.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/vdopanel#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Servidores VPS con VDO Panel",
+                "item": "https://servistream.net/vdopanel"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/vdopanel#service",
+            "name": "Servidores VPS con VDO Panel",
+            "serviceType": "Servidores VPS con VDO Panel",
+            "description": "Administra canales de video, programación y distribución con VDO Panel. Conoce los recursos y planes VPS para streaming de Servistream.",
+            "url": "https://servistream.net/vdopanel",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es VDO Panel?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Es un panel de administración para operar un servicio de video streaming desde un entorno centralizado."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿El servicio incluye recursos VPS?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Cada plan se entrega con recursos VPS dedicados de CPU, memoria RAM y almacenamiento NVMe."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo gestionar más de un canal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La capacidad depende del plan y el uso de tus recursos. Nuestro equipo puede orientarte para escoger la configuración adecuada."
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/vps-hosting",
+    "title": "VPS Administrados con CyberPanel en Ecuador | Servistream",
+    "description": "Servidores VPS administrados con CyberPanel, LiteSpeed y almacenamiento NVMe. Elige recursos para tu proyecto y recibe soporte de Servistream.",
+    "h1": [
+      "Potencia dedicada, sin la complejidad."
+    ],
+    "h2": [
+      "Precios de VPS administrados",
+      "VPS S",
+      "VPS M",
+      "VPS L",
+      "Tu servidor listo para crecer, sin perder tiempo en configuraciones",
+      "Clientes que confían en nuestros VPS administrados.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/vps-hosting",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/vps-hosting#webpage",
+            "url": "https://servistream.net/vps-hosting",
+            "name": "VPS Administrados con CyberPanel en Ecuador | Servistream",
+            "description": "Servidores VPS administrados con CyberPanel, LiteSpeed y almacenamiento NVMe. Elige recursos para tu proyecto y recibe soporte de Servistream.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/vps-hosting#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Servidores VPS administrados",
+                "item": "https://servistream.net/vps-hosting"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/vps-hosting#service",
+            "name": "Servidores VPS administrados",
+            "serviceType": "Servidores VPS administrados",
+            "description": "Servidores VPS administrados con CyberPanel, LiteSpeed y almacenamiento NVMe. Elige recursos para tu proyecto y recibe soporte de Servistream.",
+            "url": "https://servistream.net/vps-hosting",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "793",
+        "width": "1983",
+        "class": "absolute inset-0 h-full w-full object-cover",
+        "src": "/img/vps/equipo-corporativo-vps.webp",
+        "alt": "Equipo corporativo de tecnología sonriendo en oficina moderna",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/acolita.svg",
+        "alt": "Acolita",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/corporacion.svg",
+        "alt": "Corporación",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": "El Deportivo",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/gonet.svg",
+        "alt": "GoNet",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/laverdad.svg",
+        "alt": "La Verdad",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": "Más Periodismo",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/meganet.svg",
+        "alt": "Meganet",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/simar.svg",
+        "alt": "Simar",
+        "loading": "lazy"
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/vps-hosting.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/web-hosting",
+    "title": "Hosting Web Premium en Ecuador | Servistream",
+    "description": "Hosting web para empresas y proyectos en Ecuador con almacenamiento NVMe, seguridad y soporte. Compara los planes de alojamiento de Servistream.",
+    "h1": [
+      "Hosting que responde,tecnología que protege."
+    ],
+    "h2": [
+      "Elige tu plan adecuado.",
+      "Tecnología líder para tu hosting",
+      "Soluciones para cada necesidad.",
+      "Preguntas frecuentes sobre hosting",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/web-hosting",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/web-hosting#webpage",
+            "url": "https://servistream.net/web-hosting",
+            "name": "Hosting Web Premium en Ecuador | Servistream",
+            "description": "Hosting web para empresas y proyectos en Ecuador con almacenamiento NVMe, seguridad y soporte. Compara los planes de alojamiento de Servistream.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/web-hosting#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Hosting web premium",
+                "item": "https://servistream.net/web-hosting"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/web-hosting#service",
+            "name": "Hosting web premium",
+            "serviceType": "Hosting web premium",
+            "description": "Hosting web para empresas y proyectos en Ecuador con almacenamiento NVMe, seguridad y soporte. Compara los planes de alojamiento de Servistream.",
+            "url": "https://servistream.net/web-hosting",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es un servicio de hosting web?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Es el espacio donde se almacenan los archivos, bases de datos y correos de tu sitio para que pueda permanecer disponible en Internet durante todo el día."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo migrar mi sitio desde otro proveedor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Nuestro equipo puede encargarse de la migración de tu sitio, correos y bases de datos, procurando que el cambio se realice sin interrupciones."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Los planes incluyen certificado SSL?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Todos los planes incluyen certificados SSL gratuitos para proteger la información de tus visitantes y habilitar la navegación segura mediante HTTPS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Se realizan copias de seguridad?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Realizamos backups diarios y contamos con herramientas de restauración para recuperar tu información cuando sea necesario."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué soporte técnico recibiré?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dispondrás de asistencia especializada para resolver dudas relacionadas con alojamiento, configuración, rendimiento, seguridad y funcionamiento general del servicio."
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/acolita.svg",
+        "alt": "Acólita",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/corporacion.svg",
+        "alt": "Corporación",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": "El Deportivo",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/gonet.svg",
+        "alt": "Gonet",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/laverdad.svg",
+        "alt": "La Verdad",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": "Más Periodismo",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/meganet.svg",
+        "alt": "Meganet",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/simar.svg",
+        "alt": "Simar",
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/acolita.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/corporacion.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/gonet.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/laverdad.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/meganet.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "width": "400",
+        "height": "200",
+        "decoding": "async",
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/simar.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "width": "1448",
+        "height": "1086",
+        "decoding": "async",
+        "class": "size-full object-cover object-center",
+        "src": "/img/web-hosting/equipo-hosting.avif",
+        "alt": "Equipo técnico revisando el rendimiento de una infraestructura de hosting",
+        "loading": "lazy",
+        "data-astro-cid-6x7az2tf": null
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  },
+  {
+    "broken_fragments": [],
+    "url": "/wordpress",
+    "title": "Hosting WordPress Administrado en Ecuador | Servistream",
+    "description": "Alojamiento WordPress con gestión, almacenamiento NVMe y soporte de Servistream. Conoce los planes y herramientas para tu sitio o negocio en Ecuador.",
+    "h1": [
+      "Hosting WordPress con rendimientogarantizado."
+    ],
+    "h2": [
+      "Elige el rendimiento que necesita tu sitio.",
+      "Administra WordPress en una plataforma rápida y preparada para crecer.",
+      "WordPressRápido.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "https://servistream.net/wordpress",
+    "robots": "index, follow, max-image-preview:large",
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://servistream.net/#organization",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "logo": "https://servistream.net/img/organization-logo.png",
+            "description": "Soluciones de hosting, servidores, dominios, streaming y desarrollo web desde Ecuador.",
+            "email": "soporte@servistream.net",
+            "telephone": "+593991220769",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+593991220769",
+              "email": "soporte@servistream.net",
+              "contactType": "customer support",
+              "availableLanguage": "es"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://servistream.net/#website",
+            "name": "Servistream",
+            "url": "https://servistream.net/",
+            "inLanguage": "es-EC",
+            "publisher": {
+              "@id": "https://servistream.net/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://servistream.net/wordpress#webpage",
+            "url": "https://servistream.net/wordpress",
+            "name": "Hosting WordPress Administrado en Ecuador | Servistream",
+            "description": "Alojamiento WordPress con gestión, almacenamiento NVMe y soporte de Servistream. Conoce los planes y herramientas para tu sitio o negocio en Ecuador.",
+            "inLanguage": "es-EC",
+            "isPartOf": {
+              "@id": "https://servistream.net/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://servistream.net/wordpress#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://servistream.net/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Hosting WordPress administrado",
+                "item": "https://servistream.net/wordpress"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://servistream.net/wordpress#service",
+            "name": "Hosting WordPress administrado",
+            "serviceType": "Hosting WordPress administrado",
+            "description": "Alojamiento WordPress con gestión, almacenamiento NVMe y soporte de Servistream. Conoce los planes y herramientas para tu sitio o negocio en Ecuador.",
+            "url": "https://servistream.net/wordpress",
+            "provider": {
+              "@id": "https://servistream.net/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Ecuador"
+            }
+          }
+        ]
+      }
+    ],
+    "broken_links": [],
+    "images": [
+      {
+        "width": "200",
+        "height": "52",
+        "decoding": "async",
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "height": "1536",
+        "width": "1024",
+        "class": "w-full max-w-[25rem] object-contain drop-shadow-[0_35px_80px_rgb(86_20_255_/_12%)] lg:max-w-[28rem]",
+        "src": "/img/wordpress/hero-wordpress-hosting.avif",
+        "alt": "Ilustración de hosting WordPress optimizado con servidores VPS, Cloudflare y discos NVMe",
+        "loading": "eager",
+        "decoding": "async"
+      },
+      {
+        "height": "1536",
+        "width": "1024",
+        "class": "h-full w-full object-cover",
+        "src": "/img/wordpress/gestion-wordpress-vps.avif",
+        "alt": "Panel móvil ilustrado para gestionar WordPress, VPS, Cloudflare y rendimiento",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "height": "52",
+        "width": "200",
+        "decoding": "async",
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": "https://servistream.net/img/social/servistream.jpg"
+  }
+]

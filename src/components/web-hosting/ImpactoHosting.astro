@@ -1,4 +1,5 @@
 ---
+import { imageSize } from '../../data/images';
 interface ImpactStat {
   value: string;
   suffix?: string;
@@ -43,7 +44,7 @@ const {
   </div>
 
   <div class="relative -mt-32 h-[36rem] bg-[#f5f5f5] sm:-mt-44 sm:h-[46rem] lg:-mt-64 lg:h-[58rem]">
-    <img
+    <img {...imageSize(image)} decoding="async"
       class="h-full w-full object-cover object-center grayscale-[35%]"
       style="-webkit-mask-image: linear-gradient(to bottom, transparent 0%, transparent 20%, rgba(0,0,0,.1) 34%, rgba(0,0,0,.5) 52%, #000 72%); mask-image: linear-gradient(to bottom, transparent 0%, transparent 20%, rgba(0,0,0,.1) 34%, rgba(0,0,0,.5) 52%, #000 72%);"
       src={image}

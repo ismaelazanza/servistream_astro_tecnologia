@@ -1,4 +1,5 @@
 ---
+import { faqSchema } from '../../data/schema';
 const categories = [
   { title: 'Conceptos básicos', items: [
     { question: '¿Qué es Radio Streaming?', answer: 'Es un servicio que distribuye tu señal de audio por internet para que tus oyentes puedan sintonizarla desde cualquier dispositivo conectado.' },
@@ -17,15 +18,17 @@ const categories = [
   ]},
 ];
 ---
+<script type="application/ld+json" set:html={faqSchema(categories.flatMap((category) => category.items))} />
 
-<section class="bg-[#03040d] py-20 text-white sm:py-32" aria-labelledby="radio-faq-title" data-radio-faq>
+
+<section class="bg-transparent py-20 text-white sm:py-32" aria-labelledby="radio-faq-title" data-radio-faq>
   <div class="mx-auto container">
     <header class="mx-auto max-w-3xl text-center">
       <h2 id="radio-faq-title" class="leading-none text-[var(--h-blanco)]">Preguntas frecuentes</h2>
-      <p class="mt-5 font-[var(--fuente-principal)] leading-relaxed text-[#aaa9bc]">¿No encuentras lo que buscas? Nuestro equipo está listo para ayudarte.</p>
+      <p class="mt-5 font-[var(--fuente-principal)] leading-relaxed text-[#adb3bf]">¿No encuentras lo que buscas? Nuestro equipo está listo para ayudarte.</p>
     </header>
     <div class="mt-16 grid gap-x-16 gap-y-12 lg:grid-cols-3">
-      {categories.map((category) => <section><h3 class="mb-6 font-[var(--fuente-principal)] text-lg font-bold text-white">{category.title}</h3><div>{category.items.map((item) => <details class="faq-item border-b border-white/10"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-5 font-[var(--fuente-principal)] text-base font-medium text-[#deddeb] transition hover:text-white"><span>{item.question}</span><span class="faq-icon text-xl text-[#a9a4d5]">+</span></summary><p class="pb-5 pr-8 font-[var(--fuente-principal)] text-sm leading-relaxed text-[#aaa9bc]">{item.answer}</p></details>)}</div></section>)}
+      {categories.map((category) => <section><h3 class="mb-6 font-[var(--fuente-principal)] text-lg font-bold text-white">{category.title}</h3><div>{category.items.map((item) => <details class="faq-item border-b border-white/10"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-5 font-[var(--fuente-principal)] text-base font-medium text-[#dce3ee] transition hover:text-white"><span>{item.question}</span><span class="faq-icon text-xl text-[#9db9e5]">+</span></summary><p class="pb-5 pr-8 font-[var(--fuente-principal)] text-sm leading-relaxed text-[#adb3bf]">{item.answer}</p></details>)}</div></section>)}
     </div>
   </div>
 </section>
@@ -41,6 +44,6 @@ const categories = [
 </script>
 
 <style>
-  .faq-item[open] .faq-icon { transform: rotate(45deg); color: #8f82ff; }
+  .faq-item[open] .faq-icon { transform: rotate(45deg); color: #82adf5; }
   .faq-icon { transition: transform .2s ease, color .2s ease; }
 </style>

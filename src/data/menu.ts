@@ -41,8 +41,8 @@ export const menuMaster = {
       {
         title: 'Recursos',
         links: [
-          { label: 'Documentación', href: '/documentacion' },
-          { label: 'Preguntas frecuentes', href: '/preguntas-frecuentes' },
+          { label: 'Guías de servicios', href: '/blog' },
+          { label: 'Soporte y consultas', href: '/contacto' },
           { label: 'Estado del servicio', href: '/status' },
         ],
       },
@@ -64,16 +64,12 @@ export const menuMaster = {
           { label: 'SRT Server', href: '/srt-server' },
           { label: 'VDOPanel', href: '/vdopanel' },
           { label: 'CentovaCast', href: '/radio-cetovacast' },
-          { label: '', href: '/servicios' },
-          { label: '', href: '/servicios' },
         ],
       },
       {
         title: 'Contáctanos',
         links: [
           { label: 'Escríbenos', href: '/contacto' },
-          { label: 'Síguenos en Facebook', href: 'https://facebook.com' },
-          { label: 'Conecta en LinkedIn', href: 'https://linkedin.com' },
         ],
       },
     ],

@@ -12,7 +12,7 @@ const plans = [
       "Hasta 192 KBPS",
       "100 GB de transferencia",
       "Compatible con SSL",
-      "AutoDJ ilimitado",
+      "100 GB AutoDJ",
       "Soporte para móviles",
       "Reproductor HTML5",
       "Shoutcast / Icecast",
@@ -31,7 +31,7 @@ const plans = [
       "Hasta 192 KBPS",
       "500 GB de transferencia",
       "Compatible con SSL",
-      "AutoDJ ilimitado",
+      "100 GB AutoDJ",
       "Soporte para móviles",
       "Reproductor HTML5",
       "Shoutcast / Icecast",
@@ -49,7 +49,7 @@ const plans = [
       "Hasta 320 KBPS",
       "1.000 GB de transferencia",
       "Compatible con SSL",
-      "AutoDJ ilimitado",
+      "100 GB AutoDJ",
       "Soporte para móviles",
       "Reproductor HTML5",
       "Shoutcast / Icecast",
@@ -68,7 +68,7 @@ const plans = [
       "Hasta 320 KBPS",
       "Transferencia ilimitada",
       "Compatible con SSL",
-      "AutoDJ ilimitado",
+      "100 GB AutoDJ",
       "Soporte para móviles",
       "Reproductor HTML5",
       "Shoutcast / Icecast",
@@ -81,11 +81,11 @@ const plans = [
 
 <section
   id="planes"
-  class="relative overflow-hidden bg-[#03040d] py-20 text-white sm:py-28"
+  class="reseller-plans relative overflow-hidden bg-[#171717] py-20 text-white sm:py-28"
   aria-labelledby="reseller-plans-title"
 >
   <div
-    class="pointer-events-none absolute inset-x-0 top-0 h-[46rem] bg-[radial-gradient(ellipse_at_50%_20%,rgba(108,27,231,.5),transparent_45%),radial-gradient(ellipse_at_25%_18%,rgba(22,54,220,.37),transparent_34%),linear-gradient(180deg,#050516_0%,#03040d_86%)]"
+    class="reseller-plans-aura pointer-events-none absolute inset-x-0 top-0 h-[46rem] [mask-image:linear-gradient(to_bottom,black_0%,black_45%,transparent_100%)]"
   >
   </div>
   <svg
@@ -95,15 +95,15 @@ const plans = [
     aria-hidden="true"
     ><defs
       ><linearGradient id="reseller-beam" x1="0" x2="1"
-        ><stop stop-color="#263fff" stop-opacity="0"></stop><stop
+        ><stop stop-color="#26ffe9" stop-opacity="0"></stop><stop
           offset=".12"
-          stop-color="#4d6bff"
+          stop-color="#4dffed"
           stop-opacity=".65"></stop><stop
           offset=".55"
-          stop-color="#435dff"
+          stop-color="#43ffec"
           stop-opacity=".9"></stop><stop
           offset="1"
-          stop-color="#a06cff"
+          stop-color="#6cfff0"
           stop-opacity=".12"></stop></linearGradient
       ><filter id="reseller-glow"
         ><feGaussianBlur stdDeviation="3"></feGaussianBlur></filter
@@ -127,26 +127,27 @@ const plans = [
   >
   <div class="relative mx-auto container px-5 sm:px-8">
     <header class="mx-auto max-w-5xl text-center">
-      <h5 class="mt-10 text-[#a99cff]">RESELLER RADIO STREAMING</h5><h1
+      <p data-section-kicker class="mt-10 text-[#9cfff5]">RESELLER RADIO STREAMING</p><h1
         id="reseller-plans-title"
         class="mt-6 text-[60px] leading-[.92] text-[var(--h-blanco)]"
       >
         Convierte tu experiencia en <br class="hidden sm:block" />un negocio de
         radio online
       </h1><p
-        class="mx-auto mt-7 max-w-3xl font-[var(--fuente-principal)] leading-relaxed text-[#c4c5d5]"
+        class="mx-auto mt-7 max-w-3xl font-[var(--fuente-principal)] leading-relaxed text-[#c4d5d3]"
       >
         Crea y administra radios para tus clientes bajo tu propia marca.
         Nosotros cuidamos la infraestructura; tú haces crecer tu negocio.
       </p><a
         href="https://clientes.servistream.net/index.php?rp=/store/streaming-reseller-radio/streaming-smart"
-        class="mt-9 inline-flex min-h-11 items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 font-[var(--fuente-principal)] font-semibold text-white no-underline transition hover:-translate-y-0.5 hover:bg-white/15"
+        class="ui-button min-h-10 w-auto text-[14px] font-semibold mt-9 inline-flex  items-center justify-center rounded-full border-1 border-white/20 bg-white/10 px-6 font-[var(--fuente-principal)]  text-white no-underline transition hover:-translate-y-0.5 hover:bg-white/15"
         >Comenzar como reseller <MaterialIcon
           name="arrow_forward"
           size={19}
           class="ml-2"
         /></a>
     </header><div
+      data-streaming-plan-grid
       class="relative mt-24 grid gap-6 md:grid-cols-2 xl:grid-cols-4 xl:items-stretch"
     >
       {
@@ -155,38 +156,34 @@ const plans = [
             class:list={[
               "reseller-plan-card relative flex min-h-full flex-col rounded-3xl border border-white/7 p-6 font-[var(--fuente-principal)] backdrop-blur-[3px]",
               plan.featured
-                ? "bg-[linear-gradient(145deg,rgba(60,54,112,.42),rgba(18,16,41,.22))]"
+                ? "bg-[linear-gradient(145deg,rgba(54,112,106,.42),rgba(23,23,23,.22))]"
                 : "",
             ]}
           >
             {plan.popular && (
-              <span class="absolute -top-4 left-1/2 z-20 -translate-x-1/2 rounded-full bg-[#6c57ff] px-4 py-1 text-xs font-bold text-white">
+              <span class="absolute -top-4 left-1/2 z-20 -translate-x-1/2 rounded-full bg-[#57ffee] px-4 py-1 text-xs font-bold text-[#171717]">
                 MÁS ELEGIDO
               </span>
             )}
-            {plan.featured && (
-              <span class="inline-flex self-start rounded-lg bg-white/10 px-3 py-1.5 text-sm text-white">
-                Para tu negocio
-              </span>
-            )}
-            <p class="mt-1 text-sm text-[#deddea]">{plan.name}</p>
+
+            <p class="mt-1 text-sm text-[#ddeae9]">{plan.name}</p>
             <>
               <p class="mt-7 text-[clamp(3rem,2vw,5rem)] leading-none text-white">
                 {plan.price}
-                <span class="ml-2 text-base tracking-normal text-[#b4b3c4]">
+                <span class="ml-2 text-base tracking-normal text-[#b3c4c2]">
                   /mes
                 </span>
               </p>
-              <p class="mt-3 text-sm font-semibold text-[#a99cff]">
+              <p class="mt-3 text-sm font-semibold text-[#9cfff5]">
                 {plan.label}
               </p>
               <a
                 href={plan.href}
                 class:list={[
-                  "mt-10 flex min-h-10 items-center justify-center rounded-full border font-semibold text-white no-underline transition hover:-translate-y-0.5",
+                  "ui-button min-h-10 w-auto text-[14px] font-semibold mt-10 flex  items-center justify-center rounded-full border-1 no-underline transition hover:-translate-y-0.5",
                   plan.featured
-                    ? "border-[#6c57ff] bg-[#5c48f7] hover:bg-[#4c38ec]"
-                    : "border-white/20 bg-white/10 hover:bg-white/15",
+                    ? "border-[#57ffee] bg-[#48f7e6] text-[#171717] hover:bg-[#38ecda]"
+                    : "border-white/20 bg-white/10 text-white hover:bg-white/15",
                 ]}
               >
                 Elegir este plan
@@ -196,7 +193,7 @@ const plans = [
                 Características incluidas:
               </p>
               <ul
-                class="mt-6 grid gap-1 text-sm font-light text-[#c1c0d0]"
+                class="mt-6 grid gap-1 text-sm font-light text-[#c0d0ce]"
                 role="list"
               >
                 {plan.features.map((feature) => (
@@ -204,7 +201,7 @@ const plans = [
                     <MaterialIcon
                       name="check"
                       size={19}
-                      class="shrink-0 text-[#8f82ff]"
+                      class="shrink-0 text-[#82fff3]"
                     />
                     {feature}
                   </li>
@@ -250,15 +247,15 @@ const plans = [
     opacity: 0;
     background: radial-gradient(
       20rem circle at var(--surface-x, 50%) var(--surface-y, 0%),
-      rgb(150 124 255 / 0.22),
+      rgb(var(--service-accent) / 0.22),
       transparent 58%
     );
     transition: opacity 0.35s ease;
   }
   .reseller-plan-card:hover {
     transform: translateY(-8px);
-    border-color: rgb(168 143 255 / 0.48);
-    box-shadow: 0 26px 54px rgb(20 11 69 / 0.38);
+    border-color: rgb(var(--service-accent) / 0.48);
+    box-shadow: 0 26px 54px rgb(var(--service-accent) / 0.20);
   }
   .reseller-plan-card:hover::before {
     opacity: 1;

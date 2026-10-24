@@ -15,6 +15,8 @@ const serviceLinks = [
   ['Azuracast', '/azuracast'],
   ['Reseller Radio', '/reseller-radio'],
   ['SRT Server', '/srt-server'],
+  ['VDO Panel', '/vdopanel'],
+  ['CentovaCast', '/radio-cetovacast'],
 ];
 ---
 
@@ -37,7 +39,7 @@ const serviceLinks = [
   <div class="mx-auto w-[min(100%-2rem,102rem)] px-2 pb-7 pt-14 sm:px-6 sm:pb-10 sm:pt-20 lg:px-10 lg:pt-28">
     <div class="grid gap-14 lg:grid-cols-[minmax(13rem,1.15fr)_2.2fr] lg:gap-20">
       <div>
-        <img class="h-auto w-36 brightness-0 invert sm:w-40" src="/img/LOGO-SERVISTREAM-NUEVO_black-01.svg" alt="Servistream Technology" loading="lazy" />
+        <img height="52" width="200" decoding="async" class="h-auto w-36 brightness-0 invert sm:w-40" src="/img/LOGO-SERVISTREAM-NUEVO_black-01.svg" alt="Servistream" loading="lazy" />
       </div>
 
       <div>
@@ -60,8 +62,8 @@ const serviceLinks = [
             <p class="mb-6 text-sm text-white/30">Información de contacto</p>
             <address class="space-y-4 text-[1rem] not-italic leading-7 text-white/70">
               <p class="flex gap-3 text-white/75"><span>D:</span><span>Loja, Ecuador<br />Dir.: Estancia Norte</span></p>
-              <p class="flex gap-3 text-white/75"><span>C:</span><a class="footer-link" href="mailto:info@example.com">soporte@servistream.net</a></p>
-              <p class="flex gap-3 text-white/75"><span>T:</span><a class="footer-link border-b border-dashed border-white/20 pb-1" href="tel:+84123456789">(+593) 0991220769</a></p>
+              <p class="flex gap-3 text-white/75"><span>C:</span><a class="footer-link" href="mailto:soporte@servistream.net">soporte@servistream.net</a></p>
+              <p class="flex gap-3 text-white/75"><span>T:</span><a class="footer-link border-b border-dashed border-white/20 pb-1" href="tel:+593991220769">(+593) 0991220769</a></p>
             </address>
           </section>
         </div>
@@ -81,8 +83,6 @@ const serviceLinks = [
       <a class="font-[var(--fuente-secundaria)] text-[clamp(3.5rem,8vw,8rem)] leading-[.72] tracking-[-.065em] text-white" href="/" aria-label="Servistream, página de inicio">Servistream</a>
       <p class="text-sm text-white/30 lg:text-center">© Servistream 2014 - {new Date().getFullYear()}. Todos los derechos reservados</p>
       <div class="flex gap-7 text-sm text-white/70">
-        <a class="footer-link" href="https://facebook.com" rel="noreferrer">Facebook</a>
-        <a class="footer-link" href="https://linkedin.com" rel="noreferrer">LinkedIn</a>
       </div>
     </div>
   </div>

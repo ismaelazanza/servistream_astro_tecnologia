@@ -55,14 +55,14 @@ const principles = [
     <div class="relative mx-auto w-[min(100%-2.5rem,76rem)]">
       <div class="grid items-end gap-12 lg:grid-cols-[1.08fr_.92fr] lg:gap-18">
         <header data-reveal class="max-w-3xl">
-          <h5
+          <p data-section-kicker
             class="mb-6 flex items-center gap-3 text-[#91b2ff] sm:text-sm"
           >
             <span
               class="size-2 rounded-full bg-[#6d96ff] shadow-[0_0_20px_#6d96ff]"
             ></span>
             Nosotros · Servistream
-        </h5>
+        </p>
           <h1
             id="about-title"
             class="max-w-3xl font-[var(--fuente-principal)] text-[clamp(3.2rem,5.2vw,7rem)] font-medium leading-[.91] text-white"
@@ -79,14 +79,14 @@ const principles = [
             la televisión online.
           </p>
           <div class="mt-10 flex flex-wrap gap-4">
-            <a href="mailto:soporte@servistream.net" class="about-primary-link"
+            <a href="mailto:soporte@servistream.net" class="ui-button min-h-10 w-auto text-[14px] font-semibold about-primary-link"
               >Hablar con el equipo <MaterialIcon
                 name="arrow_forward"
                 size={18}
               /></a
             >
             <a href="#nuestro-enfoque" class="about-quiet-link"
-              >Conoce nuestro enfoque <MaterialIcon name="south" size={18} /></a
+              >Conoce nuestro enfoque <MaterialIcon name="south" size={14} /></a
             >
           </div>
         </header>
@@ -108,7 +108,7 @@ const principles = [
             <span class="network-orbit orbit-one"></span><span
               class="network-orbit orbit-two"></span><span
               class="network-orbit orbit-three"></span>
-            <div class="network-core"><span>S</span><small><p class="text-[6px] font-bold text-white">SERVISTREAM</p></small></div>
+            <div class="network-core"><span>S</span><small><p class="text-[6px] font-bold text-white">Servistream</p></small></div>
             <div class="network-node node-hosting">
               <MaterialIcon name="language" size={20} /><span><p class="text-white font-semibold text-[12px]">Hosting</p></span>
             </div>
@@ -136,7 +136,7 @@ const principles = [
     <div class="mx-auto w-[min(100%-2.5rem,76rem)]">
       <div class="grid gap-10 lg:grid-cols-[.75fr_1.25fr] lg:gap-20">
         <div data-reveal>
-          <h5 class="about-kicker text-left text-[#3b68d5]">LO QUE NOS MUEVE</h5>
+          <p data-section-kicker class="about-kicker text-left text-[#3b68d5]">LO QUE NOS MUEVE</p>
 
         </div>
         <div data-reveal>
@@ -178,7 +178,7 @@ const principles = [
         class="flex flex-col justify-between gap-7 border-b border-[#cfdcff] pb-10 md:flex-row md:items-end"
       >
         <div>
-          <h5 class="text-left text-[#3b68d5]">NUESTRA MANERA DE HACERLO</h5><h2
+          <p data-section-kicker class="text-left text-[#3b68d5]">NUESTRA MANERA DE HACERLO</p><h2
             id="about-pillars-title"
             class="mt-5 font-[var(--fuente-principal)] leading-none"
           >
@@ -226,7 +226,7 @@ const principles = [
     <div class="relative mx-auto w-[min(100%-2.5rem,76rem)]">
       <div class="grid gap-12 lg:grid-cols-[.9fr_1.1fr] lg:gap-18">
         <header data-reveal>
-          <h5 class="text-[#3b68d5] text-left">NUESTRO UNIVERSO</h5><h2
+          <p data-section-kicker class="text-[#3b68d5] text-left">NUESTRO UNIVERSO</p><h2
             id="about-services-title"
             class="mt-5 font-[var(--fuente-principal)] leading-[.96] text-white"
           >
@@ -281,7 +281,7 @@ const principles = [
   >
     <div class="mx-auto w-[min(100%-2.5rem,76rem)]">
       <header data-reveal class="max-w-3xl">
-        <h5 class="about-kicker text-[#3b68d5] text-left">NUESTROS PRINCIPIOS</h5><h2
+        <p data-section-kicker class="about-kicker text-[#3b68d5] text-left">NUESTROS PRINCIPIOS</p><h2
           id="about-principles-title"
           class="mt-5 font-[var(--fuente-principal)] text-[#101935]"
         >
@@ -323,11 +323,11 @@ const principles = [
       >
       </div>
       <div class="relative">
-        <h5
+        <p data-section-kicker
           class="font-[var(--fuente-principal)] text-[#3b68d5]"
         >
           CONVERSEMOS
-      </h5><h2
+      </p><h2
           class="mx-auto mt-5 font-[var(--fuente-principal)] leading-[.94] text-white"
         >
           Tu siguiente señal merece <br> una gran base.
@@ -335,7 +335,7 @@ const principles = [
           class="mx-auto mt-6 max-w-xl font-[var(--fuente-principal)] mb-20 leading-relaxed text-[#dfe7ff]"
         >
           Cuéntanos qué quieres construir. Estamos listos para acompañarte.
-        </p><a href="mailto:soporte@servistream.net" class="about-cta-link"
+        </p><a href="mailto:soporte@servistream.net" class="ui-button min-h-10 w-auto text-[14px] font-semibold about-cta-link"
           >Escríbenos <MaterialIcon name="arrow_forward" size={18} /></a>
       </div>
     </div>
@@ -438,7 +438,8 @@ const principles = [
     color: #d7e2ff;
     text-decoration: none;
     font: var(--fuente-principal);
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 14px;
   }
   .about-network {
     border: 1px solid rgba(161, 184, 255, 0.25);

@@ -5,7 +5,7 @@ import Footer from '../components/footerNegro.astro';
 import MaterialIcon from '../components/MaterialIcon.astro';
 ---
 
-<Layout title="Estado de servicios | ServiStream" description="Consulta el estado en tiempo real de la infraestructura y servicios de ServiStream." bodyClass="bg-white">
+<Layout title="Estado de Servicios y Monitor de Disponibilidad | Servistream" description="Consulta el monitor público de Servistream para revisar disponibilidad, tiempos de respuesta e historial de incidencias de nuestra infraestructura." bodyClass="bg-white">
   <div class="min-h-screen bg-white text-[#101828]">
     <MenuNegro variant="blanco" />
     <main class="relative overflow-hidden pt-28 sm:pt-36">
@@ -14,7 +14,7 @@ import MaterialIcon from '../components/MaterialIcon.astro';
 
       <section class="relative mx-auto container pb-16 text-center sm:pb-20">
         <span class="inline-flex items-center gap-2 rounded-full border border-emerald-300/60 bg-emerald-50 px-4 py-2 font-[var(--fuente-principal)] text-sm font-medium text-emerald-700"><span class="size-2 rounded-full bg-emerald-500 shadow-[0_0_14px_#4ade80]"></span>Monitoreo en tiempo real</span>
-        <h1 class="mx-auto mt-7 max-w-4xl text-[clamp(2.8rem,6vw,6rem)] leading-[.93] text-[#101828]">Estado de nuestros servicios</h1>
+        <h1 class="mx-auto mt-7 max-w-4xl text-[clamp(2.8rem,4vw,4rem)] leading-[.93] text-[#101828]">Estado de nuestros servicios</h1>
         <p class="mx-auto mt-6 max-w-2xl font-[var(--fuente-principal)] text-lg leading-relaxed text-[#526078]">Consulta la disponibilidad de nuestra infraestructura de hosting, radio streaming, televisión y servicios en línea.</p>
         <div class="mx-auto mt-10 grid max-w-3xl gap-4 text-left sm:grid-cols-3">
           <article class="rounded-2xl border border-[#dce5f5] bg-white/80 p-5 shadow-[0_14px_35px_rgba(54,93,157,.08)] backdrop-blur-lg"><MaterialIcon name="monitoring" size={24} class="text-[#286fe6]"/><p class="mt-4 font-[var(--fuente-principal)] font-semibold">Monitoreo continuo</p><p class="mt-1 font-[var(--fuente-principal)] text-sm text-[#66738a]">Verificación automática 24/7.</p></article>
@@ -25,10 +25,16 @@ import MaterialIcon from '../components/MaterialIcon.astro';
 
       <section class="relative mx-auto container pb-24 sm:pb-32" aria-label="Panel de estado UptimeRobot">
         <div class="overflow-hidden rounded-[2rem] border border-[#d9e4f5] bg-white/85 p-2 shadow-[0_25px_80px_rgba(37,77,133,.16)] backdrop-blur-xl sm:p-4">
-          <div class="flex flex-wrap items-center justify-between gap-4 border-b border-[#e3eaf5] px-4 py-4 font-[var(--fuente-principal)] sm:px-6"><div class="flex items-center gap-3"><span class="grid size-10 place-items-center rounded-xl bg-[#1e64d7] text-white"><MaterialIcon name="dns" size={22} /></span><div><p class="font-semibold text-[#17223a]">Estado de la infraestructura</p><p class="text-sm text-[#66738a]">Datos proporcionados por UptimeRobot</p></div></div><a href="https://stats.uptimerobot.com/L02P2B2oYz" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-full border border-[#7eaeff] bg-[#eef5ff] px-4 py-2 text-sm font-medium text-[#1760cc] no-underline transition hover:bg-[#dbeaff]">Abrir monitor <MaterialIcon name="open_in_new" size={17} /></a></div>
-          <div class="relative min-h-[42rem] bg-white"><iframe title="Estado de servicios de ServiStream" src="https://stats.uptimerobot.com/L02P2B2oYz" class="absolute inset-0 size-full border-0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">Tu navegador no permite mostrar el panel de estado. <a href="https://stats.uptimerobot.com/L02P2B2oYz" target="_blank" rel="noopener noreferrer">Abrir estado de servicios</a>.</iframe></div>
+          <div class="flex flex-wrap items-center justify-between gap-4 border-b border-[#e3eaf5] px-4 py-4 font-[var(--fuente-principal)] sm:px-6"><div class="flex items-center gap-3"><span class="grid size-10 place-items-center rounded-xl bg-[#1e64d7] text-white"><MaterialIcon name="dns" size={22} /></span><div><p class="font-semibold text-[#17223a]">Estado de la infraestructura</p><p class="text-sm text-[#66738a]">Datos proporcionados por UptimeRobot</p></div></div><a href="https://stats.uptimerobot.com/L02P2B2oYz" target="_blank" rel="noopener noreferrer" class="ui-button min-h-10 w-auto text-[14px] font-semibold inline-flex items-center gap-2 rounded-full border-1 border-[#7eaeff] bg-[#eef5ff] px-4 py-2   text-[#1760cc] no-underline transition hover:bg-[#dbeaff]">Abrir monitor <MaterialIcon name="open_in_new" size={17} /></a></div>
+          <div class="px-5 py-12 text-center sm:px-10 sm:py-16">
+            <span class="mx-auto grid size-16 place-items-center rounded-2xl bg-[#eef5ff] text-[#1760cc]" aria-hidden="true"><MaterialIcon name="monitoring" size={32} /></span>
+            <h2 class="mt-6 text-[clamp(1.8rem,3vw,2.5rem)] leading-tight text-[#17223a]">Consulta el monitor de servicios</h2>
+            <p class="mx-auto mt-4 max-w-xl text-base leading-relaxed text-[#66738a]">Revisa la disponibilidad actual, el historial de incidentes y los tiempos de respuesta en nuestro panel público de UptimeRobot.</p>
+            <a href="https://stats.uptimerobot.com/L02P2B2oYz" target="_blank" rel="noopener noreferrer" class="ui-button min-h-10 w-auto text-[14px] font-semibold mx-auto mt-7 inline-flex items-center justify-center gap-2 rounded-full bg-[#1760cc] px-6 py-2.5 text-white no-underline transition hover:bg-[#124fa8] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1760cc]">Ver estado en tiempo real <MaterialIcon name="open_in_new" size={18} /></a>
+            <p class="mt-4 text-sm text-[#71809a]">Se abre en una nueva pestaña.</p>
+          </div>
         </div>
-        <p class="mt-5 text-center font-[var(--fuente-principal)] text-sm text-[#71809a]">El estado se actualiza directamente desde nuestro panel público de monitoreo.</p>
+        <p class="mt-5 text-center font-[var(--fuente-principal)] text-sm text-[#71809a]">La información de disponibilidad se consulta directamente en el monitor externo. Si necesitas ayuda, <a href="/contacto" class="font-medium text-[#1760cc] underline underline-offset-4">contacta con soporte</a>.</p>
       </section>
     </main>
   </div>

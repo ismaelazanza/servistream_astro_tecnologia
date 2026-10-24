@@ -1,0 +1,27 @@
+---
+import metadata from '../data/seo.json';
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const groups: Record<string, string[]> = {
+  '/web-hosting': ['/dominios', '/vps-hosting', '/wordpress', '/paginas-web'],
+  '/vps-hosting': ['/web-hosting', '/srt-server', '/vdopanel'],
+  '/wordpress': ['/web-hosting', '/dominios', '/migracion'],
+  '/dominios': ['/web-hosting', '/wordpress', '/paginas-web'],
+  '/paginas-web': ['/web-hosting', '/dominios', '/wordpress'],
+  '/radio-streaming': ['/azuracast', '/radio-cetovacast', '/reseller-radio'],
+  '/radio-cetovacast': ['/radio-streaming', '/azuracast', '/reseller-radio'],
+  '/azuracast': ['/radio-streaming', '/radio-cetovacast', '/vps-hosting'],
+  '/reseller-radio': ['/radio-streaming', '/radio-cetovacast', '/tv-streaming'],
+  '/tv-streaming': ['/srt-server', '/vdopanel', '/vps-hosting'],
+  '/srt-server': ['/tv-streaming', '/vdopanel', '/vps-hosting'],
+  '/vdopanel': ['/tv-streaming', '/srt-server', '/vps-hosting'],
+  '/reseller-hosting': ['/web-hosting', '/dominios', '/vps-hosting'],
+  '/migracion': ['/web-hosting', '/wordpress', '/vps-hosting'],
+};
+const blogServices = path.includes('radio') ? ['/radio-streaming', '/azuracast'] : path.includes('tv') ? ['/tv-streaming', '/srt-server'] : ['/web-hosting', '/vps-hosting', '/migracion'];
+const links = groups[path] ?? (path.startsWith('/blog/') ? blogServices : []);
+const page = metadata[path as keyof typeof metadata];
+---
+{path !== '/' && (links.length > 0 || !!page) && <div class="mx-auto w-[min(100%-2rem,102rem)] border-b border-white/10 px-2 py-8 sm:px-6 lg:px-10">
+  {path !== '/' && <nav aria-label="Ruta de navegación" class="mb-5 text-sm text-white/60"><a href="/" class="hover:text-white">Inicio</a><span aria-hidden="true" class="mx-2">/</span>{path.startsWith('/blog/') && <><a href="/blog" class="hover:text-white">Blog</a><span aria-hidden="true" class="mx-2">/</span></>}<span aria-current="page">{page?.label ?? 'Artículo'}</span></nav>}
+  {links.length > 0 && <nav aria-label="Servicios relacionados"><p class="mb-3 text-sm font-semibold text-white">Servicios para complementar tu proyecto</p><ul class="flex list-none flex-wrap gap-x-6 gap-y-3 p-0">{links.map((href) => <li><a class="text-sm text-white/75 underline decoration-white/20 underline-offset-4 hover:text-white" href={href}>{metadata[href as keyof typeof metadata].label}</a></li>)}</ul></nav>}
+</div>}

@@ -1,32 +1,124 @@
 ---
-import MaterialIcon from '../MaterialIcon.astro';
+import MaterialIcon from "../MaterialIcon.astro";
 
 const capabilities = [
-  { icon: 'settings_input_antenna', title: 'Canales en vivo', text: 'Crea y administra tus señales desde un panel central.' },
-  { icon: 'videocam', title: 'RTMP para OBS', text: 'Conecta tu encoder mediante URL y clave de transmisión.' },
-  { icon: 'movie', title: 'VOD automático', text: 'Convierte tus emisiones en contenido disponible bajo demanda.' },
-  { icon: 'hub', title: 'Simulcast', text: 'Distribuye tu programación a más destinos desde un solo lugar.' },
+  {
+    icon: "settings_input_antenna",
+    title: "Canales en vivo",
+    text: "Crea y administra tus señales desde un panel central.",
+  },
+  {
+    icon: "videocam",
+    title: "RTMP para OBS",
+    text: "Conecta tu encoder mediante URL y clave de transmisión.",
+  },
+  {
+    icon: "movie",
+    title: "VOD automático",
+    text: "Convierte tus emisiones en contenido disponible bajo demanda.",
+  },
+  {
+    icon: "hub",
+    title: "Simulcast",
+    text: "Distribuye tu programación a más destinos desde un solo lugar.",
+  },
 ];
 ---
 
-<main class="relative overflow-hidden bg-[#030713] text-white" aria-labelledby="tv-title">
-  <div class="pointer-events-none absolute inset-x-0 top-0 h-[58rem] bg-[radial-gradient(ellipse_at_50%_12%,rgba(51,109,255,.5),transparent_42%),radial-gradient(circle_at_74%_44%,rgba(100,63,255,.32),transparent_25%),linear-gradient(180deg,#07132e_0%,#030713_82%)]"></div>
-  <div class="pointer-events-none absolute inset-0 opacity-35 [background-image:radial-gradient(rgba(158,190,255,.8)_1px,transparent_1.5px)] [background-size:4rem_4rem] [mask-image:linear-gradient(180deg,black,transparent_55%)]"></div>
-  <section class="relative mx-auto w-[min(100%-2.5rem,116rem)] py-38 sm:w-[min(100%-4rem,116rem)] sm:py-44">
+<main
+  class="relative overflow-hidden bg-[#171717] text-white"
+  aria-labelledby="tv-title"
+>
+  <div
+    class="tv-hero-aura pointer-events-none absolute inset-x-0 top-0 h-[58rem] [mask-image:linear-gradient(to_bottom,black_0%,black_45%,transparent_100%)]"
+  >
+  </div>
+  <div
+    class="tv-hero-particles pointer-events-none absolute inset-0 opacity-35 [background-size:4rem_4rem] [mask-image:linear-gradient(180deg,black,transparent_55%)]"
+  >
+  </div>
+  <section
+    class="relative mx-auto w-[min(100%-2.5rem,116rem)] py-38 sm:w-[min(100%-4rem,116rem)] sm:py-44"
+  >
     <header class="mx-auto container text-center">
-      <h5 class="inline-flex rounded-full border mb-0 border-white/15 bg-white/10 px-5 py-1  text-[#c6d4ff] ">STREAMCP PRO</h5>
-      <h1 id="tv-title" class="mt-[-40px] text-[clamp(3.2rem,4vw,7rem)] leading-[.9]">Tu señal de TV,<br />en todas partes.</h1>
-      <p class="mx-auto mt-7 font-[var(--fuente-principal)]  leading-relaxed text-[#c5cee8]">Emite en vivo, programa contenido y administra tu canal profesional con StreamCP Pro.</p>
-      <div class="mt-10 flex flex-wrap justify-center gap-4"><a href="#funciones" class="inline-flex min-h-10 items-center justify-center rounded-full bg-[#4a74ff] px-8 font-[var(--fuente-principal)] font-bold text-white no-underline shadow-[0_14px_34px_rgb(74_116_255_/_30%)] transition hover:-translate-y-0.5 hover:bg-[#3c66ed]">Conoce StreamCP Pro</a><a href="https://clientes.servistream.net/cart.php" class="inline-flex min-h-10 items-center justify-center rounded-full border border-white/25 bg-white/8 px-8 font-[var(--fuente-principal)] font-bold text-white no-underline backdrop-blur transition hover:bg-white/15">Ver planes</a></div>
+      <p
+        data-section-kicker
+        class="inline-flex rounded-full border mb-0 border-white/15 bg-white/10 px-5 py-1 text-[#e7c6ff]"
+      >
+        STREAMCP PRO
+      </p>
+      <h1
+        id="tv-title"
+        class="mt-[-40px] text-[clamp(3.2rem,4vw,7rem)] leading-[.9]"
+      >
+        Tu señal de TV,<br />en todas partes.
+      </h1>
+      <p
+        class="mx-auto mt-7 font-[var(--fuente-principal)] leading-relaxed text-white/75"
+      >
+        Emite en vivo, programa contenido y administra tu canal profesional con
+        StreamCP Pro.
+      </p>
+      <div class="mt-10 flex flex-wrap justify-center gap-4">
+        <a
+          href="#funciones"
+          class="tv-primary-action ui-button min-h-10 w-auto text-[14px] font-semibold inline-flex items-center justify-center rounded-full px-8 font-[var(--fuente-principal)] text-white no-underline transition hover:-translate-y-0.5"
+          >Conoce StreamCP Pro</a
+        ><a
+          href="https://clientes.servistream.net/index.php?rp=/store/streaming-tv"
+          class="ui-button min-h-10 w-auto text-[14px] font-semibold inline-flex items-center justify-center rounded-full border-1 border-white/25 bg-white/8 px-8 font-[var(--fuente-principal)] text-white no-underline backdrop-blur transition hover:bg-white/15"
+          >Ver planes</a>
+      </div>
     </header>
 
     <div class="relative mx-auto mt-20 max-w-4xl">
-      <div class="absolute -inset-10 rounded-[3rem] bg-[#476aff]/20 blur-3xl"></div>
-      <div class="relative overflow-hidden rounded-[1.8rem] border border-white/20 bg-[#0e1528]/70 p-2 shadow-[0_32px_90px_rgb(0_0_0_/_40%),inset_0_1px_0_rgb(255_255_255_/_13%)] backdrop-blur-md sm:p-3">
-        <img src="/img/tv-streaming/Captura de pantalla 2026-09-13 a las 6.32.09 p. m..png" alt="Panel StreamCP Pro con canales, espectadores, ancho de banda y estado de emisión" class="w-full rounded-[1.3rem]" loading="eager" fetchpriority="high" />
+      <div class="tv-panel-glow absolute -inset-10 rounded-[3rem] blur-3xl">
       </div>
-      <div class="absolute -bottom-8 right-[4%] hidden items-center gap-4 rounded-2xl border border-white/20 bg-[#111936]/85 p-5 shadow-xl backdrop-blur-xl lg:flex"><span class="grid size-12 place-items-center rounded-xl bg-[#38c98b] text-white"><MaterialIcon name="wifi" size={27} /></span><div><p class="font-[var(--fuente-principal)] text-sm text-[#aeb9d8]">Estado de emisión</p><p class="font-[var(--fuente-principal)] text-lg font-bold text-white">Señal activa</p></div></div>
+      <div
+        class="relative overflow-hidden rounded-[1.8rem] border border-white/20 bg-[#171717]/70 p-2 shadow-[0_32px_90px_rgb(0_0_0_/_40%),inset_0_1px_0_rgb(255_255_255_/_13%)] backdrop-blur-md sm:p-3"
+      >
+        <img
+          height="1720"
+          width="3024"
+          decoding="async"
+          src="/img/tv-streaming/panel-streamcp-pro.webp"
+          alt="Panel StreamCP Pro con canales, espectadores, ancho de banda y estado de emisión"
+          class="w-full rounded-[1.3rem]"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </div>
+      <div
+        class="tv-status-card absolute -bottom-8 right-[4%] hidden items-center gap-4 rounded-2xl border border-white/20 p-5 shadow-xl backdrop-blur-xl lg:flex"
+      >
+        <span
+          class="tv-status-icon grid size-12 place-items-center rounded-xl text-white"
+          ><MaterialIcon name="wifi" size={27} /></span
+        ><div>
+          <p class="font-[var(--fuente-principal)] text-sm text-white/65">
+            Estado de emisión
+          </p><p
+            class="font-[var(--fuente-principal)] text-lg font-bold text-white"
+          >
+            Señal activa
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </main>
 
+<style>
+  .tv-hero-aura {
+    background:
+      radial-gradient(ellipse at 50% 12%, rgb(var(--service-accent) / .5), transparent 42%),
+      radial-gradient(circle at 74% 44%, rgb(var(--service-accent) / .32), transparent 25%);
+  }
+  .tv-hero-particles { background-image: radial-gradient(rgb(var(--service-accent) / .8) 1px, transparent 1.5px); }
+  .tv-primary-action,
+  .tv-status-icon { background: rgb(var(--service-accent)); }
+  .tv-primary-action { box-shadow: 0 14px 34px rgb(var(--service-accent) / .30); }
+  .tv-primary-action:hover { background: color-mix(in srgb, rgb(var(--service-accent)) 82%, black); }
+  .tv-panel-glow { background: rgb(var(--service-accent) / .20); }
+  .tv-status-card { background: rgb(23 23 23 / .85); }
+</style>

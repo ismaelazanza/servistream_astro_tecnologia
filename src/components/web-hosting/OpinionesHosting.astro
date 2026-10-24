@@ -1,4 +1,5 @@
 ---
+import { imageSize } from '../../data/images';
 import MaterialIcon from '../MaterialIcon.astro';
 
 export interface HostingTestimonial {
@@ -88,10 +89,10 @@ const {
 
     <div class="mt-10 flex items-center justify-between gap-6">
       <div class="flex rounded-full bg-[#f2f3f2] p-1">
-        <button class="testimonial-control" type="button" aria-label="Opinión anterior" data-testimonial-prev>
+        <button class="ui-button min-h-10 w-auto text-[14px] font-semibold testimonial-control" type="button" aria-label="Opinión anterior" data-testimonial-prev>
           <MaterialIcon name="arrow_back" size={22} />
         </button>
-        <button class="testimonial-control" type="button" aria-label="Siguiente opinión" data-testimonial-next>
+        <button class="ui-button min-h-10 w-auto text-[14px] font-semibold testimonial-control" type="button" aria-label="Siguiente opinión" data-testimonial-next>
           <MaterialIcon name="arrow_forward" size={22} />
         </button>
       </div>
@@ -105,7 +106,7 @@ const {
   </div>
 
   <figure class="min-h-120 lg:min-h-200">
-    <img class="size-full object-cover object-center" src={image} alt={imageAlt} loading="lazy" />
+    <img {...imageSize(image)} decoding="async" class="size-full object-cover object-center" src={image} alt={imageAlt} loading="lazy" />
   </figure>
 </section>
 

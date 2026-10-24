@@ -1,4 +1,5 @@
 ---
+import { imageSize } from '../data/images';
 const clientsTop = [
   { src: '/img/clientes/acolita.svg', name: 'Acolita' },
   { src: '/img/clientes/corporacion.svg', name: 'Corporación' },
@@ -23,16 +24,16 @@ const clientsBottom = [
 ---
 
 <section class="clients-section overflow-hidden bg-[#f5f5f5] py-16 sm:py-24" aria-labelledby="clients-title">
-  <h5 id="clients-title">
+  <p data-section-kicker id="clients-title">
     Marcas y empresas que confían en nosotros
-  </h5>
+  </p>
 
   <div class="clients-viewport">
     <div class="clients-row clients-row--right" aria-label="Clientes destacados">
       {[0, 1].map((copy) => (
         <div class="clients-track" aria-hidden={copy === 1 ? 'true' : undefined}>
           {clientsTop.map((client) => (
-            <div class="client-logo"><img src={client.src} alt={copy === 0 ? client.name : ''} loading="lazy" /></div>
+            <div class="client-logo"><img {...imageSize(client.src)} decoding="async" src={client.src} alt={copy === 0 ? client.name : ''} loading="lazy" /></div>
           ))}
         </div>
       ))}
@@ -44,7 +45,7 @@ const clientsBottom = [
       {[0, 1].map((copy) => (
         <div class="clients-track" aria-hidden={copy === 1 ? 'true' : undefined}>
           {clientsBottom.map((client) => (
-            <div class="client-logo"><img src={client.src} alt={copy === 0 ? client.name : ''} loading="lazy" /></div>
+            <div class="client-logo"><img {...imageSize(client.src)} decoding="async" src={client.src} alt={copy === 0 ? client.name : ''} loading="lazy" /></div>
           ))}
         </div>
       ))}

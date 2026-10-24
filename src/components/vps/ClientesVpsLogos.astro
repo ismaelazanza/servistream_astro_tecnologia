@@ -1,4 +1,5 @@
 ---
+import { imageSize } from '../../data/images';
 const clients = [
   { src: '/img/clientes/acolita.svg', name: 'Acolita' },
   { src: '/img/clientes/corporacion.svg', name: 'Corporación' },
@@ -14,14 +15,14 @@ const clients = [
 <section class="bg-[#101014] px-5 py-20 text-white sm:px-8 lg:px-12 lg:py-20" aria-labelledby="vps-clientes-title">
   <div class="mx-auto max-w-[118rem]">
     <div class="mb-14 flex items-center justify-between gap-6">
-      <h5 id="vps-clientes-title" class="text-left text-[var(--h-blanco)]">Clientes que confían en Servistream</h5>
+      <p data-section-kicker id="vps-clientes-title" class="text-left text-[var(--h-blanco)]">Clientes que confían en Servistream</p>
 
     </div>
 
     <div class="grid grid-cols-2 gap-x-10 gap-y-14 sm:grid-cols-3 lg:grid-cols-4">
       {clients.map((client) => (
         <div class="flex min-h-20 items-center justify-center">
-          <img
+          <img {...imageSize(client.src)} decoding="async"
             class="h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100"
             src={client.src}
             alt={client.name}

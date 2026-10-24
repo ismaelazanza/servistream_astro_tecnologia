@@ -1,4 +1,5 @@
 ---
+import { faqSchema } from '../../data/schema';
 import MaterialIcon from "../MaterialIcon.astro";
 
 const product = "vdo";
@@ -81,48 +82,50 @@ const content = {
 
 const plans = [
   {
-    name: "Live Streaming Small",
+    name: "VDO-1",
     price: "20",
-    href: "https://clientes.servistream.net/index.php?rp=/store/streaming-tv/live-streaming-small",
-    viewers: "99 televidentes",
+    href: "https://clientes.servistream.net/index.php?rp=/store/server-vdo/vdo-1",
+    viewers: "Televidentes no medido",
     cpu: "2 vCores CPU",
     ram: "4 GB RAM",
-    disk: "120 GB NVMe",
+    disk: "40 GB NVMe",
   },
   {
-    name: "Live Streaming Profesional",
+    name: "VDO-2",
     price: "30",
-    href: "https://clientes.servistream.net/index.php?rp=/store/streaming-tv/live-streaming-professional",
-    viewers: "499 televidentes",
+    href: "https://clientes.servistream.net/index.php?rp=/store/server-vdo/vdo-2",
+    viewers: "Televidentes no medido",
     cpu: "4 vCores CPU",
     ram: "8 GB RAM",
-    disk: "240 GB NVMe",
+    disk: "75 GB NVMe",
     popular: true,
   },
   {
-    name: "Streaming Basic",
-    price: "30",
-    href: "https://clientes.servistream.net/index.php?rp=/store/streaming-tv/cloud-streaming-basic",
-    viewers: "99 televidentes",
-    cpu: "8 vCores CPU",
-    ram: "16 GB RAM",
-    disk: "480 GB NVMe",
+    name: "VDO-3",
+    price: "40",
+    href: "https://clientes.servistream.net/index.php?rp=/store/server-vdo/vdo-3",
+    viewers: "Televidentes no medido",
+    cpu: "6 vCores CPU",
+    ram: "12 GB RAM",
+    disk: "100 GB NVMe",
   },
   {
-    name: "Streaming Medium",
-    price: "40",
-    href: "https://clientes.servistream.net/index.php?rp=/store/streaming-tv/cloud-streaming-medium",
-    viewers: "299 televidentes",
-    cpu: "12 vCores CPU",
+    name: "VDO-4",
+    price: "65",
+    href: "https://clientes.servistream.net/index.php?rp=/store/server-vdo/vdo-4",
+    viewers: "Televidentes no medido",
+    cpu: "8 vCores CPU",
     ram: "24 GB RAM",
-    disk: "720 GB NVMe",
+    disk: "200 GB NVMe",
     featured: true,
   },
 ];
 ---
+<script type="application/ld+json" set:html={faqSchema(content.faq.map(([question, answer]) => ({ question, answer })))} />
+
 
 <main
-  class="vps-streaming-page overflow-hidden bg-[#030713] text-white"
+  class="vps-streaming-page overflow-hidden bg-[#171717] text-white"
   data-vps-streaming
 >
   <section
@@ -130,62 +133,62 @@ const plans = [
     aria-labelledby={`${product}-title`}
   >
     <div
-      class="pointer-events-none absolute inset-x-0 top-0 h-[54rem] bg-[radial-gradient(ellipse_at_50%_10%,rgba(47,105,255,.54),transparent_42%),radial-gradient(circle_at_74%_46%,rgba(87,54,240,.3),transparent_27%),linear-gradient(180deg,#07132e_0%,#030713_88%)]"
+      class="vps-hero-aura pointer-events-none absolute inset-x-0 top-0 h-[54rem] [mask-image:linear-gradient(to_bottom,black_0%,black_45%,transparent_100%)]"
     >
     </div>
     <div
-      class="pointer-events-none absolute inset-0 opacity-35 [background-image:radial-gradient(rgba(158,190,255,.8)_1px,transparent_1.5px)] [background-size:4rem_4rem] [mask-image:linear-gradient(180deg,black,transparent_55%)]"
+      class="vps-hero-particles pointer-events-none absolute inset-0 opacity-35 [background-size:4rem_4rem] [mask-image:linear-gradient(180deg,black,transparent_55%)]"
     >
     </div>
     <section
       class="relative mx-auto w-[min(100%-2.5rem,116rem)] py-38 sm:w-[min(100%-4rem,116rem)] sm:py-44"
     >
       <header class="mx-auto container text-center" data-vps-reveal>
-        <h5
-          class="inline-flex px-5 py-1 text-[#c6d4ff]"
+        <p data-section-kicker
+          class="vps-accent-soft inline-flex px-5 py-1"
         >
           {content.badge}
-        </h5>
+        </p>
         <h1
           id={`${product}-title`}
           class="mt-7 text-[60px] leading-[.9]"
           set:html={content.title}
         />
         <p
-          class="mx-auto mt-7 max-w-3xl font-[var(--fuente-principal)] leading-relaxed text-[#c5cee8]"
+          class="vps-muted mx-auto mt-7 max-w-3xl font-[var(--fuente-principal)] leading-relaxed"
         >
           {content.description}
         </p>
         <div class="mt-10 flex flex-wrap justify-center gap-4">
           <a
             href="#funciones"
-            class="inline-flex min-h-10 items-center justify-center rounded-full bg-[#4a74ff] px-8 font-[var(--fuente-principal)] font-bold text-white no-underline shadow-[0_14px_34px_rgb(74_116_255_/_30%)] transition hover:-translate-y-0.5 hover:bg-[#3c66ed]"
+            class="vps-action ui-button min-h-10 w-auto text-[14px] font-semibold inline-flex items-center justify-center rounded-full px-8 font-[var(--fuente-principal)] text-white no-underline transition hover:-translate-y-0.5"
             >{content.primary}</a
           ><a
             href="#planes"
-            class="inline-flex min-h-10 items-center justify-center rounded-full border border-white/25 bg-white/8 px-8 font-[var(--fuente-principal)] font-bold text-white no-underline backdrop-blur transition hover:bg-white/15"
+            class="ui-button min-h-10 w-auto text-[14px] font-semibold inline-flex  items-center justify-center rounded-full border-1 border-white/25 bg-white/8 px-8 font-[var(--fuente-principal)]  text-white no-underline backdrop-blur transition hover:bg-white/15"
             >Ver planes</a>
         </div>
       </header>
       <div class="relative mx-auto mt-20 max-w-5xl" data-vps-reveal>
-        <div class="absolute -inset-10 rounded-[3rem] bg-[#476aff]/20 blur-3xl">
+        <div class="vps-glow absolute -inset-10 rounded-[3rem] blur-3xl">
         </div>
         <div
-          class="relative overflow-hidden rounded-[1.8rem] bg-[#0e1528]/70 p-5 shadow-[0_32px_90px_rgb(0_0_0_/_40%),inset_0_1px_0_rgb(255_255_255_/_13%)] backdrop-blur-md sm:p-8"
+          class="relative overflow-hidden rounded-[1.8rem] bg-[#171717]/70 p-5 shadow-[0_32px_90px_rgb(0_0_0_/_40%),inset_0_1px_0_rgb(255_255_255_/_13%)] backdrop-blur-md sm:p-8"
         >
           <div
             class="flex items-center justify-between  pb-5"
           >
             <div class="flex items-center gap-3">
               <span
-                class="grid size-11 place-items-center rounded-xl bg-[#4775ff]"
+                class="vps-accent-bg grid size-11 place-items-center rounded-xl"
                 ><MaterialIcon
                   name={isSrt ? "settings_input_antenna" : "live_tv"}
                   size={25}
                 /></span
               ><div>
                 <p class="font-[var(--fuente-principal)] font-bold text-white">{content.panel}</p><p
-                  class="font-[var(--fuente-principal)] text-sm text-[#aeb9d8]"
+                  class="vps-muted font-[var(--fuente-principal)] text-sm"
                 >
                   {content.panelText}
                 </p>
@@ -212,12 +215,12 @@ const plans = [
                             : "support_agent"
                       }
                       size={23}
-                      class="text-[#87a3ff]"
+                      class="vps-accent"
                     />
                     <p class="mt-7 font-[var(--fuente-principal)] text-3xl font-bold text-white">
                       {value}
                     </p>
-                    <p class="mt-1 font-[var(--fuente-principal)] text-sm text-[#afbbdc]">
+                    <p class="vps-muted mt-1 font-[var(--fuente-principal)] text-sm">
                       {label}
                     </p>
                   </>
@@ -226,11 +229,11 @@ const plans = [
             }
           </div>
           <div
-            class="mt-5 rounded-2xl bg-[#081127]/75 p-5"
+            class="mt-5 rounded-2xl bg-[#171717]/75 p-5"
           >
             <div class="flex items-end justify-between">
               <div>
-                <p class="font-[var(--fuente-principal)] text-sm text-[#b6c6f5]">
+                <p class="vps-accent-soft font-[var(--fuente-principal)] text-sm">
                   Estado de la señal
                 </p><p class="mt-1 font-[var(--fuente-principal)] text-3xl font-bold text-white">
                   Estable
@@ -246,7 +249,7 @@ const plans = [
                 class="vps-chart"
                 d="M0 66 C33 56 58 60 88 48 S137 62 166 37 S221 50 250 29 S309 43 339 16 S375 21 400 6"
                 fill="none"
-                stroke="#6990ff"
+                class="vps-chart"
                 stroke-width="3"></path></svg>
           </div>
         </div>
@@ -256,18 +259,18 @@ const plans = [
 
   <section
     id="funciones"
-    class="relative bg-[#030713] py-20 sm:py-32"
+    class="relative bg-[#171717] py-20 sm:py-32"
     aria-labelledby={`${product}-features`}
   >
     <div class="mx-auto container">
       <header class="mx-auto max-w-4xl text-center" data-vps-reveal>
-        <h5 class="text-[#6490ff]">INFRAESTRUCTURA PROFESIONAL</h5><h2
+        <p data-section-kicker class="vps-accent">INFRAESTRUCTURA PROFESIONAL</p><h2
           id={`${product}-features`}
           class="mt-6 leading-[.94]"
         >
           Tecnología para una emisión confiable
         </h2><p
-          class="mx-auto mt-6 max-w-3xl font-[var(--fuente-principal)] leading-relaxed text-[#bbc5df]"
+          class="vps-muted mx-auto mt-6 max-w-3xl font-[var(--fuente-principal)] leading-relaxed"
         >
           Recursos VPS, conectividad y herramientas de operación para que tu
           señal esté preparada en cada transmisión.
@@ -280,9 +283,9 @@ const plans = [
               class="vps-card rounded-[1.6rem] border border-white/1 p-7 backdrop-blur-md"
             >
               <>
-                <MaterialIcon name={icon} size={31} class="text-[#83a0ff]" />
+                <MaterialIcon name={icon} size={31} class="vps-accent" />
                 <h3 class="mt-7 text-xl">{title}</h3>
-                <p class="mt-4 font-[var(--fuente-principal)] leading-relaxed text-[#b7c2df]">
+                <p class="vps-muted mt-4 font-[var(--fuente-principal)] leading-relaxed">
                   {text}
                 </p>
               </>
@@ -295,7 +298,7 @@ const plans = [
 
   <section
     id="planes"
-    class="relative overflow-hidden bg-[#030713] py-20 sm:py-32"
+    class="relative overflow-hidden bg-[#171717] py-20 sm:py-32"
     aria-labelledby={`${product}-plans`}
   >
     <div
@@ -306,48 +309,48 @@ const plans = [
       class="relative mx-auto w-[min(100%-2.5rem,80rem)] sm:w-[min(100%-4rem,80rem)]"
     >
       <header data-vps-reveal class="mx-auto max-w-4xl text-center">
-        <h5 class="text-[#6490ff]">PLANES VPS</h5><h2
+        <p data-section-kicker class="vps-accent">PLANES VPS</p><h2
           id={`${product}-plans`}
           class="mt-6 leading-[.94]"
         >
           Potencia que acompaña tu señal
         </h2><p
-          class="mx-auto mt-6 max-w-3xl font-[var(--fuente-principal)] leading-relaxed text-[#bbc5df]"
+          class="vps-muted mx-auto mt-6 max-w-3xl font-[var(--fuente-principal)] leading-relaxed"
         >
           Cuatro configuraciones VPS para operar tu proyecto de streaming con
           recursos escalables.
         </p>
-      </header><div class="mt-16 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+      </header><div data-streaming-plan-grid class="mt-16 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
         {
           plans.map((plan) => (
             <article
               data-vps-reveal
               class:list={[
-                "vps-plan relative flex min-h-full flex-col rounded-[1.6rem]  p-6 shadow-[inset_0_1px_0_rgb(255_255_255_/_12%)] backdrop-blur-md sm:p-7",
+                "vps-plan relative flex min-h-full flex-col rounded-[1.6rem] p-6 shadow-[inset_0_1px_0_rgb(255_255_255_/_12%)] backdrop-blur-md sm:p-7",
                 plan.featured
-                  ? "border-[#859cff]/30 bg-[linear-gradient(155deg,rgba(57,67,157,.66),rgba(15,14,42,.86))]"
-                  : "border-white/10 bg-[linear-gradient(155deg,rgba(22,27,64,.58),rgba(7,9,23,.8))]",
+                  ? "vps-plan-featured"
+                  : "vps-plan-standard",
               ]}
             >
               {plan.popular && (
-                <span class="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[#5a6fff] px-4 py-1 font-[var(--fuente-principal)] text-xs font-bold whitespace-nowrap text-white">
+                <span class="vps-badge absolute -top-3 left-1/2 -translate-x-1/2 rounded-full px-4 py-1 font-[var(--fuente-principal)] text-xs font-bold whitespace-nowrap text-white">
                   MÁS ELEGIDO
                 </span>
               )}
               {plan.featured && (
-                <span class="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[#366ee8] px-4 py-1 font-[var(--fuente-principal)] text-xs font-bold whitespace-nowrap text-white">
+                <span class="vps-badge absolute -top-3 left-1/2 -translate-x-1/2 rounded-full px-4 py-1 font-[var(--fuente-principal)] text-xs font-bold whitespace-nowrap text-white">
                   MAYOR CAPACIDAD
                 </span>
               )}
               <>
-                <p class="min-h-12 font-[var(--fuente-principal)] text-xl font-bold leading-tight text-white">
+                <p class="min-h-12 font-[var(--fuente-principal)] text-lg leading-tight text-white">
                   {plan.name}
                 </p>
-                <p class="mt-7 text-6xl leading-none">
+                <p class="mt-7 text-5xl leading-none">
                   ${plan.price}
-                  <span class="ml-1 text-lg text-[#c7cee5]">/mes</span>
+                  <span class="vps-muted ml-1 text-lg">/mes</span>
                 </p>
-                <p class="mt-3 font-[var(--fuente-principal)] text-sm text-[#c6d1f2]">
+                <p class="vps-accent-soft mt-3 font-[var(--fuente-principal)] text-sm">
                   Activación en unas horas
                 </p>
               </>
@@ -355,10 +358,8 @@ const plans = [
                 <a
                   href={plan.href}
                   class:list={[
-                    "mt-7 flex min-h-10 items-center justify-center gap-2 rounded-full border font-[var(--fuente-principal)] text-sm text-white no-underline transition hover:-translate-y-0.5",
-                    plan.featured
-                      ? "border-[#6e85ff] bg-[#566bff] hover:bg-[#6880ff]"
-                      : "border-[#7f91ff]/60 bg-white/8 hover:bg-white/15",
+                    "ui-button min-h-10 w-auto text-[14px] font-semibold mt-7 flex  items-center justify-center gap-2 rounded-full border-1 font-[var(--fuente-principal)]  text-white no-underline transition hover:-translate-y-0.5",
+                    plan.featured ? "vps-plan-button-featured" : "vps-plan-button",
                   ]}
                 >
                   Realizar pedido{" "}
@@ -369,20 +370,20 @@ const plans = [
                     <p class="font-[var(--fuente-principal)] text-sm font-bold text-white">
                       Recursos VPS:
                     </p>
-                    <ul class="mt-5 space-y-3 font-[var(--fuente-principal)] text-[.94rem] text-[#c3cae0]">
+                    <ul class="vps-muted mt-5 space-y-3 font-[var(--fuente-principal)] text-[.94rem]">
                       {[
                         plan.cpu,
                         plan.ram,
                         plan.disk,
                         plan.viewers,
                         "Transferencia ilimitada",
-                        isSrt ? "SRT / RTMP / HLS" : "Panel VDO incluido",
+                        isSrt ? "SRT / RTMP / HLS" : "Panel incluido",
                       ].map((feature) => (
-                        <li class="flex gap-2">
+                        <li class="flex gap-2 mb-1">
                           <MaterialIcon
                             name="check"
                             size={18}
-                            class="shrink-0 text-[#91a6ff]"
+                            class="vps-accent shrink-0"
                           />
                           {feature}
                         </li>
@@ -399,18 +400,18 @@ const plans = [
   </section>
 
   <section
-    class="bg-[#030713] py-20 sm:py-32"
+    class="bg-[#171717] py-20 sm:py-32"
     aria-labelledby={`${product}-control`}
   >
     <div class="mx-auto container">
       <header class="mx-auto max-w-4xl text-center" data-vps-reveal>
-        <h5 class="text-[#6490ff]">TODO BAJO CONTROL</h5><h2
+        <p data-section-kicker class="vps-accent">TODO BAJO CONTROL</p><h2
           id={`${product}-control`}
           class="mt-6 leading-[.94]"
         >
           {content.controlTitle}
         </h2><p
-          class="mx-auto mt-6 max-w-3xl font-[var(--fuente-principal)] leading-relaxed text-[#bbc5df]"
+          class="vps-muted mx-auto mt-6 max-w-3xl font-[var(--fuente-principal)] leading-relaxed"
         >
           {content.controlText}
         </p>
@@ -421,23 +422,21 @@ const plans = [
               data-vps-reveal
               class:list={[
                 "vps-control-card overflow-hidden rounded-[1.75rem] p-7 backdrop-blur-md sm:p-9",
-                index % 2 === 0
-                  ? "bg-[linear-gradient(145deg,rgba(36,50,126,.55),rgba(12,15,38,.66))]"
-                  : "bg-[linear-gradient(145deg,rgba(20,43,100,.48),rgba(12,14,33,.66))]",
+                index % 2 === 0 ? "vps-control-primary" : "vps-control-secondary",
               ]}
             >
               <>
                 <div class=" relative grid h-32 place-items-center overflow-hidden rounded-2xl sm:h-36">
                   <>
-                    <span class="vps-orb grid size-20 place-items-center rounded-full text-[#a6bbff] shadow-[0_0_40px_rgb(68_107_255_/_35%)]">
+                    <span class="vps-orb vps-accent-soft grid size-20 place-items-center rounded-full">
                       <MaterialIcon name={icon} size={38} />
                     </span>
-                    <span class="absolute left-[16%] top-[25%] size-2 rounded-full bg-[#84a0ff]" />
-                    <span class="absolute right-[18%] bottom-[26%] size-3 rounded-full bg-[#5d7dff]" />
+                    <span class="vps-dot absolute left-[16%] top-[25%] size-2 rounded-full" />
+                    <span class="vps-dot absolute right-[18%] bottom-[26%] size-3 rounded-full" />
                   </>
                 </div>
                 <h3 class="mt-8 text-2xl">{title}</h3>
-                <p class="mt-4 max-w-xl font-[var(--fuente-principal)] leading-relaxed text-[#b8c3df]">
+                <p class="vps-muted mt-4 max-w-xl font-[var(--fuente-principal)] leading-relaxed">
                   {text}
                 </p>
               </>
@@ -449,7 +448,7 @@ const plans = [
   </section>
 
   <section
-    class="bg-[#030713] py-20 sm:py-32"
+    class="bg-[#171717] py-20 sm:py-32"
     aria-labelledby={`${product}-faq`}
     data-vps-faq
   >
@@ -457,7 +456,7 @@ const plans = [
       <header class="mx-auto max-w-3xl text-center">
         <h2 id={`${product}-faq`} class="leading-none">
           Preguntas frecuentes
-        </h2><p class="mt-5 font-[var(--fuente-principal)] text-[#aeb9d8]">
+        </h2><p class="vps-muted mt-5 font-[var(--fuente-principal)]">
           ¿Necesitas ayuda con tu proyecto? Estamos listos para orientarte.
         </p>
       </header><div class="mx-auto mt-14 max-w-4xl divide-y divide-white/10">
@@ -468,10 +467,10 @@ const plans = [
                 <summary class="flex cursor-pointer list-none items-center justify-between gap-5 py-6 font-[var(--fuente-principal)] text-lg font-medium">
                   <>
                     <span>{question}</span>
-                    <span class="vps-faq-icon text-2xl text-[#91a6ff]">+</span>
+                    <span class="vps-faq-icon vps-accent text-2xl">+</span>
                   </>
                 </summary>
-                <p class="max-w-3xl pb-6 font-[var(--fuente-principal)] leading-relaxed text-[#aeb9d8]">
+                <p class="vps-muted max-w-3xl pb-6 font-[var(--fuente-principal)] leading-relaxed">
                   {answer}
                 </p>
               </>
@@ -525,6 +524,29 @@ const plans = [
 </script>
 
 <style>
+  [data-vps-streaming] {
+    --vps-accent: rgb(var(--service-accent));
+    --vps-accent-soft: color-mix(in srgb, var(--vps-accent) 46%, white);
+    --vps-muted: color-mix(in srgb, var(--vps-accent) 29%, white);
+  }
+  .vps-hero-aura { background: radial-gradient(ellipse at 50% 10%, rgb(var(--service-accent) / .54), transparent 42%), radial-gradient(circle at 74% 46%, rgb(var(--service-accent) / .3), transparent 27%); }
+  .vps-hero-particles { background-image: radial-gradient(rgb(var(--service-accent) / .8) 1px, transparent 1.5px); }
+  .vps-accent { color: var(--vps-accent-soft); }
+  .vps-accent-soft { color: color-mix(in srgb, var(--vps-accent) 28%, white); }
+  .vps-muted { color: var(--vps-muted); }
+  .vps-accent-bg, .vps-badge, .vps-action, .vps-plan-button-featured { background: var(--vps-accent); }
+  .vps-action { box-shadow: 0 14px 34px rgb(var(--service-accent) / .30); }
+  .vps-action:hover, .vps-plan-button-featured:hover { background: color-mix(in srgb, var(--vps-accent) 82%, black); }
+  .vps-glow { background: rgb(var(--service-accent) / .20); }
+  .vps-chart { stroke: var(--vps-accent-soft); }
+  .vps-plan-featured { border-color: rgb(var(--service-accent) / .30); background: linear-gradient(155deg, rgb(var(--service-accent) / .45), rgb(23 23 23 / .86)); }
+  .vps-plan-standard { border-color: rgb(255 255 255 / .1); background: linear-gradient(155deg, rgb(var(--service-accent) / .14), rgb(23 23 23 / .8)); }
+  .vps-plan-button { border-color: rgb(var(--service-accent) / .60); background: rgb(255 255 255 / .08); }
+  .vps-plan-button:hover { background: rgb(var(--service-accent) / .18); }
+  .vps-control-primary { background: linear-gradient(145deg, rgb(var(--service-accent) / .34), rgb(23 23 23 / .66)); }
+  .vps-control-secondary { background: linear-gradient(145deg, rgb(var(--service-accent) / .21), rgb(23 23 23 / .66)); }
+  .vps-orb { background: rgb(var(--service-accent) / .18); box-shadow: 0 0 0 .65rem rgb(var(--service-accent) / .06), 0 0 2.5rem rgb(var(--service-accent) / .28); }
+  .vps-dot { background: var(--vps-accent); }
   [data-vps-reveal] {
     opacity: 0;
     transform: translateY(28px);
@@ -548,18 +570,12 @@ const plans = [
   .vps-plan:hover,
   .vps-control-card:hover {
     transform: translateY(-7px);
-    border-color: rgb(129 151 255 / 0.65);
+    border-color: rgb(var(--service-accent) / 0.65);
     box-shadow:
-      0 18px 42px rgb(42 58 172 / 0.22),
+      0 18px 42px rgb(var(--service-accent) / 0.22),
       inset 0 1px 0 rgb(255 255 255 / 0.12);
   }
   /* Módulos de operación: lectura rápida, sin áreas decorativas vacías. */
-  .vps-plan > p.text-6xl { color: #f8faff; }
-  .vps-control-card { background: linear-gradient(145deg, rgb(22 30 70 / .72), rgb(7 11 29 / .9)) !important; }
-  .vps-control-visual { isolation: isolate; border: 1px solid rgb(132 160 255 / .16); background: linear-gradient(118deg, rgb(18 35 82 / .94), rgb(9 18 48 / .58)); }
-  .vps-control-visual::before { position: absolute; z-index: -1; inset: 0; content: ''; opacity: .5; background-image: linear-gradient(rgb(132 160 255 / .13) 1px, transparent 1px), linear-gradient(90deg, rgb(132 160 255 / .13) 1px, transparent 1px); background-size: 2.2rem 2.2rem; mask-image: linear-gradient(90deg, black, transparent 80%); }
-  .vps-control-visual::after { position: absolute; bottom: 1.15rem; left: 1.25rem; width: 38%; height: .3rem; content: ''; border-radius: 99px; background: linear-gradient(90deg, #75a1ff 0 58%, rgb(117 161 255 / .14) 58%); box-shadow: 0 0 .8rem rgb(95 139 255 / .45); }
-  .vps-control-visual .vps-orb { width: 4rem; height: 4rem; background: rgb(69 109 255 / .18); box-shadow: 0 0 0 .65rem rgb(91 128 255 / .06), 0 0 2.5rem rgb(68 107 255 / .28); }
   .vps-live {
     animation: vps-blink 1.4s infinite ease-in-out;
   }
@@ -591,7 +607,7 @@ const plans = [
   @keyframes vps-pulse {
     50% {
       transform: scale(1.08);
-      box-shadow: 0 0 58px rgb(68 107 255 / 0.58);
+      box-shadow: 0 0 58px rgb(var(--service-accent) / 0.58);
     }
   }
   @media (prefers-reduced-motion: reduce) {

@@ -1,0 +1,1390 @@
+[
+  {
+    "url": "/",
+    "title": "Inicio | servistream.net",
+    "description": "Proyecto Servistream Technology listo para comenzar.",
+    "h1": [],
+    "h2": [
+      "Tecnología para hacer crecer tus ideas",
+      "Soluciones que impulsan tu negocio.",
+      "Resultados reales.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios",
+      "/streaming-tv"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "src": "/img/hero/hero1.avif",
+        "alt": "Formas de cristal líquido iluminadas en azul",
+        "loading": "eager",
+        "fetchpriority": "high",
+        "data-astro-cid-nrnnnbu3": null
+      },
+      {
+        "src": "/img/hero/hero2.avif",
+        "alt": "Flujos luminosos de datos en azul eléctrico",
+        "loading": "lazy",
+        "fetchpriority": "auto",
+        "data-astro-cid-nrnnnbu3": null
+      },
+      {
+        "src": "/img/hero/hero3.avif",
+        "alt": "Red de partículas y cristales azulesfdddd",
+        "loading": "lazy",
+        "fetchpriority": "auto",
+        "data-astro-cid-nrnnnbu3": null
+      },
+      {
+        "src": "/img/clientes/acolita.svg",
+        "alt": "Acolita",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/corporacion.svg",
+        "alt": "Corporación",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": "El Deportivo",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/gonet.svg",
+        "alt": "GoNet",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/acolita.svg",
+        "alt": "Acolita",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/corporacion.svg",
+        "alt": "Corporación",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": "El Deportivo",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/gonet.svg",
+        "alt": "GoNet",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/acolita.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/corporacion.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/gonet.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/acolita.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/corporacion.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/gonet.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/laverdad.svg",
+        "alt": "La Verdad",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": "Más Periodismo",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/meganet.svg",
+        "alt": "Meganet",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/simar.svg",
+        "alt": "Simar",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/laverdad.svg",
+        "alt": "La Verdad",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": "Más Periodismo",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/meganet.svg",
+        "alt": "Meganet",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/simar.svg",
+        "alt": "Simar",
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/laverdad.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/meganet.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/simar.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/laverdad.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/meganet.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "src": "/img/clientes/simar.svg",
+        "alt": null,
+        "loading": "lazy",
+        "data-astro-cid-ke7zktsk": null
+      },
+      {
+        "class": "absolute inset-0 -z-30 size-full object-cover object-center",
+        "src": "/img/inicio/tv-streaming-resultados.avif",
+        "alt": "Equipo profesional operando una transmisión de televisión en directo",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/azuracast",
+    "title": "Hosting WordPress Optimizado | Servistream Technology",
+    "description": "Hosting WordPress administrado con rendimiento garantizado, Cloudflare, VPS y discos SSD NVMe.",
+    "h1": [
+      "AzuraCast Server Cloud para Stream Radio"
+    ],
+    "h2": [
+      "Gestión de Azuracast",
+      "Administración de estaciones múltiples",
+      "Páginas públicas integradas",
+      "Quieres explorar el sistema Azuracast",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "w-full rounded-xl",
+        "src": "/img/server-azuracast/bg-showcase-1.jPAR3Efh.avif",
+        "alt": "Gestión de Azuracast"
+      },
+      {
+        "class": "w-full rounded-xl",
+        "src": "/img/server-azuracast/bg-showcase-2.VXKeS9vy.avif",
+        "alt": "Gestión de Azuracast"
+      },
+      {
+        "class": "w-full rounded-xl",
+        "src": "/img/server-azuracast/bg-showcase-3.rRQA_8SN.avif",
+        "alt": "Gestión de Azuracast"
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/blog",
+    "title": "Blog | ServiStream",
+    "description": "Guías y novedades sobre hosting, radio online y televisión streaming.",
+    "h1": [
+      "Ideas claras para construir en internet."
+    ],
+    "h2": [
+      "Cómo elegir un hosting que acompañe el crecimiento de tu sitio",
+      "Para leer con calma.",
+      "Recibe novedades útiles, no ruido.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/blog/canal-tv-streaming-profesional",
+    "title": "Transmite tu canal de TV con una señal lista para crecer | Blog ServiStream",
+    "description": "Conoce las piezas de una emisión profesional: calidad, distribución y control de contenido.",
+    "h1": [
+      "Transmite tu canal de TV con una señal lista para crecer"
+    ],
+    "h2": [
+      "Cuida la calidad desde el origen",
+      "Organiza contenido en vivo y programado",
+      "Distribuye donde está tu audiencia",
+      "También te puede interesar"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/blog/como-crear-radio-online",
+    "title": "Todo lo que necesitas para poner tu radio en internet | Blog ServiStream",
+    "description": "Una guía clara para emitir en vivo, automatizar tu programación y llegar a tu audiencia.",
+    "h1": [
+      "Todo lo que necesitas para poner tu radio en internet"
+    ],
+    "h2": [
+      "Define cómo vas a emitir",
+      "Prepara una identidad que se reconozca",
+      "Mide y mejora con constancia",
+      "También te puede interesar"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/blog/cuando-migrar-sitio-servidor",
+    "title": "Cuándo es el momento de migrar tu sitio a un nuevo servidor | Blog ServiStream",
+    "description": "Señales concretas para decidir una migración ordenada, segura y sin interrupciones innecesarias.",
+    "h1": [
+      "Cuándo es el momento de migrar tu sitio a un nuevo servidor"
+    ],
+    "h2": [
+      "Reconoce las señales de crecimiento",
+      "Prepara una migración ordenada",
+      "También te puede interesar"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/blog/elegir-hosting-para-crecer",
+    "title": "Cómo elegir un hosting que acompañe el crecimiento de tu sitio | Blog ServiStream",
+    "description": "Capacidad, velocidad, soporte y seguridad: los puntos que conviene revisar antes de contratar.",
+    "h1": [
+      "Cómo elegir un hosting que acompañe el crecimiento de tu sitio"
+    ],
+    "h2": [
+      "Empieza por las necesidades reales de tu proyecto",
+      "La velocidad también depende de la infraestructura",
+      "El soporte es parte del servicio",
+      "También te puede interesar"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/blog/nvme-velocidad-sitio-web",
+    "title": "Por qué los discos NVMe hacen la diferencia en la velocidad | Blog ServiStream",
+    "description": "Entiende cómo el almacenamiento influye en la respuesta de tu sitio y la experiencia de tus visitantes.",
+    "h1": [
+      "Por qué los discos NVMe hacen la diferencia en la velocidad"
+    ],
+    "h2": [
+      "Menos espera al acceder a los datos",
+      "La velocidad es un conjunto de decisiones",
+      "También te puede interesar"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/blog/seguridad-base-sitio-confiable",
+    "title": "SSL, copias de seguridad y actualizaciones: la base de un sitio confiable | Blog ServiStream",
+    "description": "Pequeñas decisiones técnicas que ayudan a proteger la información y la continuidad de tu proyecto.",
+    "h1": [
+      "SSL, copias de seguridad y actualizaciones: la base de un sitio confiable"
+    ],
+    "h2": [
+      "Mantén las actualizaciones al día",
+      "Usa conexiones seguras",
+      "Respaldos que realmente puedas recuperar",
+      "También te puede interesar"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/contacto",
+    "title": "Contacto | ServiStream",
+    "description": "Cuéntanos sobre tu proyecto de hosting o streaming. Nuestro equipo está listo para ayudarte.",
+    "h1": [],
+    "h2": [
+      "Estamos listos para ayudarte",
+      "Asesoría para tu proyecto",
+      "Implementación clara",
+      "Equipo de soporte",
+      "Cuéntanos cómo podemos ayudarte",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/disponibilidad",
+    "title": "Comprobador de Disponibilidad Web | Servistream Technology",
+    "description": "Comprueba si un sitio web está en línea, su estado HTTP y su tiempo de respuesta.",
+    "h1": [
+      "Consultar disponibilidad del sitio web"
+    ],
+    "h2": [
+      ""
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/dominios",
+    "title": "Registro de Dominios | Servistream Technology",
+    "description": "Busca, registra y transfiere dominios con Servistream. Integrado con nuestro sistema de facturación WHMCS.",
+    "h1": [],
+    "h2": [
+      "Busca tu nombre de dominio",
+      "Consigue ofertas especiales en dominios seleccionados",
+      "Transferencia de dominio",
+      "Resultados disponibles"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "absolute inset-0 h-full w-full object-cover",
+        "src": "/img/dominios/domains-customer.avif",
+        "alt": "Cliente buscando dominios desde su teléfono",
+        "loading": "lazy"
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/migracion",
+    "title": "Migración de Sitios Web Gratis | Servistream Technology",
+    "description": "Migra tus sitios web a Servistream sin costo, con acompañamiento especializado y sin tiempos de inactividad.",
+    "h1": [
+      "La última migración de sitio web que necesitarás"
+    ],
+    "h2": [
+      "Sigue dos pasos y nosotros nos encargaremos del resto",
+      "¿Por qué migrar a Servistream?",
+      "Con servistream, más servicios incluidos",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "absolute inset-0 size-full object-cover object-[67%_50%]",
+        "src": "/img/migracion/migracion-sitios-hero.avif",
+        "alt": "Especialista que acompaña la migración de un sitio web",
+        "loading": "eager",
+        "fetchpriority": "high"
+      },
+      {
+        "class": "block aspect-[.92] w-full object-cover sm:aspect-[.95]",
+        "src": "/img/migracion/beneficios-migracion.png",
+        "alt": "Vista de una tienda web creada y gestionada con herramientas inteligentes",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/nosotros",
+    "title": "Nosotros | ServiStream",
+    "description": "Conoce ServiStream: infraestructura, hosting y streaming para proyectos que necesitan seguir en línea.",
+    "h1": [
+      "Tecnología que hace que tus ideas sigan en línea."
+    ],
+    "h2": [
+      "Nuestro trabajo es que la tecnología deje de ser una preocupación.",
+      "Una base sólida para cada señal.",
+      "Donde tu proyecto necesita estar.",
+      "Más claridad, menos fricción.",
+      "Tu siguiente señal merece una gran base.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/paginas-web",
+    "title": "linux_ubuntu [#148]",
+    "description": "Crea tu página web profesional con Servistream. Soluciones web modernas, diseño responsive y optimizadas para SEO.",
+    "h1": [],
+    "h2": [
+      "Soluciones digitales para tu Empresa",
+      "Trabajamos con estas tecnologías",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "block min-h-64 w-full object-cover sm:min-h-80 lg:min-h-112",
+        "src": "/img/pagina-web/backweb.avif",
+        "alt": "Equipo desarrollando una solución web",
+        "loading": "lazy",
+        "data-astro-cid-lzzbkww6": null
+      },
+      {
+        "class": "aspect-[4/3] w-full rounded-3xl object-cover sm:rounded-4xl",
+        "src": "/img/pagina-web/imagen_web.avif",
+        "alt": "Equipo de Servistream trabajando en diseño web",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/radio-cetovacast",
+    "title": "Radio Streaming CentovaCast | ServiStream",
+    "description": "Planes de radio streaming con CentovaCast, AutoDJ, SSL, estadísticas y soporte para Shoutcast e Icecast.",
+    "h1": [
+      "Tu radio en internet,siempre al aire"
+    ],
+    "h2": [
+      "Control, calidad y continuidad para tu radio",
+      "Tu estación bajo control",
+      "Preguntas frecuentes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/radio-streaming",
+    "title": "Radio Streaming | Servistream Technology",
+    "description": "Lleva tu emisora a internet con radio streaming estable, rápida y lista para crecer.",
+    "h1": [
+      "Elige cómo quieres hacer sonar tu radio"
+    ],
+    "h2": [
+      "Todo lo que tu radio necesita para sonar mejor",
+      "La música no se detiene",
+      "Preguntas frecuentes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/reseller-hosting",
+    "title": "Reseller Hosting | Servistream Technology",
+    "description": "Crea y administra tu propio negocio de hosting con marca blanca, SSL y soporte técnico especializado.",
+    "h1": [
+      "Crea tu propio negocio de hosting web"
+    ],
+    "h2": [
+      "Elige tu plan de reseller hosting",
+      "Hosting sin estrés. Soporte proactivo.",
+      "Todos los planes incluyen mucho más",
+      "Mira cómo crecen nuestros clientes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "src": "/img/reseller-hosting/asesor-reseller.png",
+        "alt": "Asesor de reseller hosting con una computadora portátil",
+        "class": "absolute bottom-0 right-[-4%] h-[82%] max-w-[53%] object-contain object-bottom sm:right-[1%]",
+        "loading": "eager",
+        "fetchpriority": "high"
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/reseller-radio",
+    "title": "Reseller Radio Streaming | Servistream Technology",
+    "description": "Crea tu negocio de radio streaming con panel multi-cliente, AutoDJ, SonicPanel y planes reseller de marca propia.",
+    "h1": [
+      "Convierte tu experiencia en un negocio de radio online"
+    ],
+    "h2": [
+      "Todo lo que necesitas para revender radio streaming",
+      "Gestiona cada radio desde un solo lugar",
+      "Preguntas frecuentes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/srt-server",
+    "title": "Servidor SRT VPS | Servistream",
+    "description": "Servidores VPS para streaming SRT con recursos dedicados, ingesta profesional y planes para tu producción de video.",
+    "h1": [
+      "Conecta tu producción,sin perder la señal."
+    ],
+    "h2": [
+      "Tecnología para una emisión confiable",
+      "Potencia que acompaña tu señal",
+      "Tu enlace profesional bajo control",
+      "Preguntas frecuentes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/status",
+    "title": "Estado de servicios | ServiStream",
+    "description": "Consulta el estado en tiempo real de la infraestructura y servicios de ServiStream.",
+    "h1": [
+      "Estado de nuestros servicios"
+    ],
+    "h2": [
+      "Consulta el monitor de servicios",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/tv-streaming",
+    "title": "TV Streaming con StreamCP Pro | Servistream Technology",
+    "description": "Emite y administra tu canal de TV online con StreamCP Pro: canales en vivo, RTMP, VOD, simulcast y analíticas.",
+    "h1": [
+      "Tu señal de TV,en todas partes."
+    ],
+    "h2": [
+      "Una señal profesional a tu medida",
+      "Amplifica tu señal",
+      "Funciona con tus aplicaciones de streaming",
+      "Controla cada momento de tu emisión",
+      "Una comunidad que sigue transmitiendo",
+      "Tu canal merece llegar más lejos.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "src": "/img/tv-streaming/Captura de pantalla 2026-09-13 a las 6.32.09 p. m..png",
+        "alt": "Panel StreamCP Pro con canales, espectadores, ancho de banda y estado de emisión",
+        "class": "w-full rounded-[1.3rem]",
+        "loading": "eager",
+        "fetchpriority": "high"
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/vdopanel",
+    "title": "VDO Panel VPS | ServiStream",
+    "description": "Servidores VPS con VDO Panel para administrar canales, programación y distribución de video streaming.",
+    "h1": [
+      "Opera tu canal,desde un solo panel."
+    ],
+    "h2": [
+      "Tecnología para una emisión confiable",
+      "Potencia que acompaña tu señal",
+      "VDO Panel, control sin complicaciones",
+      "Preguntas frecuentes",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/vps-hosting",
+    "title": "VPS Administrado con CyberPanel | Servistream Technology",
+    "description": "Hosting VPS administrado con CyberPanel, LiteSpeed, discos NVMe y recursos de alto rendimiento.",
+    "h1": [],
+    "h2": [
+      "Potencia dedicada, sin la complejidad.",
+      "Precios de VPS administrados",
+      "VPS S",
+      "VPS M",
+      "VPS L",
+      "Tu servidor listo para crecer, sin perder tiempo en configuraciones",
+      "Clientes que confían en nuestros VPS administrados.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "absolute inset-0 h-full w-full object-cover",
+        "src": "/img/vps/equipo-corporativo-vps.png",
+        "alt": "Equipo corporativo de tecnología sonriendo en oficina moderna",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/acolita.svg",
+        "alt": "Acolita",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/corporacion.svg",
+        "alt": "Corporación",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": "El Deportivo",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/gonet.svg",
+        "alt": "GoNet",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/laverdad.svg",
+        "alt": "La Verdad",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": "Más Periodismo",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/meganet.svg",
+        "alt": "Meganet",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-14 w-full max-w-[11rem] object-contain opacity-70 grayscale invert transition duration-200 hover:opacity-100",
+        "src": "/img/clientes/simar.svg",
+        "alt": "Simar",
+        "loading": "lazy"
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/web-hosting",
+    "title": "Web Hosting Premium | Servistream Technology",
+    "description": "Hosting web rápido, seguro y administrado con alta disponibilidad y soporte permanente.",
+    "h1": [
+      "Hosting que responde,tecnología que protege."
+    ],
+    "h2": [
+      "Elige tu plan adecuado.",
+      "Tecnología líder para tu hosting",
+      "Soluciones para cada necesidad.",
+      "Preguntas frecuentes sobre hosting",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "absolute inset-0 size-full object-cover object-center grayscale brightness-[.28] contrast-125",
+        "src": "",
+        "alt": "",
+        "aria-hidden": "true"
+      },
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/acolita.svg",
+        "alt": "Acólita",
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/corporacion.svg",
+        "alt": "Corporación",
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": "El Deportivo",
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/gonet.svg",
+        "alt": "Gonet",
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/laverdad.svg",
+        "alt": "La Verdad",
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": "Más Periodismo",
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/meganet.svg",
+        "alt": "Meganet",
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/simar.svg",
+        "alt": "Simar",
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/acolita.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/corporacion.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/eldeportivo.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/gonet.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/laverdad.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/masperiodismo.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/meganet.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "class": "max-h-13 w-full max-w-36 object-contain grayscale opacity-75 transition-opacity duration-300 hover:opacity-100",
+        "src": "/img/clientes/simar.svg",
+        "alt": null,
+        "loading": "lazy"
+      },
+      {
+        "class": "size-full object-cover object-center",
+        "src": "/img/web-hosting/equipo-hosting.avif",
+        "alt": "Equipo técnico revisando el rendimiento de una infraestructura de hosting",
+        "loading": "lazy",
+        "data-astro-cid-6x7az2tf": null
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  },
+  {
+    "url": "/wordpress",
+    "title": "Hosting WordPress Optimizado | Servistream Technology",
+    "description": "Hosting WordPress administrado con rendimiento garantizado, Cloudflare, VPS y discos SSD NVMe.",
+    "h1": [],
+    "h2": [
+      "Hosting WordPress con rendimientogarantizado.",
+      "Elige el rendimiento que necesita tu sitio.",
+      "Administra WordPress en una plataforma rápida y preparada para crecer.",
+      "WordPressRápido.",
+      "Quiere realizar una llamada"
+    ],
+    "canonical": "",
+    "robots": "",
+    "schemas": [],
+    "broken_links": [
+      "/documentacion",
+      "/preguntas-frecuentes",
+      "/servicios"
+    ],
+    "images": [
+      {
+        "class": "brand-logo w-36",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "data-astro-cid-vjxm5fl2": null
+      },
+      {
+        "class": "w-full max-w-[25rem] object-contain drop-shadow-[0_35px_80px_rgb(86_20_255_/_12%)] lg:max-w-[28rem]",
+        "src": "/img/wordpress/hero-wordpress-hosting.avif",
+        "alt": "Ilustración de hosting WordPress optimizado con servidores VPS, Cloudflare y discos NVMe",
+        "loading": "eager",
+        "decoding": "async"
+      },
+      {
+        "class": "h-full w-full object-cover",
+        "src": "/img/wordpress/gestion-wordpress-vps.avif",
+        "alt": "Panel móvil ilustrado para gestionar WordPress, VPS, Cloudflare y rendimiento",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      {
+        "class": "h-auto w-36 brightness-0 invert sm:w-40",
+        "src": "/img/LOGO-SERVISTREAM-NUEVO_black-01.svg",
+        "alt": "Servistream Technology",
+        "loading": "lazy",
+        "data-astro-cid-puawuelf": null
+      }
+    ],
+    "og": ""
+  }
+]

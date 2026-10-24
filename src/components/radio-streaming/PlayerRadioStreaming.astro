@@ -7,42 +7,42 @@ const bars = [28, 56, 84, 44, 72, 100, 62, 36, 76, 52, 92, 40, 68, 82, 48, 64];
   aria-labelledby="live-radio-title"
 >
   <div
-    class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_72%_45%,rgba(93,69,255,.22),transparent_29%),radial-gradient(circle_at_23%_70%,rgba(13,87,255,.15),transparent_30%)]"
+    class="radio-player-aura pointer-events-none absolute inset-0"
   >
   </div>
   <div
     class="relative mx-auto grid w-[min(100%-2.5rem,110rem)] items-center gap-12 rounded-[2rem] p-7 backdrop-blur-md sm:w-[min(100%-4rem,110rem)] sm:p-12 lg:grid-cols-[.8fr_1.2fr] lg:p-16"
   >
     <div>
-      <h5
-        class="inline-flex items-center gap-2 rounded-full border border-[#8d80ff]/40 bg-[#7160ff]/15 px-4 py-2 text-[#b8b0ff]"
+      <p data-section-kicker
+        class="radio-live-label inline-flex items-center gap-2 rounded-full border px-4 py-2"
       >
         <span class="size-2 rounded-full bg-[#ff4d6d] shadow-[0_0_14px_#ff4d6d]"
         ></span> EN VIVO AHORA
-      </h5>
+      </p>
       <h2 id="live-radio-title" class="mt-7 text-[var(--h-blanco)]">
         La música no se detiene
       </h2>
       <p
-        class="mt-6 max-w-xl font-[var(--fuente-principal)] leading-relaxed text-[#c2c0d6]"
+          class="radio-player-copy mt-6 max-w-xl font-[var(--fuente-principal)] leading-relaxed"
       >
         Escucha Electro Factory Radio y conoce la calidad de una transmisión
         estable, rápida y lista para llegar a cualquier audiencia.
       </p>
     </div>
     <div
-      class="overflow-hidden rounded-[1.5rem] border border-white/15 bg-[#090a19] shadow-[0_18px_50px_rgb(0_0_0_/_30%)]"
+      class="overflow-hidden rounded-[1.5rem] border border-white/15 bg-[#1e1e1e] shadow-[0_18px_50px_rgb(0_0_0_/_30%)]"
     >
       <div class="flex items-center gap-3 border-b border-white/10 px-6 py-4">
         <span
-          class="grid size-9 place-items-center rounded-lg bg-[#6550ff] text-sm font-black"
+          class="radio-player-mark grid size-9 place-items-center rounded-lg text-sm font-black"
           >▶</span
         ><div>
           <p
             class="font-[var(--fuente-principal)] text-white text-sm font-bold"
           >
             Electro Factory Radio
-          </p><p class="font-[var(--fuente-principal)] text-xs text-[#a09eb5]">
+          </p><p class="font-[var(--fuente-principal)] text-xs text-[#a5afbf]">
             Reproductor en directo
           </p>
         </div><span class="ml-auto size-2 rounded-full bg-[#25d375]"></span>
@@ -61,6 +61,18 @@ const bars = [28, 56, 84, 44, 72, 100, 62, 36, 76, 52, 92, 40, 68, 82, 48, 64];
 </section>
 
 <style>
+  .radio-player-aura {
+    background:
+      radial-gradient(circle at 72% 45%, rgb(var(--service-accent) / .18), transparent 29%),
+      radial-gradient(circle at 23% 70%, rgb(var(--service-accent) / .12), transparent 30%);
+  }
+  .radio-live-label {
+    border-color: rgb(var(--service-accent) / .45);
+    background: rgb(var(--service-accent) / .13);
+    color: color-mix(in srgb, rgb(var(--service-accent)) 58%, white);
+  }
+  .radio-player-copy { color: rgb(255 255 255 / .72); }
+  .radio-player-mark { background: rgb(var(--service-accent)); }
   .radio-wave {
     height: var(--bar-height);
     animation: radio-wave 1.15s ease-in-out var(--bar-delay) infinite alternate;

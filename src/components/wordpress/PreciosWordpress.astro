@@ -5,55 +5,55 @@ const plans = [
   {
     name: 'WordPress Inicio',
     subtitle: 'Sitios nuevos / emprendedores',
-    oldPrice: '$8.99',
-    price: '$5.99',
+    oldPrice: '$25.99',
+    price: '$21.00',
     saving: 'Ahorra 15%',
     description: 'Ideal para lanzar tu sitio WordPress con rendimiento optimizado y seguridad incluida.',
-    href: '#',
+    href: 'https://clientes.servistream.net/index.php?rp=/store/web-hosting-wordpress/wp1',
     buttonLabel: 'Contratar ahora',
     featured: false,
     features: [
-      { label: '1 sitio WordPress optimizado', included: true },
-      { label: 'Disco SSD NVMe', included: true },
-      { label: 'Cloudflare incluido', included: true },
-      { label: 'Soporte técnico', included: true },
-      { label: 'VPS dedicado', included: true },
+      { label: '75 GB SSD NVMe', included: true },
+      { label: 'Tráfico Ilimitado', included: true },
+      { label: 'Wordpress Optimizado', included: true },
+      { label: '1 Gbps', included: true },
+      { label: 'VPS Dedicado', included: true },
     ],
   },
   {
     name: 'WordPress Pro',
     subtitle: 'Negocios / alto rendimiento',
-    oldPrice: '$15.99',
-    price: '$9.99',
+    oldPrice: '$35.99',
+    price: '$30.00',
     saving: 'Ahorra 20%',
     description: 'Para sitios que necesitan más velocidad, cache avanzada y recursos estables sobre infraestructura VPS.',
-    href: '#',
+    href: 'https://clientes.servistream.net/index.php?rp=/store/web-hosting-wordpress/wp2',
     buttonLabel: 'Contratar ahora',
     featured: true,
     features: [
-      { label: 'WordPress con LiteSpeed Cache', included: true },
-      { label: 'VPS administrado', included: true },
-      { label: 'Discos SSD NVMe', included: true },
-      { label: 'Cloudflare optimizado', included: true },
-      { label: 'Migración incluida', included: true },
+      { label: '100 GB SSD NVMe', included: true },
+      { label: 'Tráfico Ilimitado', included: true },
+      { label: 'Wordpress Optimizado', included: true },
+      { label: '1 Gbps', included: true },
+      { label: 'VPS Dedicado', included: true },
     ],
   },
   {
     name: 'WordPress Empresa',
     subtitle: 'Tiendas / proyectos críticos',
-    oldPrice: '$35.99',
-    price: '$23.99',
+    oldPrice: '$47.99',
+    price: '$42.00',
     saving: 'Ahorra 25%',
     description: 'Recursos superiores para WooCommerce, sitios con tráfico alto y proyectos donde la estabilidad importa.',
-    href: '#',
+    href: 'https://clientes.servistream.net/index.php?rp=/store/web-hosting-wordpress/wp3',
     buttonLabel: 'Contratar ahora',
     featured: false,
     features: [
-      { label: 'VPS de mayor capacidad', included: true },
-      { label: 'Optimización avanzada', included: true },
-      { label: 'Cloudflare y seguridad', included: true },
-      { label: 'Soporte prioritario', included: true },
-      { label: 'Monitoreo administrado', included: true },
+      { label: '200 GB SSD NVMe', included: true },
+      { label: 'Tráfico Ilimitado', included: true },
+      { label: 'Wordpress Optimizado', included: true },
+      { label: '1 Gbps', included: true },
+      { label: 'VPS Dedicado', included: true },
     ],
   },
 ];
@@ -62,7 +62,7 @@ const plans = [
 <section id="wordpress-hosting" class="bg-[#f4f6f7] px-5 py-16 sm:px-8 lg:px-12 lg:py-24" aria-labelledby="wordpress-pricing-title">
   <div class="mx-auto container">
     <div class="mb-12 max-w-[44rem]">
-      <h5 id="wordpress-pricing-title" class="text-left">Planes WordPress</h5>
+      <p data-section-kicker id="wordpress-pricing-title" class="text-left">Planes WordPress</p>
       <h2 class="mt-4">Elige el rendimiento que necesita tu sitio.</h2>
     </div>
 
@@ -141,7 +141,7 @@ const plans = [
 
           <a
             class:list={[
-              'mt-8 inline-flex min-h-12 w-fit items-center justify-center rounded-[1.35rem] px-8 font-[var(--fuente-principal)] text-lg no-underline transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4',
+              'ui-button min-h-10 w-auto text-[14px] font-semibold mt-8 inline-flex   items-center justify-center rounded-[1.35rem] px-8 font-[var(--fuente-principal)]  no-underline transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4',
               plan.featured
                 ? 'bg-white text-[#26333d] hover:bg-[#62eff3] focus-visible:outline-white'
                 : 'bg-[#5614ff] text-white hover:bg-[#26333d] focus-visible:outline-[#5614ff]',

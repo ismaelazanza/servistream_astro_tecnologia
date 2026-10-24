@@ -52,23 +52,23 @@ const systemStats = [
       class="grid flex-1 items-center gap-14 lg:grid-cols-[.93fr_1.07fr] lg:gap-20"
     >
       <div data-reveal class="max-w-3xl">
-        <h5 class="vps-kicker"><span></span>{eyebrow}</h5>
-        <h2
+        <p data-section-kicker class="vps-kicker"><span></span>{eyebrow}</p>
+        <h1
           id="vps-title"
-          class="mt-7 max-w-3xl whitespace-pre-line font-[var(--fuente-secundaria)] text-7xl text-[#d91c43]"
+          class="seo-primary-heading mt-7 max-w-3xl whitespace-pre-line font-[var(--fuente-secundaria)] text-7xl text-[#d91c43]"
         >
           {title}<i class="not-italic text-[#73e9cf]">.</i>
-        </h2>
+        </h1>
         <p
           class="mt-8 max-w-xl font-[var(--fuente-principal)] leading-relaxed text-[#b9c8ec]"
         >
           {description}
         </p>
         <div class="mt-10 flex flex-wrap gap-3">
-          <a class="vps-hero-primary" href="#precios-vps"
+          <a class="ui-button min-h-10 w-auto text-[14px] font-semibold vps-hero-primary" href="#precios-vps"
             >Ver planes VPS <MaterialIcon name="arrow_forward" size={18} /></a
           >
-          <a class="vps-hero-secondary" href="#recursos-vps"
+          <a class="ui-button min-h-10 w-auto text-[14px] font-semibold vps-hero-secondary" href="#recursos-vps"
             >Conocer los recursos <MaterialIcon name="south" size={18} /></a
           >
         </div>

@@ -42,7 +42,7 @@ const comentarios = [
 ---
 
 <section
-  class="relative overflow-hidden bg-[#030713] py-20 text-white sm:py-32"
+  class="relative overflow-hidden bg-[#171717] py-20 text-white sm:py-32"
   aria-labelledby="comments-title"
 >
   <div
@@ -51,38 +51,38 @@ const comentarios = [
   >
     <svg
       viewBox="0 0 1600 300"
-      class="size-full"
+      class="tv-comments-lines size-full"
       preserveAspectRatio="none"
       fill="none"
       ><path
         d="M-80 20C180 210 370 280 690 174C995 74 1170 174 1680 90"
-        stroke="#4169ff"
+        class="tv-comments-line"
         stroke-opacity=".65"
         stroke-width="2"></path><path
         d="M-30 55C200 240 420 255 690 195C1020 125 1235 220 1650 112"
-        stroke="#5d7eff"
+        class="tv-comments-line"
         stroke-opacity=".42"
         stroke-width="2"></path><path
         d="M-40 0C270 185 505 230 750 145C1010 55 1260 165 1660 55"
-        stroke="#7390ff"
+        class="tv-comments-line"
         stroke-opacity=".32"
         stroke-width="1.5"></path></svg
     >
   </div>
   <div
-    class="pointer-events-none absolute left-1/2 top-0 h-100 w-[min(100%,105rem)] -translate-x-1/2 bg-[radial-gradient(ellipse_at_top,rgba(57,88,255,.27),transparent_66%)]"
+    class="tv-comments-aura pointer-events-none absolute left-1/2 top-0 h-100 w-[min(100%,105rem)] -translate-x-1/2"
   >
   </div>
   <div
     class="relative mx-auto w-[min(100%-2.5rem,106rem)] sm:w-[min(100%-4rem,106rem)]"
   >
     <header data-tv-reveal class="mx-auto max-w-4xl text-center">
-      <h5 class="text-[#6490ff]">EXPERIENCIAS STREAMCP PRO</h5><h2
+      <p data-section-kicker class="text-[#be64ff]">EXPERIENCIAS STREAMCP PRO</p><h2
         id="comments-title"
         class="mt-6 text-white leading-[.94]"
       >
         Una comunidad que sigue transmitiendo
-      </h2><p class="mx-auto mt-6 max-w-3xl leading-relaxed text-[#bbc5df]">
+      </h2><p class="mx-auto mt-6 max-w-3xl leading-relaxed text-white/75">
         Conoce lo que los equipos de producción valoran al administrar sus
         canales de TV online.
       </p>
@@ -102,14 +102,14 @@ const comentarios = [
             <MaterialIcon
               name="format-quote-rounded"
               size={28}
-              class="text-[#7393ff]"
+              class="text-[#c573ff]"
             />
-            <blockquote class="mt-5 text-[0.9rem] leading-relaxed tracking-[-.025em] text-[#e4e8ff]">
+            <blockquote class="mt-5 text-[0.9rem] leading-relaxed tracking-[-.025em] text-[#f4e4ff]">
               {comentario.text}
             </blockquote>
             <footer class="mt-8 flex items-center gap-3 border-t border-white/10 pt-6">
               <>
-                <span class="grid size-10 place-items-center rounded-full border border-[#7e97ff]/35 text-[#aac0ff]">
+                <span class="grid size-10 place-items-center rounded-full border border-[#c97eff]/35 text-[#dcaaff]">
                   <MaterialIcon name={comentario.icon} size={20} />
                 </span>
                 <div>
@@ -117,7 +117,7 @@ const comentarios = [
                     <p class="font-[var(--fuente-principal)] text-[0.7rem] text-white font-extrabold">
                       {comentario.author}
                     </p>
-                    <p class="mt-0.5 font-[var(--fuente-principal)] text-sm text-[#aeb9d8]">
+                    <p class="mt-0.5 font-[var(--fuente-principal)] text-sm text-[#c6aed8]">
                       {comentario.context}
                     </p>
                   </>
@@ -130,3 +130,10 @@ const comentarios = [
     </div>
   </div>
 </section>
+
+<style>
+  .tv-comments-aura {
+    background: radial-gradient(ellipse at top, rgb(var(--service-accent) / .27), transparent 66%);
+  }
+  .tv-comments-line { stroke: rgb(var(--service-accent)); }
+</style>
