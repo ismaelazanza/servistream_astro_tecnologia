@@ -79,24 +79,13 @@ const benefits = [
         <div class="form-accent" aria-hidden="true"></div>
         <form
           class="contact-form"
-          action="https://formsubmit.co/soporte@servistream.net"
+          action="https://servistream.net/contacto-enviar.php"
           method="POST"
           data-contact-form
         >
           <input
-            type="hidden"
-            name="_subject"
-            value="Nuevo contacto desde Servistream.net"
-          />
-          <input type="hidden" name="_template" value="table" />
-          <input
-            type="hidden"
-            name="_next"
-            value="https://www.servistream.net/contacto?enviado=1"
-          />
-          <input
             type="text"
-            name="_honey"
+            name="empresa"
             class="contact-honeypot"
             tabindex="-1"
             autocomplete="off"
@@ -115,6 +104,15 @@ const benefits = [
             data-contact-success
           >
             Gracias, recibimos tu mensaje. Te responderemos pronto.
+          </p>
+          <p
+            class="contact-error"
+            role="alert"
+            aria-live="assertive"
+            data-contact-error
+          >
+            No pudimos enviar el mensaje. Inténtalo nuevamente o escribe a
+            soporte@servistream.net.
           </p>
           <div class="form-grid">
             <label
@@ -181,9 +179,15 @@ const benefits = [
 <script>
   const form = document.querySelector("[data-contact-form]");
   const success = document.querySelector("[data-contact-success]");
-  if (form instanceof HTMLFormElement && success instanceof HTMLElement) {
+  const error = document.querySelector("[data-contact-error]");
+  if (
+    form instanceof HTMLFormElement &&
+    success instanceof HTMLElement &&
+    error instanceof HTMLElement
+  ) {
     const query = new URLSearchParams(window.location.search);
     if (query.get("enviado") === "1") success.classList.add("is-visible");
+    if (query.get("error") === "1") error.classList.add("is-visible");
     form.addEventListener("submit", () => {
       const button = form.querySelector('button[type="submit"]');
       if (button instanceof HTMLButtonElement && form.checkValidity()) {
@@ -386,6 +390,19 @@ const benefits = [
     font: 600 0.9rem/1.4 var(--fuente-principal);
   }
   .contact-success.is-visible {
+    display: block;
+  }
+  .contact-error {
+    display: none;
+    margin-top: 1.5rem;
+    border: 1px solid rgba(255, 120, 135, 0.34);
+    border-radius: 0.9rem;
+    background: rgba(210, 55, 75, 0.1);
+    padding: 0.85rem 1rem;
+    color: #ffb7bf;
+    font: 600 0.9rem/1.4 var(--fuente-principal);
+  }
+  .contact-error.is-visible {
     display: block;
   }
   .form-grid {
