@@ -79,7 +79,7 @@ const benefits = [
         <div class="form-accent" aria-hidden="true"></div>
         <form
           class="contact-form"
-          action="https://servistream.net/contacto-enviar.php"
+          action="/api/contacto"
           method="POST"
           data-contact-form
         >
@@ -185,14 +185,33 @@ const benefits = [
     success instanceof HTMLElement &&
     error instanceof HTMLElement
   ) {
-    const query = new URLSearchParams(window.location.search);
-    if (query.get("enviado") === "1") success.classList.add("is-visible");
-    if (query.get("error") === "1") error.classList.add("is-visible");
-    form.addEventListener("submit", () => {
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
       const button = form.querySelector('button[type="submit"]');
-      if (button instanceof HTMLButtonElement && form.checkValidity()) {
-        button.disabled = true;
-        button.textContent = "Enviando…";
+      if (!(button instanceof HTMLButtonElement) || !form.checkValidity()) return;
+
+      success.classList.remove("is-visible");
+      error.classList.remove("is-visible");
+      button.disabled = true;
+      button.textContent = "Enviando…";
+
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(Object.fromEntries(new FormData(form))),
+        });
+        const result = await response.json().catch(() => null);
+        if (!response.ok || !result?.ok) throw new Error("send_failed");
+
+        form.reset();
+        success.classList.add("is-visible");
+      } catch {
+        error.classList.add("is-visible");
+      } finally {
+        button.disabled = false;
+        button.innerHTML =
+          'Enviar mensaje <span class="material-symbols-outlined" style="--material-icon-size: 18px" aria-hidden="true">send</span>';
       }
     });
   }
