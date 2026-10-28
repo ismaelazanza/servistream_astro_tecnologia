@@ -1,6 +1,7 @@
 import nodemailer from 'nodemailer';
 
 const recipient = process.env.CONTACT_EMAIL || 'soporte@servistream.net';
+const turnstileVerifyUrl = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
 
 function cleanLine(value, maximumLength) {
   return String(value ?? '').replace(/[\r\n]+/g, ' ').trim().slice(0, maximumLength);
@@ -8,6 +9,36 @@ function cleanLine(value, maximumLength) {
 
 function cleanMessage(value, maximumLength) {
   return String(value ?? '').replaceAll('\0', '').trim().slice(0, maximumLength);
+}
+
+async function verifyTurnstile(request) {
+  const secret = process.env.TURNSTILE_SECRET_KEY;
+  const siteKey = process.env.PUBLIC_TURNSTILE_SITE_KEY;
+
+  // Permite desplegar el código antes de crear el widget. Si una sola clave está
+  // presente, bloquea los envíos para evitar una protección incompleta.
+  if (!secret && !siteKey) return true;
+  if (!secret || !siteKey) return false;
+
+  const token = cleanMessage(request.body?.['cf-turnstile-response'], 2048);
+  if (!token) return false;
+
+  const forwardedFor = cleanLine(request.headers?.['x-forwarded-for'], 200);
+  const remoteIp = forwardedFor.split(',')[0]?.trim();
+  const verification = await fetch(turnstileVerifyUrl, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      secret,
+      response: token,
+      ...(remoteIp ? { remoteip: remoteIp } : {}),
+    }),
+  });
+  if (!verification.ok) return false;
+
+  const result = await verification.json();
+  const validHostname = ['servistream.net', 'www.servistream.net'].includes(result.hostname);
+  return result.success === true && result.action === 'contact-form' && validHostname;
 }
 
 export default async function handler(request, response) {
@@ -22,6 +53,21 @@ export default async function handler(request, response) {
     return response.status(422).json({
       ok: false,
       message: 'No fue posible validar el formulario.',
+    });
+  }
+
+  try {
+    if (!(await verifyTurnstile(request))) {
+      return response.status(403).json({
+        ok: false,
+        message: 'No fue posible verificar que eres una persona.',
+      });
+    }
+  } catch (error) {
+    console.error('Turnstile verification failed:', error);
+    return response.status(503).json({
+      ok: false,
+      message: 'La verificación de seguridad no está disponible temporalmente.',
     });
   }
 
