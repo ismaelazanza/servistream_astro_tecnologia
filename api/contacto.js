@@ -18,8 +18,11 @@ export default async function handler(request, response) {
     return response.status(405).json({ ok: false, message: 'Método no permitido.' });
   }
 
-  if (cleanLine(request.body?.empresa, 100) !== '') {
-    return response.status(200).json({ ok: true });
+  if (cleanLine(request.body?.website_url_check, 100) !== '') {
+    return response.status(422).json({
+      ok: false,
+      message: 'No fue posible validar el formulario.',
+    });
   }
 
   const name = cleanLine(request.body?.nombre, 120);
